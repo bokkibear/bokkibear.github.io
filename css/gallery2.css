@@ -1,0 +1,180 @@
+body {
+	height: 100%;
+}
+
+#gallery-container  {
+	position: fixed;
+	top: 60px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#portrait-gallery {
+	background-image: url("../textures/stone_wall_texture.png");	
+	white-space: nowrap;				
+	padding: 0 100000px;				
+	padding-top: 60px;
+	position: absolute;
+	left: -100000px;	
+	height: 100%;
+}
+
+#alignment-ribbon {
+	position:fixed; top:0; bottom:0; left:0; right:0; z-index: 9001; pointer-events: none;
+	display: none;
+}
+
+#portrait-gallery.interactive {			
+	transition: left 0.5s ease;				
+}
+
+/*------------ SCROLL BUTTONS -------------*/
+.gallery-scroll {
+	background-color: #cc9;
+	display: none;
+	opacity: 0.3;
+	position: fixed;
+	top: 310px;
+	height: 90px;
+	padding: 20px 8px;
+	z-index: 200;
+	cursor: pointer;
+	color: #000;
+	font-size: 36px;	
+	border-radius: 10px;
+}
+			
+.gallery-scroll:hover {
+	opacity: 1;
+}
+
+.gallery-scroll.left { left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.gallery-scroll.right { right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+			 
+#gallery-container.canScrollLeft .gallery-scroll.left,
+#gallery-container.canScrollRight .gallery-scroll.right { 
+	display: inline-block;
+}
+
+/*-------------- PORTRAITS ---------------*/
+
+.portrait {
+	display: inline-block;
+	background-image: url("../images/portrait-frame.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 356px;
+	height: 607px;	
+	transform: scale(0.8, 0.8);	
+	transition: all 0.4s ease-out;	
+	position: relative;
+	text-align: center;
+}
+					
+.portrait.expanded {
+	transform: scale(1, 1);
+	opacity: 1;
+}
+
+.portrait img {
+	width: 358px;
+	height: 501px;				
+	padding: 73px;
+	cursor: pointer;
+}
+
+.portrait.filtered {
+	background-color: red;
+}
+
+.portrait .portrait-text {
+	pointer-events: none;
+	position: absolute;
+	color: #fff;
+	text-align: center;	
+	opacity: 0;
+	transition: opacity 0.8s ease;
+	white-space: normal;	
+	margin: 0px calc(178px - 49vw);
+}
+
+.portrait .portrait-text .portrait-title {
+	font-size: 5vw;
+}
+
+.portrait .portrait-text .portrait-subtitle {
+	font-size: 4vw;
+}
+
+.portrait .portrait-text .portrait-subtitle p {
+	font-size: inherit;
+}
+
+button.more-button {	
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	outline: none;
+	background-color: #934;
+	border: none;
+	line-height: 0.7;
+	font-size: 24px;
+	border-radius: 500px;
+	padding: 10px;
+	box-shadow: none;
+	color: #fff;
+	opacity: 0;
+	pointer-events:none;
+	transition: opacity 0.4s ease;
+	z-index: 80;
+}
+
+button.more-button:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.more button.more-button {
+	opacity: 1;
+	pointer-events: initial;
+}
+
+#portrait-details p.photo-credit,
+#portrait-details p.photo-credit > p {
+	font-size: 0.8vw;
+}
+
+#portrait-details {
+	opacity: 0;
+	transition: opacity 0.2s;
+	width: 35vw;
+	padding: 40px 20px;
+	position: fixed;
+	top: 85px;
+	background: rgba(0,0,0,0.7);
+}
+
+#portrait-details.visible {
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+@media all and (max-width: 800px) {
+	.portrait.expanded .portrait-text	{					
+		display: block;		
+		opacity: 1;
+	}
+	
+	#portrait-details {
+		display: none;
+	}
+	
+	#gallery-container  {
+		top: 42px;
+	}
+	
+	#portrait-gallery {
+		padding-top: 10px;
+	}
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script type='text/javascript' src='jquery-2.1.1.min.js'></script>	
+		<script type='text/javascript' src='jquery.velocity.min.js'></script>
+		<script src="frame.js"></script>		
+						
+		<link rel='stylesheet' href='css/bootstrap.css'></link>
+		<link rel='stylesheet' href='css/frame.css'></link>		
+		<link href='http://fonts.googleapis.com/css?family=Metamorphous|Cinzel+Decorative|Meddon' rel='stylesheet' type='text/css'></link>
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<meta charset="UTF-8"/>
+		
+		<title>CP Lions: Faction Groups</title>
+		
+		<style>
+			
+			#groups .group-content {
+				position: absolute;				
+				right: 400px;				
+				left: 0;				
+			}
+			
+			#groups .group-content.highlighted {
+				z-index: 50;
+				height: auto;
+			}
+			
+			#groups .group-content .group-text,
+			#groups .group-content img {
+				opacity: 0;
+				transition: opacity 0s;				
+				height: 0;
+				overflow: hidden;
+			}
+			
+			#groups .group-content.highlighted .group-text {
+				opacity: 1;
+				transition: opacity 1s;
+				height: auto;
+			}
+						
+			#groups .group-content.highlighted img {
+				opacity: 0.8;
+				transition: opacity 1s;
+				height: auto;
+			}
+									
+			#groups .group-content img {
+				position: fixed;
+				width: 100%;
+				z-index: -1;				
+			}
+			
+			#groups .group-text {
+				padding: 20px;
+				max-width: 900px;
+				background-color: rgba(0,0,0,0.4);				
+			}						
+			
+			#groups .group-text h2 {
+				font-size: 24px;
+			}
+			
+			#groups .group-text p {
+				font-size: 16px;
+			}
+						
+			#groups ul {
+				position: fixed;
+				right: 0;
+				padding: 20px;
+				width: 400px;
+				list-style-type: none;				
+				font-family: "Cinzel Decorative";
+				z-index: 100;
+				background-color: rgba(0,0,0,0.4);		
+			}
+			
+			#groups li {				
+				font-size: 26px;
+			}									
+				
+		</style>
+		
+	</head>	
+
+	<body data-here='groups.html'>				
+		<div class='hero-unit'>
+			<div class='title'>
+				<h1>Lions</h1>
+								
+				<span id='nav-dropdown'>
+					<h3>Groups of the Warhost &#9660;</h3>
+					<nav style='display:none'>
+						<a href='index.html'>About Us</a>
+						<a href='warhost.html'>The Warhost</a>
+						<a href='gallery.html'>Portrait Gallery</a>
+						<a href='groups.html'>Groups of the Warhost</a>
+						<a href='temple.html'>The Temple of Law</a>
+						<a href='albion-map.html'>Map of Albion</a>
+						<a href='command-team.html'>Command Team</a>
+					</nav>
+				</span>				
+			</div>
+		</div>
+		<div class='hero-unit-spacer'>
+		</div>
+		<div id='groups'>
+			<ul id='groups-navigation'>							
+				<li><a href='#arcane-tempest'>Arcane Tempest</a></li>
+				<li><a href='#lance-of-deira'>Lance of Deira</a></li>
+				<li><a href='#ladies-of-the-court'>Ladies of the Court</a></li>	
+				<li><a href='#knights-of-the-north'>Knights of the North</a></li>	
+				<li><a href='#peasants-of-deira'>Peasants of Deira</a></li>	
+				<li><a href='#winding-chain'>The Winding Chain</a></li>					
+				<li><a href='#caer-culhaven'>Caer Culhaven</a></li>	
+				<li><a href='#order-papilio'>Order Papilio</a></li>	
+				<li><a href='#cambridge-brewers'>Cambridge Brewers</a></li>	
+				<li><a href='#order-st-eve'>Order of St. Eve</a></li>	
+			</ul>		
+			<div class='group-content' data-section-id='arcane-tempest'>						
+				<img class='group-jumbotron' src='groups/arcane_tempest.jpg' />
+				<div class='group-text'>
+					<h2>The Arcane Tempest</h2>
+					<p>					
+						In November of 1103 High Queen Elisabetta Trueheart signed into being the Arcane Tempest, giving right and title to Alistair Coleman-Gunn making him Lord General Gunn, caretaker of the Island of Santia and its 3 coastal forts.  All he had to do in return was maintain them, protect them and provide High Queen Trueheart with soldiers to be proud of.
+					</p>
+
+					<p>
+						His years of battle had left Gunn tired of fragile bookish spellcasters and glory-hungry knights, and he sought instead magical talent that could be trained and disciplined as professional soldiers: taught to fight, run, cast, contribute, scout, skirmish, plan and above all get the job done and get out alive.  Scouring the land for talented magicians was not easy; it seems most would rather a comfortable library and their own room at a college over the barracks and marching that lay before them in Santia. But no stone was left unturned and as long as they had the talent and gave themselves over fully to their new family, the Tempest, then their history and birthrights ceased to matter.
+					</p>
+
+					<p>
+						The Tempest were badly bloodied at the first <a href='albion-map.html#battle-of-polgooth'>battle of Polgooth</a>. It seemed a mortal blow that took years to recover from as many of their number laid down their lives for Albion, but the recruiting sergeants have been hard at work. The tricorns and long black coats of the Tempest are once again a common sight on battlefields all over the world, with ships and ritual mages ferrying them from conflict to conflict in the service of Lord General Gunn ,and once again their reputation grows throughout the lands of the allied nations.
+					</p>
+					
+					<p>
+						<blockquote>
+							…and lo you shall rain the fire and wrath of an arcane tempest upon all of the foes of Albion!
+						</blockquote>
+						<p class='quote-attribution'>
+							Alistair Coleman-Gunn
+						</p>
+					</p>				
+				</div>
+			</div>
+			<div class='group-content' data-section-id='lance-of-deira'>					
+				<img class='group-jumbotron' src='groups/lance_of_deira.jpg' />
+				<div class='group-text'>
+					<h2>The Lance of Deira</h2>
+					<p>					
+						The Lance of Deira were forged in fire at the tail end of Maldred's reign of terror. From the burnt out homes and despoiled fields of <a href='albion-map.html#deira'>Deira</a>, the last shreds of the fighting men of a dozen lords and religious orders made their stand at Preston bridge.These men and women learned the hardest of lessons in that war, and any who meet them for but a mere moment would not perhaps understand that. From the outside they are jovial, rowdy, high spirited and at times uncouth. As the moon rises over the warhosts you will find them drunken, and in the arms of whatever companion they can find.
+					</p>
+					<p>
+						Yet come the light of day, they are mighty warriors, their shields emblazoned with the burning bridge of Preston, and the armoured gauntlet that make up their resolve. As fiercely jovial as they can be they are fiercely loyal to each other and to the people of Albion. From within their ranks you will find the crudest of jokes and the noblest of hearts, and in their time with the warhost they have proven to have both.
+					</p>
+					<p>
+						So be it fine drinking partners or a shield brother that you can depend on, you know where the Lance will be. With the Blue and Red colours stained in their enemies blood; over the hills and far away from Deira and the memories of their pain.
+					</p>
+					<p>
+						Know their code, and you shall know them:
+						<blockquote>
+							I will defend the Lance: Come right, come wrong, come the combined forces of the factions, I will stand by my brothers in arms.<br/>
+							I will keep my word: and do not give it lightly. What one of the Lance has promised, the others are bound by.<br/>
+							I am not an assassin : Although my work involves death, I do not take coin purely to end the life of another.<br/>
+							I am not a thief: I am a knight, not common soldiery. The plunder of war and the ransom of opponents is my domain, not theft.<br/>
+							I will not sully my weapon: Anyone can swing a sword and cut another. I am not anyone. I will not strike an unarmed man with my blade.
+						</blockquote>
+					</p>				
+				</div>
+			</div>
+			<div class='group-content' data-section-id='ladies-of-the-court'>						
+				<img class='group-jumbotron' src='groups/ladies-of-court.jpg' />
+				<div class='group-text'>
+					<h2>Ladies of the Court (the Lionesses)</h2>
+					<p>					
+						Though born of disparate kingdoms and origins, the ladies of the court are none-the-less a formidable presence within the war host. And in a land known for its valour and chivalry, it should come as no surprise that knights and warriors are as likely to be found amongst their number as scholars and diplomats.
+					</p>
+
+					<p>
+						What they have in common, then, is an unwavering devotion to each other and to the honour of Albion, as well as a reputation for throwing excellent parties. Whispers of the potent 'Albion tea' have made their way far beyond the boundaries of the Lions camp. As you would expect, the Lionesses of Albion guard that which is important to them fiercely. And their tongues are as sharp as their swords.
+					</p>				
+				</div>
+			</div>	
+			<div class='group-content' data-section-id='knights-of-the-north'>						
+				<img class='group-jumbotron' src='groups/knights_of_the_north.jpg' />
+				<div class='group-text'>
+					<h2>The Knights of the North</h2>
+					<p>					
+						The Knights of the North is an ancient order within Albion dedicated to protecting and serving the most remote and desolate regions of Albion. The Order is traditionally led by a knight from one of the northern noble houses and usually consists of variously skilled nobles, priests, magi, ritualists and common folk who are all sworn to a common cause. The Order is not ostensibly a religious one, but by tradition <a href='temple.html#draco'>Draco</a> is the patron God of the Order and in practice the Order very much requires obedience to the tenets of the Gods of Law from its members.
+					</p>
+					<p>					
+						The Order serves as the High King's justice in the northern lands where the circuit courts travel but infrequently. Members of the Order can be appointed as sworn Truthsayers of Draco, bound by the Gods of Law themselves to utter no falsehood and bare all truths to the eyes of the Gods. The Order was first represented in the Warhost in the year 999 under the command of Duke Robert DeCourcey. The Duke was a renowned warrior who led the war host of Albion countless times. A Truthsayer and skilful diplomat, Robert was pivotal in ending hostilities between Albion and Norsca during the Trueheart reign. He fell leading the war host in battle in 1007.
+					</p>
+					<p>
+						The Order's most renowned knight is Sir Giles DeVries. A lifelong friend of Lord Robert, St. Giles was canonised by the Church for his willing sacrifice to free the world from the blight of the Blood Queen.
+					</p>
+					<p>
+						The current Grand Master of the Knights of the North is <a href='gallery.html#cersei-de-vries'>Queen Cersei de Vries</a>, Queen of <a href='albion-map.html#bernicia'>Bernicia</a>. Caledonian by birth, Cersei was Duke Robert's aunt by marriage and was granted lands and title in Albion by Sir Giles shortly before his death. She was subsequently anointed Queen of Bernicia under King Tristan's Restoration. An accomplished warrior and knight, she has served in the front line of the war host with the Knights of the North since 1001. A zealous devotee of Draco, she is a sworn Truthsayer.
+					</p>				
+				</div>
+			</div>		
+			<div class='group-content' data-section-id='peasants-of-deira'>						
+				<img class='group-jumbotron' src='groups/peasants_of_deira.jpg' />
+				<div class='group-text'>
+					<h2>Peasants of Deira</h2>
+					<p>					
+						The Necromancer Maldred's war on <a href='albion-map.html#deira'>Deira</a> left many of the common folk destitute and homeless. In a war they could not fight, their only hope was to look to the woods for shelter and wait out the reign of destruction.
+					</p>
+					<p>					
+						In the calm which followed the storm they began to emerge from their safe refuges and looked to the warhost to help give something back to the Albion who had sheltered them. Welcomed in by the newly appointed <a href='gallery.html#beaumont-trevallian'>King Beaumont of Deira</a>, the rag-tag assortment of peasants use their connection to the land and the common people to give what they can to their new Lord and the warhosts' cause, be it counsel, sustenance or cider.
+					</p>
+				</div>
+			</div>				
+			<div class='group-content' data-section-id='winding-chain'>						
+				<img class='group-jumbotron' src='groups/winding_chain.jpg' />
+				<div class='group-text'>
+					<h2>The Winding Chain</h2>
+					<p>					
+						The Winding Chain abbey resides in the farmlands on the border of <a href='albion-map.html#cornwall'>Cornwall</a>. It has stood for many years, housing monks and nuns within its sheltered walls. Taking vows of humility and service, the Winding Chain seek to serve the local villages surrounding the abbey and Albion as a whole. Members of the Winding Chain typically seek to learn some sort of skill to be of benefit to others, be it magic, alchemy or simply the art of reading and writing. 
+					</p>
+					<p>					
+						The status of the Winding Chain abbey is uncertain, with war and the rise of strange gods threatening its existence. Some of its brothers and sisters have sought refuge with the warhost, sharpening their skills and hoping to one day liberate whatever remains of their brethren from druidic control.
+					</p>
+				</div>
+			</div>		
+			<div class='group-content' data-section-id='caer-culhaven'>						
+				<img class='group-jumbotron' src='groups/caer_culhaven.jpg' />
+				<div class='group-text'>
+					<h2>Caer Culhaven</h2>
+					<p>					
+						Caer Culhaven, whilst being the name of the central-most caer in Cornwall, home of the <i>carreg y brenin uchel</i>, is also the name taken by the survivors of the carnage witch Verlaine. Caer Culhaven are a traditional group of folk, with one foot firmly stuck in the past. There is a saying in their home country, "Cornwall remembers", and this is a saying to which they all hold true...
+					</p>
+				</div>
+			</div>		
+			<div class='group-content' data-section-id='order-papilio'>						
+				<img class='group-jumbotron' src='groups/order_papilio.jpg' />
+				<div class='group-text'>
+					<h2>The Order of Papilio</h2>
+					<p>					
+						A knightly order from <a href='albion-map.html#elmet'>Elmet</a> filled exclusively from the ranks of noble families, raised from childhood on stories of honour and heroism on the battlefield, and the glory of war.
+					</p>
+					<p>
+						While no two knights are alike, their arms and armour supplied by their families, a questing knight of the order can be easily identified by the Mantle of Papilio they wear - a brightly coloured butterfly-winged cape dyed in the colours of their heraldry.
+					</p>
+					<p>
+						A knight errant of the order's equipment may be no less lavish or finely crafted than a full knight's, but they are distinguished by wearing a undyed mantle. They look to perform deeds of heroism to earn the opportunity to pick their heraldic colours in the butterfly gardens of Elmet, and continue to serve Albion as a questing knight.
+					</p>
+					<p>
+						Members of the order have recently joined the warhost on a quest for greater glory to honour themselves, the order, and Albion. Some have remarked on their disparity between the reality of war, and the perception of the members of the order due to their beliefs and their training, you will always find them amongst the first into the fray, and the last to leave the battlefield. They boast no preternatural skills or abilities, just sheer bloody-minded heroism.
+					</p>
+				</div>
+			</div>	
+			<div class='group-content' data-section-id='cambridge-brewers'>						
+				<img class='group-jumbotron' src='groups/cambridge_brewers.jpg' />
+				<div class='group-text'>
+					<h2>The Cambridge Brewers Association</h2>
+					<p>					
+						A progressive non-profit alchemy shop originally based in the heart of <a href='albion-map.html#essex'>Essex</a>, but due to political reasons the headquarters moved to <a href='albion-map.html#essex'>Norholt</a> in the summer of 1113. The CBA brew out in the open, and are very keen to promote the sharing and retention of alchemical knowledge within Albion, and will teach people from Albion as long as they agree to do the same. When travelling with the Warhost the CBA run a healing bank, giving healing balms to the people of the Warhost who couldn’t afford to buy their own.
+					</p>
+					<p>
+						The group was founded in 1102 by former Grand Master Lambert fitz Malkin and a selection of like-minded others; the current Grand Master and proprietor is Adora Dragonheart who has revolutionised how weeds are turned into magic, while Lambert potters about pretending he has some ability with a sword. The group has been home to two Royal Apothecaries; Bartram Freeman and Alastair fitz Lambert. 
+					</p>
+					<p>
+						Every member of the CBA is an alchemist so there are usually several research projects on the go at once, and experiment liberally with flavoured vodka and gin infusions. Members come from a variety of backgrounds: there are nobles, clergy, soldiers and surgeons in the association and some are geniuses. The mandatory Association Choir has inappropriate songs for every occasion, have brought smiles to the sternest faces and can be stopped with strong drink. 
+					</p>
+					<p>
+						Opening hours are from dawn to dusk and those with herbs to sell are always welcome. Please do not ask about poisons, the bacon vodka or what happened to the elf.
+						<blockquote>
+							Our business in life is not to get ahead of others but to get ahead of ourselves—to break our own records, to outstrip our yesterdays by our today, to do our work with more force than ever before. That is how you become a master of alchemy.
+						</blockquote>
+						<p class='quote-attribution'>
+							Lambert, while scrubbing out an alembic
+						</p>
+					</p>	
+				</div>
+			</div>		
+			<div class='group-content' data-section-id='order-st-eve'>						
+				<img class='group-jumbotron' src='groups/order_st_eve.jpg' />
+				<div class='group-text'>
+					<h2>The Academy of St. Eve</h2>
+					<p>
+						A school in Essex founded in the name of the blessed saint, where many young wizards and witches have trained.
+					</p>
+					<h2>The Order of St. Eve</h2>
+					<p>					
+						With the school growing in numbers and popularity, it was decided that promising wizards would be inducted into an appropriate order, that of St. Eve. This was so they may go forth into the wider world, to experience it as Eve did and to aid the people of Albion with magics used in the name of the <a href='temple.html'>Gods of Law</a>. These witches (spirit) and wizards (elemental) are not stuffy boring monks, but devout magicians who seek to learn more. The first batch of suitable candidates was sent forth to the warhost of Albion in the spring of 1114.
+					</p>
+				</div>
+				<div class='photo-credit full-page'>
+					Background Photo by Oliver Facey
+				</div>
+			</div>			
+		</div>
+	</body>
+
+	<script>
+		$(function() {
+			
+			var $leadSection = $("[data-section-id='arcane-tempest']");
+			
+			function updateHighlightedSection() {
+				var $sectionToHighlight = getSectionForHash( document.location.hash );
+				if ( $sectionToHighlight ) {
+					highlightSection( $sectionToHighlight );
+				} else {
+					highlightSection( $leadSection );
+				}
+			}
+			
+			function getSectionForHash( hash ) {
+				var hash = hash.substr(1);
+				var $section = $("[data-section-id='" + hash + "']");
+				return ($section.size() > 0)?$section:false;
+			}
+			
+			updateHighlightedSection();
+		
+			$(window).on("hashchange", updateHighlightedSection);
+									
+			function highlightSection( $section ) {
+				$(".group-content").not($section).removeClass("highlighted");
+				$section.addClass("highlighted");
+				analytics('send', 'event', 'groups', 'show-section', $section.attr("data-section-id") );
+			}
+		});
+	</script>
+</html>

@@ -1,0 +1,11 @@
+f:\dev\gsutil
+
+COPY 1 BUCKET TO ANOTHER
+------------------------
+gsutil.py cp -r gs://dev.cplions.co.uk/* gs://www.cplions.co.uk
+
+SET ALL PUBLIC
+--------------
+gsutil.py -m acl set -R -a public-read gs://www.cplions.co.uk
+
+DELETE ROBOTS.TXT on LIVE SITE

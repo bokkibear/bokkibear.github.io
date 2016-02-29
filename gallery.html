@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script type='text/javascript' src='jquery-2.1.1.min.js'></script>	
+		<script type='text/javascript' src='jquery.touchSwipe.min.js'></script>		
+		<script type='text/javascript' src='jquery.velocity.min.js'></script>
+		<script src="markdown.js"></script>
+		<script src="frame.js"></script>		
+		
+		<script type='text/javascript' src='portrait-data.js'></script>
+		
+		<link rel='stylesheet' href='css/bootstrap.css'></link>
+		<link rel='stylesheet' href='css/frame.css'></link>
+		<link rel='stylesheet' href='css/gallery.css'></link>
+		<link href='http://fonts.googleapis.com/css?family=Metamorphous|Cinzel+Decorative' rel='stylesheet' type='text/css'></link>
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<title>CP Lions: Portrait Gallery</title>
+		
+		<meta charset="UTF-8"/>
+		
+	</head>	
+
+	<body data-here='gallery.html'>				
+		<div id='alignment-ribbon'>
+			<div style='margin:0 auto; width: 2px; height: 100%; background-color: red'></div>
+		</div>
+		<div class='hero-unit'>
+			<div class='title'>
+				<h1>Lions</h1>
+					
+				<span id='nav-dropdown'>
+					<h3>Portrait Gallery &#9660;</h3>
+					<nav style='display:none'>
+						<a href='index.html'>About Us</a>
+						<a href='warhost.html'>The Warhost</a>
+						<a href='gallery.html'>Portrait Gallery</a>
+						<a href='groups.html'>Groups of the Warhost</a>
+						<a href='temple.html'>The Temple of Law</a>
+						<a href='albion-map.html'>Map of Albion</a>
+						<a href='command-team.html'>Command Team</a>
+					</nav>
+				</span>
+			</div>
+		</div>
+		<div class='hero-unit-spacer'>
+		</div>		
+		<div id='gallery-container'>			
+			<div class='gallery-scroll left'>&#9753;</div>
+			<div class='gallery-scroll right'>&#10087;</div>
+			<div id='portrait-gallery'></div>			
+		</div>
+		
+		<div id='portrait-details'>
+			<h2 class='portrait-main-title'></h2>
+			<h3 class='portrait-sub-title'></h3>
+			<p class='portrait-description'></p>
+			<p class='photo-credit'></p>
+		</div>
+
+	</body>
+
+	<script type='text/javascript'>	
+
+		//better icons for scroll buttons		
+	
+		var keyCodes = {
+			LEFTARROW: 37,
+			RIGHTARROW: 39
+		};
+	
+		$(function() {
+		
+						
+			$(window).on("hashchange", function() {
+				var $portraitToHighlight = $( document.location.hash );
+				if ( $portraitToHighlight.size() !== 0 ) {
+					highlightPortrait( $portraitToHighlight );
+				}
+			});
+			
+			var $galleryContainer = $("#gallery-container");
+			var $gallery = $("#portrait-gallery");
+			var $portraitDetails = $("#portrait-details");;
+										
+			initialiseGallery();								
+			
+			$(".gallery-scroll").on("click", function() {
+				var $clickedButton = $(this);					
+				shift( $clickedButton.hasClass("left") );
+			});
+			
+			$("body").on("keypress", function(e) {
+				if ( e.keyCode === keyCodes.LEFTARROW ) moveLeft();
+				if ( e.keyCode === keyCodes.RIGHTARROW ) moveRight();				
+			});
+			
+			$("#portrait-gallery").swipe({
+				swipeLeft: moveRight,
+				swipeRight: moveLeft,
+				threshold: 0
+			});
+			
+			function moveRight() { shift( false ); }
+			function moveLeft() { shift( true ); }
+			
+			function shift( left ) {
+				var $currentPortrait = getCurrentlyHighlightedPortrait();				
+				var $newPortrait = portraitToScrollTo( $currentPortrait, left );
+				if ( $newPortrait ) {
+					var idToHighlight = $newPortrait.attr("id");
+					document.location.hash = idToHighlight;
+				}
+			}
+			
+			function portraitToScrollTo( $currentPortrait, left ) {				
+				var $newPortrait = left?$currentPortrait.prev():$currentPortrait.next();				
+				return ($newPortrait.size() > 0)?$newPortrait:false;
+			}
+			
+			function initialiseGallery() {
+				generatePortraits();	
+				highlightFirstPortrait();			
+				setTimeout( function() { 
+					$gallery.addClass("interactive");					
+				}, 500 );
+			}
+			
+			function getCurrentlyHighlightedPortrait() {
+				return $gallery.find(".portrait.expanded");
+			}
+			
+			function highlightFirstPortrait() {			
+				var $portraitToHighlight = false;
+				if ( document.location.hash ) {
+					var $portraitToHighlight = $( document.location.hash );
+				} 
+				if ( $portraitToHighlight === false || $portraitToHighlight.size() === 0 ) {
+					$portraitToHighlight = $gallery.find(".portrait:first-child");				
+				}				
+				highlightPortrait( $portraitToHighlight );
+			}
+			
+			function generatePortraits() {				
+				for( var i in portraitData ) {
+					var portrait = portraitData[i];
+					var skip = ( portrait.status === "dead" || portrait.status === "absent" );
+					if (!skip) addPortrait( i,portrait );
+				}
+			}
+			
+			function addPortrait( portraitId, portrait ) {				
+				var $image = $("<img>").attr("src", portrait.imageSource);
+				var $portrait = $("<a>").addClass("portrait").append($image).attr("href", "#" + portraitId).attr("id", portraitId);															
+				$portrait.data("portrait", portrait);
+				$name = $("<h2>").addClass("portrait-title").text(portrait.title);
+				$subtitle = $("<h3>").addClass("portrait-subtitle").html(markdownToLionsHtml(portrait.subtitle));
+				$portrait.append($name).append($subtitle);
+				$gallery.append($portrait);				
+			}
+			
+			function unhighlightAllPortraits() {
+				$(".portrait.expanded").removeClass("expanded");
+			}
+			
+			function highlightPortrait( $portrait ) {	
+				if ( $portrait && $portrait.size() === 1 && ! isHighlighted($portrait) ) {					
+					unhighlightAllPortraits();												
+					scrollToPortrait( $portrait );
+					$portrait.addClass("expanded");			
+					showPortraitDetails( $portrait );	
+					updateScrollButtons();
+					analytics('send', 'event', 'portrait', 'highlight-portrait', $portrait.attr("id") );
+				}
+			}
+			
+			function updateScrollButtons() {
+				var $currentPortrait = getCurrentlyHighlightedPortrait();
+				var canScrollRight = ( $currentPortrait.next().size() > 0 ); 
+				var canScrollLeft = ( $currentPortrait.prev().size() > 0 ); 
+				$galleryContainer.toggleClass("canScrollRight", canScrollRight);
+				$galleryContainer.toggleClass("canScrollLeft", canScrollLeft);
+			}
+			
+			function isHighlighted( $portrait ) {
+				return $portrait.hasClass("expanded");
+			}
+			
+			function scrollToPortrait( $portrait ) {				
+				var translationNeeded = calculateTranslation( $portrait );				
+				translateGallery( translationNeeded );
+			}
+			
+			var portraitWidth = 356;
+			
+			function calculateTranslation( $element ) {
+				
+				var screenMiddle = $galleryContainer.outerWidth() / 2;				
+				var width = $element.outerWidth();
+				console.log($element);
+				if ( !$element.hasClass("expanded") ) width = width * 0.8;
+				console.log(width);
+				var elementMiddle = $element.offset().left + (width / 2 );				
+				return screenMiddle - elementMiddle;			
+			}
+			
+			function translateGallery( translation ) {
+				var currentLeftInteger = parseInt( $gallery.css("left"), 10) ;
+				var desiredLeftString = translation + currentLeftInteger + "px";
+				$gallery.css( { left: desiredLeftString } );				
+			}
+									
+			function showPortraitDetails( $portrait ) {
+				if ( $portraitDetails.hasClass("visible") ) {					
+					$portraitDetails.one("transitionend" , function() {				
+						//make sure we're still on the same portrait!
+						if ( isHighlighted( $portrait ) ) {
+							changePortraitDetails( $portrait );						
+							$portraitDetails.addClass("visible");												
+						}
+					});
+					$portraitDetails.removeClass("visible");
+				} else {
+					changePortraitDetails( $portrait );
+					$portraitDetails.addClass("visible");				
+				}
+			}
+			
+			function changePortraitDetails( $portrait ) {
+				var portrait = $portrait.data("portrait");
+				$portraitDetails.find(".portrait-main-title").text( portrait.title );
+				$portraitDetails.find(".portrait-sub-title").html( markdownToLionsHtml(portrait.subtitle) );
+				$portraitDetails.find(".portrait-description").html( markdownToLionsHtml(portrait.description) );
+				$portraitDetails.find(".photo-credit").html( markdownToLionsHtml("**Photograph Credit:** " + portrait.imageCredit) );
+			}
+			
+			 $(window).resize(function () {
+				var $currentPortrait = getCurrentlyHighlightedPortrait();				
+				scrollToPortrait( $currentPortrait );
+			 });
+			
+		});
+
+		
+	</script>
+
+</html>

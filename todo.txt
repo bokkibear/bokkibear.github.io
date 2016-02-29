@@ -1,0 +1,36 @@
+======= ON HOLD ===========
+* Gallery: Rudraigh bio - waiting for update from Dave
+* Gallery: Tyrius bio (HK -> HQ?) - waiting for update from Dave
+* Gallery: Entry for Ailah (Chaz Jones) - no data yet
+* Gallery: Entry for Sister Anise (Emma) - no data yet
+* Gallery: Entry for Osfrith (Mark Holmes)
+* Gallery: Entry for Florence Simmerson (Cara Packwood) - wait for bio
+* Map: Update Cornwall description (need blurb)
+* Gallery: Add more important NPCs (Who?)
+
+======= TO DO ===========
+
+* Groups: Tempest description
+* Code: gallery appearance (better use of background)
+* Code: Graveyard
+* Code: Mobile-ify portrait gallery (partially done)
+* Code: fix broken scroll button (working in Gallery2)
+* Code: Full-screen Albion map in Desktop mode
+* Code: Links to non-existent or dead characters should just show as text
+* Map: add York
+* Map: add roads
+* Map: add forests
+* Map: add swamps
+* Map: add mountains
+* Map: add cities/towns
+* Code: groups should be data-driven, including membership and country association
+
+======== LOCAL ===========
+* Add Matt Isherwood and Neil Payne as refs
+* Code: Add Charli to Command Team page
+* Gallery: Entry for Aled Vulpus
+
+
+======== DEV ==========
+
+======= LIVE ==========

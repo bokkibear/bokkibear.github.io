@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script type='text/javascript' src='jquery-2.1.1.min.js'></script>	
+		<script type='text/javascript' src='jquery-ui.min.js'></script>
+		<script type='text/javascript' src='jquery.velocity.min.js'></script>
+		<script type='text/javascript' src='velocity.ui.min.js'></script>
+		<script src="frame.js"></script>
+						
+		<link rel='stylesheet' href='css/bootstrap.css'></link>		
+		<link rel='stylesheet' href='css/jquery-ui.min.css'></link>		
+		<link rel='stylesheet' href='css/frame.css'></link>		
+		<link href='http://fonts.googleapis.com/css?family=Metamorphous|Cinzel+Decorative' rel='stylesheet' type='text/css'></link>
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		<meta charset="UTF-8"/>
+		
+		<title>CP Lions: Command Team</title>
+		
+		<style>
+		
+			.bio-list {
+				max-width: 1250px;
+				margin: 4vw 10vw;
+			}
+			
+			.bio-list li {
+				list-style-type:none;
+				margin: 5vw;				
+			}
+		
+			.bio-list li img {
+				float: left;
+			}
+			
+			.bio-list > li h2,
+			.bio-list > li h3,
+			.bio-list > li p {
+				margin-left: 150px;
+			}						
+			
+			.acronym {
+				border-bottom: 1px dotted #fffff5;
+			}
+			
+			.intro-blurb {
+				margin-top: 50px;
+				margin-left: 80px;
+				max-width: 950px;
+			}
+			
+			.intro-blurb li {
+				font-family: 'Metamorphous';
+				margin: 10px;
+				font-size: 16px;
+			}
+			
+		</style>
+		
+	</head>	
+
+	<script>
+		$(function() {
+			$(".acronym").tooltip();
+			
+			$(".bio-list li").velocity("transition.slideRightBigIn", { stagger: 200, drag: true } );
+		});
+	</script>
+	
+	<body data-here='command-team.html'>				
+		<div class='hero-unit'>
+			<div class='title'>
+				<h1>Lions</h1>
+								
+				<span id='nav-dropdown'>
+					<h3>Command Team &#9660;</h3>
+					<nav style='display:none'>
+						<a href='index.html'>About Us</a>
+						<a href='warhost.html'>The Warhost</a>
+						<a href='gallery.html'>Portrait Gallery</a>
+						<a href='groups.html'>Groups of the Warhost</a>
+						<a href='temple.html'>The Temple of Law</a>
+						<a href='albion-map.html'>Map of Albion</a>
+						<a href='command-team.html'>Command Team</a>
+					</nav>
+				</span>			
+			</div>
+		</div>
+		<div class='hero-unit-spacer'>
+		</div>				
+		<div id='main-content'>
+			<div class='intro-blurb'>
+				<p class='illuminate'>
+					The Lions Command Structure are here to help all our players both in and out of character to enjoy the world of Curious Pastimes (CP). Out Of Character (OOC), here are some of the things Lions Command are responsible for:
+				</p>
+				<ul>
+					<li>Getting the faction kit (tents, gate, banner walls, tankards, etc) to and from the events.</li>
+					<li>Setting up and taking down the Lions camp.</li>
+					<li>Liaising with the CP Game Team (refs, monsters, world plot) and CP Event Team (OOC logistics, safety and campsite liaisons).</li>
+					<li>Refereeing the game and answering player questions in the Lions camp (ably assisted by our excellent Lions Faction Refs).</li>
+					<li>Administering faction funds.</li>
+					<li>Arranging banquet and faction events.</li>
+					<li>Herding cats.</li>
+					<li>Ensuring the Lions camp and player experience is as excellent as possible!</li>
+				</ul>
+				<p>
+					In Character (IC), Lions Command are the leaders of the land of Albion and the commanders of that nation's armies and can help with any important issues. The current Lions Command set up is as follows:
+				</p>
+			</div>
+			<ul class='bio-list'>				
+				<li>
+					<img src='portraits/charli-holmes.jpg' height=128 width=128 />
+					<h2>Charli Holmes 'No Deal'</h2>
+					<h3><span class='acronym' title='1st In Command'>1IC</span>: <a href='gallery.html#gratziella-scarsworth'>Gratziella Scarsworth, High Queen of Albion</a></h3>
+					<p>
+						Charli has been at CP for over ten years and seen pretty much all aspects of the game in that time. Having been on the gameteam for ages she co-ran the first ever new factionette (the Touareg) before jumping ship to take over the Lions. Good for wrangling plot, making decisions and ever-changing eyebrows.
+					</p>
+					<p>
+						High Queen Grace was gifted Excalibur at the great Renewal of 1015 in Penrith, Cornwall.
+					</p>
+				</li>
+				<li>
+					<img src='portraits/matt-bradford.jpg' height=128 width=128 />
+					<h2>Matthew Bradford 'Milkybar'</h2>
+					<h3><span class='acronym' title='2nd In Command'>2IC</span>: <a href='gallery.html#quentyn-blackwell'>Lord Quentyn Blackwell, Duke of Norwich</a></h3>
+					<p>
+						Matt's been playing this game for well over ten years and even met his beautiful wife in the tavern at an event. He considers having a famous song written about one of his characters his greatest LARP achievement. Good for unrealistic ideas and being a thoroughly lovely chap.
+					</p>
+					<p>
+						Lord Quentyn is a powerful noble recently restored to his lands in Norwich.
+					</p>
+				</li>
+				<li>
+					<img src='portraits/andy-chatwin.jpg' height=128 width=128 />
+					<h2>Andy Chatwin 'Bleeder'</h2>
+					<h3><span class='acronym' title='3rd In Command'>3IC</span>: <a href='gallery.html#leofric'>Lord Leofric Trevelyan, Knight Commander</a></h3>
+					<p>
+						Drew has been a member of the Lions for so many years, it’s hard to remember a time when he wasn't there organising us in some way. He personally built half the camp, including the array of thrones! Good for logistics, building stuff from anything and being awesome.
+					</p>
+					<p>
+						Knight Commander Leofric is the war leader of the Lions, often commanding them and their allies in battle.
+					</p>
+				</li>
+			</ul>
+			<div class='intro-blurb'>
+				<h3>Faction Referees</h3>
+				<p>The Command Team couldn’t run the faction without help and support and for that we have an excellent crew of “faction refs” who assist by:</p>
+				<ul>	
+					<li>Running faction monster slots.</li>
+					<li>Contributing to plot ideas.
+					<li>Refereeing the game and answering player questions in the Lions camp.
+					<li>Generally pitching in whenever Faction Command need help.
+				</ul>
+				<p>Our current Faction Referees are:</p>
+				<ul>								
+					<li>Dave McIsaac (<a href='gallery.html#tyrius-loran'>Lord Tyrius</a>)</li>
+					<li>Baz Robinson (<a href='gallery.html#nathaniel-de-montfort'>Nathaniel de Montfort</a>)</li>
+					<li>Sara Law</li>
+					<li>Will Brown (<a href='gallery.html#montgomery-fortescue'>Montgomery Fortescue</a>)</li>
+					<li>Matt Isherwood</li>
+					<li>Neil "Nelly" Payne</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

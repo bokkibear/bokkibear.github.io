@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script type='text/javascript' src='jquery-2.1.1.min.js'></script>	
+		<script type='text/javascript' src='jquery.velocity.min.js'></script>
+		<script src="frame.js"></script>
+						
+		<link rel='stylesheet' href='css/bootstrap.css'></link>
+		<link rel='stylesheet' href='css/frame.css'></link>		
+		<link href='http://fonts.googleapis.com/css?family=Metamorphous|Cinzel+Decorative|Meddon' rel='stylesheet' type='text/css'></link>
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<meta charset="UTF-8"/>
+		
+		<title>CP Lions: Temple of Law</title>
+		
+		<style>
+			
+			#temple .temple-content {
+				position: absolute;
+				padding: 20px;
+				margin-right: 240px;
+				opacity: 0;
+				transition: opacity 0s;
+			}
+			
+			#temple .temple-content.highlighted {
+				opacity: 1;
+				transition: opacity 1s;
+				z-index: 40;
+			}
+			
+			#temple .temple-content img {
+				float: left;
+				width: 320px;
+				height: 420px;
+				display:none;
+			}
+						
+						
+			#temple ul {
+				position: fixed;
+				right: 0;
+				padding: 20px;
+				width: 240px;
+				list-style-type: none;				
+				font-family: "Cinzel Decorative";
+			}
+			
+			#temple li {
+				margin-left: 40px;
+				font-size: 18px;
+			}
+			
+			#temple li.top-level {
+				margin-left: 0;
+				font-size: 20px;
+			}
+			
+			@media all and (min-width: 1200px) {
+				#temple .temple-content img {
+					display:block;
+				}
+				#temple .temple-content h2,
+				#temple .temple-content h3,
+				#temple .temple-content p,
+				#temple .temple-content blockquote {
+					margin-left: 350px;
+				}
+				#temple .temple-content {
+					margin-right: 20vw;
+				}
+				#temple ul {
+					padding: 1.2vw;
+					width: 20vw;
+				}
+				#temple li {
+					margin-left: 3.5vw;
+					font-size: 1.4vw;
+				}
+				#temple li.top-level {
+					font-size: 1.6vw;
+				}
+			}		
+			
+			@media all and (max-width: 800px) {
+				#temple ul {
+					display: none;
+				}
+				#temple .temple-content {
+					position: static;
+					opacity: 1;
+					margin: 0;
+					padding: 0;
+				}
+				
+				#temple .temple-content p,
+				#temple .temple-content h2,
+				#temple .temple-content h3 {
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+				
+				#temple .temple-content h3 {
+					font-size: 20px;
+				}
+				
+				#temple .temple-content img {
+					float: none;
+					display:block;
+					margin: 0 auto;
+				}
+				#temple .prayer {
+					margin: 0;
+					padding: 30px 20px;
+					font-size: 20px;
+					letter-spacing: 0px;
+					box-shadow: none;
+					box-shadow: 0px 25px 25px #000 inset, 0px -25px 25px #000 inset
+				}
+			}
+				
+		</style>
+		
+	</head>	
+
+	<body data-here='temple.html'>				
+		<div class='hero-unit'>
+			<div class='title'>
+				<h1>Lions</h1>
+								
+				<span id='nav-dropdown'>
+					<h3>Temple of Law &#9660;</h3>
+					<nav style='display:none'>
+						<a href='index.html'>About Us</a>
+						<a href='warhost.html'>The Warhost</a>			
+						<a href='gallery.html'>Portrait Gallery</a>
+						<a href='groups.html'>Groups of the Warhost</a>
+						<a href='temple.html'>The Temple of Law</a>
+						<a href='albion-map.html'>Map of Albion</a>
+						<a href='command-team.html'>Command Team</a>
+					</nav>
+				</span>				
+			</div>
+		</div>
+		<div class='hero-unit-spacer'></div>
+		<div id='temple'>
+			<ul id='temple-navigation'>
+				<li  class='top-level'><a href='#'>The Gods of Law</a></li>
+				<li><a href='#solkar'>Solkar</a></li>
+				<li><a href='#creed'>Creed</a></li>
+				<li><a href='#sastrines'>Sastrines</a></li>
+				<li><a href='#damacest'>Damacest</a></li>
+				<li><a href='#draco'>Draco</a></li>
+				<li><a href='#melaphine'>Melaphine</a></li>
+				<li><a href='#trask'>Trask</a></li>
+				<li  class='top-level'><a href='#other-religions'>Other Religions</a></li>
+				<li><a href='#ranalf'>Ranalf</a></li>
+				<li><a href='#mithras'>Mithras</a></li>
+			</ul>		
+			<div class='temple-content' data-section-id='main'>		
+				<img src='images/stained-glass.jpg' />
+				<h2>The Gods of Law</h2>
+				<p>
+					The Gods of Law are a pantheon of deities revered across Albion. Their teachings and guidance form the central beliefs of the way of life in Albion. They encourage personal development and improvement, favouring those who devote their lives to a good cause, helping others and working for a better and more just society.
+				</p>				
+				<p>
+					To the people of Albion, the Gods are distant entities who rarely interact with mortals. Instead they act to influence and inspire people to achieve greatness through their own acts. For most people the Gods serve as an epitome to which to aspire, the pinnacle of what one could hope to achieve through service, kindly acts or personal toil. The Gods recognise that everyone is unique and flawed and many will fail to help themselves and others. Even the smallest achievement may bring great rewards if it is undertaken with the right intentions. Trying and failing is better in their eyes than not having tried in the first instant.
+				</p>				
+				<p>
+					Across the land of Albion the Gods of Law are worshipped and seen in many different ways. In some regions they are spoken of as ancient beings who once walked the green hills of Albion, seeking to create a land of the Good and Righteous. Elsewhere they are spoken of as celestial entities that watch from the heavens and judge the actions and deeds of mortals below. Even within the Churches of Law there are numerous theological viewpoints and arguments over the nature of the Gods and their plans for the people of Albion. Some may identify with specific aspects of a God, interpreting their teachings in ways that may seem confusing or offensive to others. It must be remembered however, that the Gods of Law and the principles for which they stand are ones of tolerance, friendship and cooperation.
+				</p>				
+				<h3>The High King</h3>
+				<p>
+					It is a common, indeed nearly universal, belief that the High King is chosen to lead Albion under the auspices of the Gods of Law. He is often attributed with considerable powers due to a ‘special connection’ to the Gods, though some of these attestations seem to lean more toward fancy rather than reality. In the common view, the Lady of the Lake is seen as a form of angelic intermediary, while the blade Excalibur is seen as an evident link between the High King, the land of Albion and the Gods.
+				</p>				
+				<h3>The Champion of Law</h3>
+				<p>
+					Where the High King is seen as a link to the Gods, the Champion is the closest a mortal can come to their representative. He or she is the epitome of what it is to follow the Gods’ teachings to the fullest. They are therefore at the forefront at the fight against evil and chaos, whether that fight be spiritual, physical or mental. In order to fortify them, it is believed the Gods fortify the Champion great powers and even greater responsibilities.			
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='solkar'>			
+				<img src='stained-glass/solkar-final-glow.svg' />
+				<h2>Solkar</h2>
+				<h3>God of Righteous Vengeance</h3>
+				<p>				
+					Solkar is the God of retribution, of vengeance and lawful punishment. He also stands a protector of the rights of the individual and often as patron to the High Crown of Albion.
+				</p>
+				<blockquote class='prayer'>Glory be to Solkar<br />
+					In His Name shall we shed<br />
+					Blood for Blood<br />
+					Tears for Tears<br />
+					In His name shall we strike<br />
+					Blow for Blow<br />
+					Cheek for Cheek<br />
+					In his name shall we offer<br />
+					Words for Words<br />
+					Deeds for Deeds
+				</blockquote>
+				<p>
+					Righteous vengeance is an important tenet of law; Solkar teaches his followers the merits of proportionate punishment and the point at which retribution is fulfilled. He is pleased when a person can take a measured response against their transgressor. In taking revenge, Solkar wishes that people consider their response and not succumb to haste and anger. It is in the monarchs of Albion that Solkar has placed the greatest of his powers and therefore vengeance is often sworn in a monarch’s name.
+				</p>
+				<p>
+					Crimes must not go unpunished, broken promises must be made good, a victim must be compensated, a murder be avenged. At times people may turn to Solkar when they have no alternative. They seek guidance on how best to achieve vindication, for an argument may turn into a feud and lead to a vendetta. Recompense may be demanded from a victim’s family, revenge may be called upon the bandits who attacked a village. Solkar shows people the way to act and behave when they have been affronted.
+				</p>
+				<p>
+					Temples dedicated to Solkar are often in open public places, where a crowd may gather and a person can proclaim their grievances. Gaols and places of execution may also be found alongside chapels to Solkar and fines may be paid on their steps. In the country, shrines are often built near hanging trees, at crossroads and on the boundaries of a village.
+				</p>
+				<p>
+					Those who serve Solkar as priests are often advisors, providing counsel to those who may otherwise let hatred cloud their minds. In this respect they aid people to focus the emotions and decide upon a path to achieving retribution. In times of war, priests of Solkar may join an army, serving to rouse the spirit of an army by recounting the acts committed by the enemy and spurring them on to achieve revenge.
+				</p>
+				<p>
+					The greatsword is an important symbol of Solkar and has different meanings depending on the way it is displayed. Blade upwards represents his position as a protector and as a reminder of the vengeance that will be sought. Blade downwards, often bisecting a crown, is seen to represent the authority of kingship and the righteous power that can be brought in the quest for vengeance. The hawk is viewed as a familiar of Solkar, marking out those who have wronged for all to see.
+				</p>
+				<p>
+					In battle Solkar wields his greatsword with massive power, bringing retribution down upon those who have transgressed against Albion.
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='creed'>		
+				<img src='stained-glass/creed-final-glow.svg' />
+				<h2>Creed</h2>
+				<h3>God of War</h3>
+				<p>
+					Creed favours martial prowess, strength of arms and wisdom on the field of battle. He is the God of war, battle, honest contests and just confrontation.
+				</p>
+				<blockquote class='prayer'>Glory be to Creed<br/>
+					The Glory of the Battlefield<br/>
+					The Glory of Blades upheld in Honour<br/>
+					The Glory of Brotherhood<br/>
+					The Glory of Courage that fails not<br/>
+					The Glory of Slaughter<br/>
+					The Glory of Death<br/>
+					In ten thousand Raven's Wings
+				</blockquote>
+				<p>
+					Creed is not a god of bloodshed and rampant slaughter, nor does he favour a battle fought without just cause. He teaches that the best war is the war not fought and one should only draw their sword when it is absolutely needed: in the defence of the weak and the innocent. Creed watches over those that give their lives to protect others.
+				</p>
+				<p>
+					Shrines and altars are often erected on the site of a historic battle, while many larger towns have a chapel where offerings and prayers are given to invoke Creed’s protection over the settlement. The largest churches may serve as memorials to the fallen or as rallying places before a host marches to war.
+				</p>
+				<p>
+					Priests of Creed are often warriors themselves, teaching masteries of various weapons or joining their townsfolk in times of war. It is their purpose to ensure that all those capable of raising arms can defend themselves and the weak, to advise rulers in matters martial and to rouse the levies in times of danger.
+				</p>
+				<p>
+					Icons depicting weaponry are often associated with Creed; most commonly these will be a crossed pair of swords. Other symbols include shields, batons and pennants. A bird often associated with Creed is the crow or raven. Creed is often seen in battle wielding a pair of matched swords, leading his armies from the front and inspiring all around him to acts of courage and valour.
+				</p>
+				<p>
+					Warriors will most often seek enlightenment from Creed before they march to war, whilst their families will pray for their safe return or protection for them in battle. Generals may hope for taciturn advice and the power to command their troops in the heat of a battle. Many people also look to Creed when they enter a competition such as a wrestling match or team game for it is believed that Creed looks favourably on these diversions from war.
+				</p>				
+			</div>
+			<div class='temple-content' data-section-id='sastrines'>			
+				<img src='stained-glass/sastrines-final-glow.svg' />
+				<h2>Sastrines</h2>
+				<h3>Goddess of Nature</h3>
+				<p>
+					Sastrines is the Goddess of the forests, green hills, rivers and lakes, plants and animals.
+				</p>
+				<blockquote class='prayer'>Glory be to Sastrines<br/>
+					Whose roots go deep in the darkness of the Earth<br/>
+					Whose broad trunk rises from the belly of the Earth<br/>
+					Whose soft leaves fall in season on the Earth<br/>
+					Whose sharp thorns stand against all who hurt the Earth<br/>
+					Whose fierce love holds the life of the Earth
+				</blockquote>
+				<p>
+					She looks kindly on those who respect the very land of Albion itself. Nature is varied and complex, but not unruly or limitlessly wild. Everything has its place and Sastrines favours those who recognise their place within Albion. Out of all the Gods, Sastrines is perhaps the most concerned with the people of Albion and their relationship to the land. Those who till the soil, tend the flocks and fish the streams are obviously people who look to Sastrines for guidance. Nature is however much more than farming, affecting all aspects of life.
+				</p>
+				<p>
+					A miner, a sailor and a washerwoman may all give praises to Sastrines for a rich ore seam, a favourable wind or warm sunny day. Many see Sastrines as a symbol of Albion itself and a mother figure for the people.
+				</p>
+				<p>
+					The temples and churches are perhaps the most varied of all the Gods. Simple, rustic shrines can be found in forest clearings or near good hunting grounds. Many towns have tithe halls where the harvest is taken in thanks, as well as small churches devoted to all manner of professions and trades While druids may be the first to be associated with Sastrines, they are a seldom seen and secretive order. More common are priests who oversee and advise on the sowing of crops, tending of animals and the time to harvest. Other priests of Sastrines may be mystics who predict the weather, guides and explorers or even damsels who lead blessed bulls across the countryside to minister to the village herds.
+				</p>
+				<p>
+					The Sun is perhaps most often used as a symbol of Sastrines, white hinds, a bearded woodsman, holly sprigs and a hunter’s arrow are also commonly used. The white dove is typically associated with the Goddess of Nature and to shoot one is seen as most unlucky.
+				</p>
+				<p>
+					Although often portrayed as a peaceful deity of life, Sastrines’ is also associated with destruction. In such aspects she is depicted as wielding an axe or cudgel laying low forests, mountains and foes alike.		
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='damacest'>			
+				<img src='stained-glass/damacest-final-glow.svg' />
+				<h2>Damacest</h2>
+				<h3>Goddess of Healing</h3>
+				<p>
+					Damacest is patron of the healing arts, whether they be medicinal, alchemical and magical.
+				</p>
+				<blockquote class='prayer'>
+					Glory be to Damacest<br/>To the Strong Gentled<br/>To the Blow Checked<br/>To She who holds her Hand<br/>Above the Holy Innocent
+				</blockquote>
+				<p>
+					Healing aside, Damacest looks kindly on those who tend to other hurts; aiding those who help reconcile differences, bring warring sides to the table and make repairs to communities after damage has been wrought.
+				</p>
+				<p>
+					Whenever disease and pestilence stalk the land, folk will give offerings to Damacest for a protection or a cure. Those wishing for children will pray for fertility, while the lame and sick often travel in search of hallowed centres of healing. Soldiers will always give offerings and prayers before heading to battle, hoping to avoid injury or to attract the ministrations of a healer.
+				</p>
+				<p>
+					Shrines to Damacest can often be found by fountains, wells and streams where water is drawn. Many temples often serve as houses of healing or asylums, whilst the largest minsters may be located at the site of mystical healing pools and vapour vents. Pilgrims may travel across Albion to visit a particular church that is known to cure specific ailments.
+				</p>
+				<p>
+					Priests of Damacest are friendly and welcoming people, offering warmth and hospitality to all. They seek to help those afflicted with sickness, to advise kings on how to ward off plagues and tend to those injured in conflict. Those who have been blessed with the powers of corporeal magic are often drawn to hosts of war where their skills are always welcome.
+				</p>
+				<p>
+					Chalices, a healing rod or sheaf of herbs are symbols often associated with Damacest. The most commonly used symbol is that of the healing hand. The swallow and stork are two birds often associated with the Goddess of Healing.
+				</p>
+				<p>
+					Although associated with healing, Damacest carries the Spear of Life into battle, a weapon that warms the hearts of the faithful as it drinks on the blood of the enemy.		
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='draco'>		
+				<img src='stained-glass/draco-final-glow.svg' />
+				<h2>Draco</h2>
+				<h3>God of Justice</h3>
+				<p>
+					Draco is concerned with justice, truth and the rule of law among the people.
+				</p>
+				<blockquote class='prayer'>Glory be to Draco<br/>
+					And in His Name<br/>
+					Shall we weigh the Words of men<br/>
+					To find Truth<br/>
+					Shall we weigh the Deeds of men<br/>
+					And make Justice</br>
+					With our Speech<br/>
+					And in our Blood<br/>
+					Shall we Judge<br/>
+					And be Judged
+				</blockquote>
+				<p>
+					Justice is concerned with the ordering of things within society. It defines what is wrong and what is right. Draco is concerned with how people seek these goals and make choices in their daily lives. The law is there to guide people in life and to correct them when they make mistakes.
+				</p>
+				<p>
+					When someone has suffered an injustice it is to Draco that they pray for guidance. They may visit a temple for advice or to ask for forgiveness when they have broken a law or failed in their morale duty.
+				</p>
+				<p>
+					Temples of Draco can be found across Albion and vary greatly in their size and function. Some may serve as legal offices, record houses or even courts of law. Priests may oversee tribunals and petty trials within them, while preachers deliver oratories to crowds outside. It is also common for criminals to be educated on their misdeeds outside Churches of Draco, being taught how to avoid making the same mistakes and learning to understanding the effect their actions had on others.
+				</p>
+				<p>
+					Priests of Draco often serve as mediators and arbitrators, offering assistance to those wih disputes and helping them resolve the problem themselves. They play an important role advising lords on matters of justice and how best to avoid creating laws that may be authoritarian and oppressive. They will be the first to explain that the Laws of the Land are intended to protect people and to be a force for good, not a tool for tyranny.
+				</p>
+				<p>
+					The Scales of Justice are the primary symbol of Draco, reminding people of the balance between right and wrong, and how ones deeds must weight against their outcomes. Quills, books and manacles are other symbols often associated with Draco and Justice. Draco’s bird is a white owl, bringer of wisdom and counsel to wise men.
+				</p>
+				<p>
+					The Sceptre or Mace of Justice is the weapon most commonly depicted being wielded by Draco. It is a symbol of authority, leadership and temporal power. The Sceptre of Parliament was a potent artefact given to the Lions by Draco to aid in their quests.			
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='melaphine'>			
+				<img src='stained-glass/melaphine-final-glow.svg' />
+				<h2>Melaphine</h2>
+				<h3>God of Death</h3>
+				<p>Melaphine is the end of all things, the chronicler, the remembrance, the celebrant of life.<p>
+
+				<blockquote class='prayer'>Glory be to Melaphine<br/>
+					In the Ending of the Day<br />
+					And the Coming of the Night<br />
+					Not in Passion, Anger, Fear<br />
+					But as the Poppy's petals fall<br />
+					In self Forgetfulness
+				</blockquote>
+
+				<p>
+					Death is not an aspiration, nor the subject of fear. Melaphine looks well on those who recognize their eventual fate and strive to do good with the time they have. Patron to those who record heroic deeds and accounts of life, Melaphine wishes mortals to accept the sorrow or sadness involved in the loss of a life but not succumb to grief. To overcome the fear of death is a great feat of the mind. To continue with your good deeds knowing that your death will come about is to achieve this triumph.
+				</p>
+
+				<p>
+					People praise Melaphine with festivals of remembrance for the departed, telling tales of their lives and achievements. Priests of Death say that no one really dies until they are forgotten.
+				</p>
+
+				<p>
+					From the dark spires of the Great Mausoleum in Cambridge to village graveyards, from town mortuaries to battlefield ossuary, shrines to Melaphine are found across Albion. Tokens and gifts are commonly placed here to remind the dead of the lives and guide them into the arms of Melaphine.
+				</p>
+
+				<p>
+					Those who dedicate their lives to the Goddess of Death are kind and gentle priests. They are well aware of the burden a death has upon friends and family. They encourage people to remember the good things done in the life of the departed, writing down even the most mundane account. Often skilled in the powers of spiritual magic, many priests are asked to pass messages on from beyond the grave, to warm the hearts of mourners and to banish sorrow.
+				</p>
+
+				<p>
+					The cockatrice is a potent symbol of Melaphine and guardian of her graveyards and catacombs. Other common images associated with Death include white poppies, an hourglass and a burning candle. The song of the nightingale is often held as being important to Melaphine.
+				</p>
+
+				<p>
+					Melaphine is often depicted wielding a halberd, its multiple head representing the multitudinous ways in which death comes to the enemies of Albion.
+				</p>			
+			</div>
+			<div class='temple-content' data-section-id='trask'>			
+				<img src='stained-glass/trask-final-glow.svg' />
+				<h2>Trask</h2>
+				<h3>God of Duty</h3>
+				<p>
+					Trask is the God of master and servant; of duty, oaths, pacts and deeds
+				</p>
+				<blockquote class='prayer'>Glory be to Trask<br/>
+					To He who holds another's Honour In His Hands<br/>
+					As if it were a Precious thing<br/>
+					Fragile as Glass<br/>
+					Bright as the Morning<br/>
+					Loved as His own<br/>
+					The glory of the Promise kept<br/>
+					To another, to thyself
+				</blockquote>
+				<p>
+					As God of Duty, Trask is teaches that a promise or oath is the most important bond a person can make to another. Be it marriage oaths or swearing fealty to a liege, Trask watches over these people and helps them keep the words they speak.
+				</p>
+				<p>
+					Duty is central to the Albion feudal system, a lord looks to his people to obey him and provide goods and taxes that he requires, while a peasant looks to his lord to provide him with a cottage and land to work, and to protect him when danger threatens.
+				</p>
+				<p>
+					People look to Trask for guidance when they agree terms with another, be it ploughing a field, offering their skills in return for payment or agreeing the terms of a contract. It is in the name of Trask that a commoner will swear to serve his lord and or a couple will swear their love.
+				</p>
+				<p>
+					Across Albion are numerous shrines that commemorate important events where treaties or charters were signed. Chapels are often sited at important places in towns reminding all of the oaths they have sworn to the king, lord and their fellow citizens. It is to these places that two people may come to seek assistance during a dispute; to understand what it is that is being argued over. Ceremonies are often held in larger churches each year where a lord will renew his oaths to his subjects, promising protection and work in return for their obedience.
+				</p>
+				<p>
+					Priests of Trask often bear witness to the swearing of oaths and bonds. They may also offer their services in the writing of treaties and legal documents. During a marriage ceremony, it is a priest of Trask who will often preside. Many knightly orders are accompanied by chaplains dedicated to Trask who remind the knights of their duty to protect the weak and destroy evil.
+				</p>
+				<p>
+					A knight’s helm is a common symbol of Trask, as it was in his name that the first orders of knights were created. Oath scrolls, knots and chains are also frequently used to denote the God of Duty, symbolising the debts, agreements and services that people enter into under the gaze of Trask. The heron is often associated with Duty in Albion, the patience and persistence it displays are virtues befitting a good servant.
+				</p>
+				<p>
+					Said to have trained the first knights, Trask is commonly depicted bearing a sword and shield. It is with the sword that he strikes at the enemy, whilst protecting the innocent behind his shield.	
+				</p>					
+			</div>
+			<div class='temple-content' data-section-id='other-religions'>			
+				<img src='images/stained-glass.jpg' />
+				<h2>Other Religions</h2>
+				<p>
+					Whilst the Gods of Law are the official and state religion of Albion, supported through the laws of each nation and by Will of the High Crown, it is generally recognised that these deities are tied to Albion and that other deities do exist elsewhere in the world. However, these are of little concern as they do not reflect the needs and wants of the people of Albion.
+				</p>
+				<p>
+					It is also known that there exist at least two other minor deities that at times have been associated with a greater pantheon in Albion. These faiths tend to be found on the edges of society, sometimes hidden from sight or at least keeping a respectful distance from the more established churches.
+				</p>
+				<p>
+					From 1114, the <a href='gallery.html#idris-mawr'>High King Idris</a> has revived the previously lapsed tenet that the worship of any god above the Gods of Law is heresy on Albion soil. Therefore worship of ‘The Nine’ is within tolerance as long as neither of ‘The Two’ is held above ‘The Seven’. Nevertheless, this edict has seen the swift dismantling of many shrines to <a href='#mithras'>Mithras</a> and <a href='#ranulf'>Ranulf</a> and any who claimed to be lay clergy have been forced into hiding.
+				</p>
+				<p>
+					Atheism is, perhaps oddly, not a crime in Albion and is instead viewed as an opportunity for the faithful to teach and inspire, rather than condemn.
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='ranalf'>			
+				<img src='stained-glass/ranalf-final-glow.svg' />
+				<h2>Ranalf</h2>
+				<p>
+					The Cults of Ranalf are a shadowy faith that venerate Ranalf, Lord of Thieves and Tricksters. Many sects are believed to exist, each with distinct agendas. Some seek to sow discord and enact elaborate schemes and jokes, whilst others run smuggling outfits and criminal gangs that defy the Laws of the Land. Still others take on the mantle of guides and counselors to those who would break with tradition: revolutionaries, radicals and rebels.			
+				</p>
+			</div>
+			<div class='temple-content' data-section-id='mithras'>			
+				<img src='stained-glass/mithras-final-glow.svg' />
+				<h2>Mithras</h2>
+				<p>
+					Members of the Fellowship of Mithras follow the ‘teachings’ of the entity known as Mithras, reputed God of Neutrality. Adherents to the faith seek to avoid confrontation and the taking of sides, instead hoping to act as a balance between any forces that find themselves in contention.			
+				</p>
+			</div>
+		</div>
+	</body>
+
+	<script>
+		$(function() {
+			
+			var $leadSection = $("[data-section-id='main']");
+			
+			function updateHighlightedSection() {
+				var $sectionToHighlight = getSectionForHash( document.location.hash );
+				if ( $sectionToHighlight ) {
+					highlightSection( $sectionToHighlight );
+				} else {
+					highlightSection( $leadSection );
+				}
+			}
+			
+			function getSectionForHash( hash ) {
+				var hash = hash.substr(1);
+				var $section = $("[data-section-id='" + hash + "']");
+				return ($section.size() > 0)?$section:false;
+			}
+			
+			updateHighlightedSection();
+		
+			$(window).on("hashchange", updateHighlightedSection);
+									
+			function highlightSection( $section ) {
+				$(".temple-content").not($section).removeClass("highlighted");
+				$section.addClass("highlighted");
+				analytics('send', 'event', 'temple', 'show-section', $section.attr("data-section-id") );
+			}
+		});
+	</script>
+</html>

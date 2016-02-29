@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CP Lions: Map of Albion</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+		<link rel='stylesheet' href='css/bootstrap.css' />
+		<link rel='stylesheet' href='css/frame.css' />	
+		<link rel="stylesheet" href="leaflet/leaflet.css" />
+		<link rel="stylesheet" href="leaflet/leaflet.draw.css" />
+		<link href='http://fonts.googleapis.com/css?family=Metamorphous|Cinzel+Decorative' rel='stylesheet' type='text/css'></link>
+		<link rel="icon" type="image/png" href="images/favicon.png">
+		
+		<script type='text/javascript' src='jquery-2.1.1.min.js'></script>		
+		<script type='text/javascript' src='jquery.touchSwipe.min.js'></script>		
+		<script type='text/javascript' src='jquery.velocity.min.js'></script>		
+		<script src="frame.js"></script>
+		<script src="markdown.js"></script>
+		<script src="leaflet/leaflet-src.js"></script>
+		<script src="leaflet/leaflet.draw.js"></script>
+		
+		<!-- data for map locations -->
+		<script src="map/country-borders.js"></script>
+		<script src="map/location-markers.js"></script>
+		<script>
+		  
+		  $(function() {			
+				var panToFeature = false;
+				var drawTools = false;
+				var defaultZoom = 3;
+				var mapCentre = [52.05249047600099,-100.8984375];
+		  
+				var locationIcons = {
+					"castle": L.icon({
+								iconUrl: 'map/castle-icon.png',			
+								iconSize:     [38, 55], 
+								iconAnchor:   [19, 55], 
+								popupAnchor:  [0, -55] 
+							}),
+					"battle": L.icon({
+								iconUrl: 'map/battle-icon.png',			
+								iconSize:     [40, 40], 
+								iconAnchor:   [20, 40], 
+								popupAnchor:  [0, -40] 
+							}),
+					"ritual": L.icon({
+								iconUrl: 'map/ritual-icon.png',			
+								iconSize:     [40, 38], 
+								iconAnchor:   [20, 38], 
+								popupAnchor:  [0, -38] 
+							})
+				};			
+
+				var locationHighlightStyle = {
+					opacity: 0.4
+				};
+				
+				var countryStyle = {
+					"color": "#cc8822",
+					"weight": 2,
+					"opacity": 0.2,
+					"fillOpacity": 0.0
+				};
+										
+				var countryHighlightStyle = {
+					"color": "#eecc44",
+					"weight": 3,
+					"opacity": 0.5,
+					"fillOpacity": 0.5
+				};				
+				
+				function preloadImage( url ) {
+					var i = new Image();
+					i.src=url;
+				}
+				
+				function preloadImages() {
+					for( var i in mapLocations ) {
+						var imageUrl = mapLocations[i].properties.imgName;
+						if ( imageUrl ) preloadImage( imageUrl );
+					}
+					for( var i in countryData ) {
+						var imageUrl = countryData[i].properties.imgName;
+						if ( imageUrl ) preloadImage( imageUrl );
+					}
+				}
+		  
+				$(window).on("hashchange", function() {					
+					showFeature( document.location.hash, panToFeature, true );
+				});	  											
+				
+				var map = L.map('map', { minZoom:1, maxZoom:6} ).setView(mapCentre, defaultZoom);			
+
+				L.tileLayer('map/old-paper-texture.jpg').addTo(map);
+			  
+				L.tileLayer('map/{z}/{x}/{y}.png', { noWrap: true }).addTo(map);
+				
+				L.geoJson(mapLocations, { pointToLayer: addLocation, onEachFeature: decorateLocationFeature } ).addTo(map);
+				
+				L.geoJson(countryData, { onEachFeature: decorateCountryFeature, style: countryStyle } ).addTo(map);			
+				
+				if ( document.location.hash ) {
+					showFeature ( document.location.hash, true, false );					
+				}
+				
+				function showFeature( featureId, centre, animate ) {
+					var featureLayer = findFeatureLayer( featureId );
+					showPlaceInfo( featureLayer.feature.properties );					
+					highlightOnly( featureLayer );
+					
+					if ( centre ) {
+						var centreLatLng = findFeatureCentre( featureLayer.feature );												
+						map.setView( centreLatLng, defaultZoom, { pan: { duration: 1 }, animate: animate } );
+					}
+					analytics('send', 'event', 'map', 'show-feature', featureLayer.feature.properties.id );
+				}
+				
+				function showNone() {
+					showPlaceInfo(false);
+					highlightOnly(false);
+				}
+				
+				function highlightOnly( featureLayer ) {
+					map.eachLayer( function(layer) {					
+						setLayerHighlighted( layer, (layer == featureLayer) );					
+					});								
+				}
+				
+				function setLayerHighlighted( layer, highlighted ) {
+					if ( layer.feature && layer.feature.geometry.type === "Polygon" ) {
+						layer.setStyle( highlighted?countryHighlightStyle:countryStyle );
+					} else {
+						//highlight the marker?
+					}
+				}
+				
+				function findFeatureLayer( featureId  ){
+					var result = false;
+					map.eachLayer(function(layer) {					
+						if ( layer.feature && ("#" + layer.feature.properties.id) == featureId ) {
+							result = layer;
+						}
+					});
+					return result;
+				}
+				
+				//----------- MARKERS -----------------						
+				function addLocation( feature, latLng ) {
+					var markerOptions = {};
+					var locationIcon = locationIcons[ feature.properties.type ];
+					if ( locationIcon ) markerOptions.icon = locationIcon;
+					return L.marker( latLng, markerOptions );
+				}
+				
+				function decorateLocationFeature( feature, layer ) {
+					layer.on("click", function() {
+						panToFeature = false;
+						document.location.hash = feature.properties.id;		
+					});
+				}						
+				
+				//----------- COUNTRIES ----------------s		
+				function decorateCountryFeature(feature, layer) {
+					layer.on("click", function() {				
+						panToFeature = false;
+						document.location.hash = feature.properties.id;
+					});
+				}
+				
+				function showPlaceInfo( properties ) {
+					var $info = $("#map-location-info");
+					if ( properties ) {						
+						$info.attr("data-state", "compact");
+						$info.find(".map-location-name").text( properties.name );
+						$info.find(".map-location-subtitle").html( markdownToLionsHtml(properties.subtitle)	);
+						$info.find(".map-location-description").html( markdownToLionsHtml(properties.description) );
+						if ( properties.imgName ) {
+							$info.find(".map-location-image").attr( "src", "images/" + properties.imgName ).removeClass("hidden");
+						} else {
+							$info.find(".map-location-image").addClass("hidden");
+						}
+					} else {
+						$info.attr("data-state", "hidden");
+					}
+				}
+				
+				var drawnItems = new L.FeatureGroup();
+				map.addLayer(drawnItems);
+
+				var drawControl = new L.Control.Draw({
+					draw: {
+						position: 'topleft',
+						polygon: {
+							allowIntersection: false,
+							drawError: {
+								color: '#b00b00',
+								timeout: 1000
+							},
+							shapeOptions: {
+								color: '#bada55'
+							},
+							showArea: true
+						},
+						polyline: {
+							metric: false
+						},
+						circle: {
+							shapeOptions: {
+								color: '#662d91'
+							}
+						}
+					},
+					edit: {
+						featureGroup: drawnItems
+					}
+				});
+				if ( drawTools ) map.addControl(drawControl);
+
+				map.on('draw:created', function (e) {
+					var type = e.layerType,
+						layer = e.layer;
+					
+					if ( type === 'polygon') {
+						console.log("Drew a polygon!");
+						console.log(JSON.stringify(layer.toGeoJSON()));					
+					}
+					if ( type === 'marker') {
+						console.log("Drew a point!");
+						console.log(JSON.stringify(layer.toGeoJSON()));					
+					}
+
+					drawnItems.addLayer(layer);
+				});
+				
+				function findFeatureCentre( feature ) {
+					if ( feature.geometry.type === "Polygon" ) {
+						var boundingRectangle = getBoundingRectangle( feature.geometry.coordinates[0] );
+						var boundingRectangleCenter = getCentreOfRectangle( boundingRectangle );
+						return L.latLng( boundingRectangleCenter[1], boundingRectangleCenter[0] );
+					}
+					if ( feature.geometry.type === "Point" ) {
+						return L.latLng( feature.geometry.coordinates[1], feature.geometry.coordinates[0] );
+					}
+				}
+				
+				function getCentreOfRectangle( rectangle ) {
+					return [ (rectangle.minX + rectangle.maxX) * 0.5, (rectangle.minY + rectangle.maxY) * 0.5 ];
+				}
+			
+				function getBoundingRectangle( vertexArray ) {
+					var minX, maxX, minY, maxY;
+					for(var i in vertexArray) {
+						if( !minX || vertexArray[i][0] < minX ) minX = vertexArray[i][0];
+						if( !maxX || vertexArray[i][0] > maxX ) maxX = vertexArray[i][0];
+						if( !minY || vertexArray[i][1] < minY ) minY = vertexArray[i][1];
+						if( !maxY || vertexArray[i][1] > maxY ) maxY = vertexArray[i][1];
+					}
+					return { minX: minX, maxX: maxX, minY: minY, maxY: maxY };
+				}
+				
+				$(document).on("click", "#map-location-info a", function() {					
+					panToFeature = true;
+				});				
+				
+				$(document).on("click", "#map-location-info button.close", function() {
+					showNone();
+				});
+				
+				$(document).on("click", "#map-location-info button.expand", function() {
+					var currentState = $("#map-location-info").attr("data-state");
+					var newState = (currentState === "expanded")?"compact":"expanded";
+					$("#map-location-info").attr("data-state", newState);
+				});
+				
+				$("#map-location-info").swipe( { 
+					swipeUp: function() {					
+						$("#map-location-info").attr("data-state", "expanded");
+					}, 
+					swipeDown: function() { 
+						var currentState = $("#map-location-info").attr("data-state");
+						
+						if (currentState === "expanded") {
+							$("#map-location-info").attr("data-state", "compact");
+						} else {
+							showNone();							
+						}
+					},
+					threshold: 0
+				});
+			});
+		</script>
+		<style>
+			html, body { width:100%; height:100%; margin:0; padding:0; }
+			#map { position: fixed; top: 88px; bottom: 0px; width: 40%; }
+			
+			path.leaflet-clickable:hover {
+				fill-opacity: 0.5;
+			}
+
+			.leaflet-marker-icon {
+				opacity: 0.7;
+			}
+
+			.leaflet-marker-icon:hover {
+				opacity: 1;
+			}
+
+			#map-location-info {
+				padding: 24px;
+				position: absolute;
+				right: 0;
+				left: 40%;
+				top: 88px;
+				bottom: 0;
+			}
+
+			#map-location-info .map-location-image {
+				float: left;
+				padding: 25px;
+			}
+			
+			#map-location-info .map-location-image.hidden {
+				display:none;
+			}
+			
+			#map-location-info .info-bar-controls {
+				display: none;
+			}
+			
+			.leaflet-control-attribution {
+				display: none;
+			}
+			
+			@media all and (max-width: 800px) {
+				#map {
+					top: 0px;
+					width: 100%;
+				}
+				
+				#map-location-info {
+					position: fixed;
+					bottom: 0px;
+					left: 0px;
+					right: 0px;
+					height: 0px;
+					background-color: #fff;
+					color: #000;
+					padding: 0px;
+					top: auto;
+					transition: height 0.3s ease, padding 0.3s ease;
+				}
+				
+				#map-location-info[data-state=compact] {				
+					height: 150px;
+					padding: 8px;
+				}
+				
+				#map-location-info[data-state=expanded] {				
+					height: 100%;
+					padding: 8px;
+					padding-top: 55px;
+					overflow-y: auto;
+				}
+				
+				#map-location-info .map-location-name {
+					font-size: 24px;
+					text-shadow: none;
+					margin: 0px;
+				}
+				
+				#map-location-info .map-location-subtitle {
+					margin: 0px;
+				}
+				
+				#map-location-info .map-location-subtitle > p {
+					font-size: 18px;
+					margin: 0px;
+				}
+				
+				#map-location-info .map-location-description > p {
+					font-size: 14px;
+					margin: 0px;
+				}
+				
+				#map-location-info .map-location-image {
+					padding: 0px 8px;
+					height: 80px;								
+				}
+				
+				#map-location-info .info-bar-controls {
+					display: block;
+					position: absolute;
+					top: 0px;
+					right: 0px;					
+					transition: top 0.3s ease;
+				}
+				
+				#map-location-info .info-bar-controls button {					
+					font-size: 22px;
+					border: none;
+					background: none;
+					opacity: 0.5;
+				}
+				
+				#map-location-info .info-bar-controls button:hover {
+					opacity: 1;				
+				}								
+				
+				#map-location-info .info-bar-controls button.expand {
+					transform: rotate(180deg);
+				}
+				
+				#map-location-info[data-state=expanded] .info-bar-controls {
+					top: 50px;
+				}
+				
+				#map-location-info[data-state=expanded] .info-bar-controls button.expand {
+					transform: rotate(0deg);
+				}
+				
+				#map-location-info .info-bar-controls button.close {
+					padding: 4px;
+				}
+								
+				.leaflet-control-container {	
+					display: none;
+				}
+			}
+
+		</style>
+	</head>
+	<body data-here='albion-map.html'>
+		<div class='hero-unit'>
+			<div class='title'>
+				<h1>Lions</h1>
+				<span id='nav-dropdown'>
+					<h3>Map of Albion &#9660;</h3>
+					<nav style='display:none'>
+						<a href='index.html'>About Us</a>
+						<a href='warhost.html'>The Warhost</a>
+						<a href='gallery.html'>Portrait Gallery</a>
+						<a href='groups.html'>Groups of the Warhost</a>
+						<a href='temple.html'>The Temple of Law</a>
+						<a href='albion-map.html'>Map of Albion</a>
+						<a href='command-team.html'>Command Team</a>
+					</nav>
+				</span>		
+			</div>
+		</div>		
+		<div id="map"></div>
+		<div id='map-location-info'>
+			<nav class='info-bar-controls'>
+				<button class='expand'>&#9660;</button>
+				<button class='close'>&times;</button>
+			</nav>
+			<img class='map-location-image' />
+			<h2 class='map-location-name'></h1>
+			<h3 class='map-location-subtitle'></h3>
+			<div class='map-location-description'></div>
+		</div>
+	</body>
+
+</html>
