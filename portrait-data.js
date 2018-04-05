@@ -307,7 +307,8 @@ var portraitData = {
 		subtitle: "Deputy Castellan",
 		description: "Cox trained as a battle mage in Santia, then joined the warhost in 1113. He follows [temple:trask|Trask] and can often be found guarding the gate. His name is a continuing source of amusement for other Lions.",
 		imageSource: "portraits/cox.jpg",
-		imageCredit: "Nikki Flynn"
+		imageCredit: "Nikki Flynn",
+		status: "dead"
 	},
 	"aled-vulpus": {
 		title: "Aled Vulpus",
