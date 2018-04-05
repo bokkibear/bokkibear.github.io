@@ -271,7 +271,8 @@ var portraitData = {
 		subtitle: "Wizard",
 		description: "Tabitha has been with the warhost since the Renewal of Magic 1114 as a healer. She has magnificent taste in hats.",
 		imageSource: "portraits/tabitha_tate.jpg",
-		imageCredit: "Nikki Flynn"
+		imageCredit: "Nikki Flynn",
+		status: "absent"
 	},
 	"brocc": {
 		title: "Brocc Briarthorn",
