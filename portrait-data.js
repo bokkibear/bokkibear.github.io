@@ -129,7 +129,8 @@ var portraitData = {
 		description: "Dalton Oakes joined the warhost in 1113 in the service of Lady Elayna of Whitecastle, the sister of King Gallad of [map:elmet|Elmet]. A squire, Dalton was instructed by [gallery:arwyn|Sir Arwyn of the Lance]. Serving with some acclaim he was knighted the following spring by [gallery:leofric|Lord Leofric] and the blade of peace, Clarent. Two days later Lady Elayna was slain upon the battlefield. Despite this momentous blow to the hearts of the Lions and in particular to Dalton, his focus on the fate of both Elmet and Albion was magnified as a result. Later that year he was made a Knight of the Realm and represents the interests of Elmet's capital within the warhost.",
 		imageSource: "portraits/dalton.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
-		knight: true
+		knight: true,
+		status: "dead"
 	},
 	"gideon-hayes": {
 		title: "Gideon Hayes",
