@@ -6,7 +6,8 @@ var portraitData = {
 		imageSource: "portraits/gratziella_scarsworth.jpg",
 		imageCredit: "Nikki Flynn",
 		knight: true,
-		royalty: true
+		royalty: true,
+		status: "absent"
 	},
 	"idris-mawr": {
 		title: "Idris Mawr",
@@ -23,7 +24,8 @@ var portraitData = {
 		description: "Lord Blackwell was once a powerful voice in the court of [map:anglia|Anglia]. Banished by Duke Scarsworth, he now travels with the warhost.",
 		imageSource: "portraits/quentyn_blackwell_warface.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
-		council: true
+		council: true,
+		royalty: true
 	},
 	"leofric": {
 		title: "Leofric Trevelyan",
@@ -31,7 +33,8 @@ var portraitData = {
 		description: "Lord Leofric Trevelyan has commanded the warhost of Albion with great distinction under at least five different monarchs. Often charged with coordinating all the armies on the field, he also has the most famous table in all the ten kingdoms named for him.",
 		imageSource: "portraits/leofric.jpg",
 		imageCredit: "Nikki Flynn",
-		knight: true
+		knight: true,
+		status: "absent"
 	},
 	"esme-harcourt": {
 		title: "Esme Harcourt",
@@ -129,7 +132,8 @@ var portraitData = {
 		description: "Dalton Oakes joined the warhost in 1113 in the service of Lady Elayna of Whitecastle, the sister of King Gallad of [map:elmet|Elmet]. A squire, Dalton was instructed by [gallery:arwyn|Sir Arwyn of the Lance]. Serving with some acclaim he was knighted the following spring by [gallery:leofric|Lord Leofric] and the blade of peace, Clarent. Two days later Lady Elayna was slain upon the battlefield. Despite this momentous blow to the hearts of the Lions and in particular to Dalton, his focus on the fate of both Elmet and Albion was magnified as a result. Later that year he was made a Knight of the Realm and represents the interests of Elmet's capital within the warhost.",
 		imageSource: "portraits/dalton.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
-		knight: true
+		knight: true,
+		status: "dead"
 	},
 	"gideon-hayes": {
 		title: "Gideon Hayes",
@@ -137,7 +141,8 @@ var portraitData = {
 		description: "Gideon joined the warhost along with his brother [gallery:marcus-hayes|Marcus], and found his role in the Lions' front lines. Knighted by High King Hazel in 1112, he remains an infrequent but faithful member of the warhost.",
 		imageSource: "portraits/gideon_hayes.jpg",
 		imageCredit: "Duncan Thacker",
-		knight: true
+		knight: true,
+		status: "absent"
 	},
 	"anselm": {
 		title: "Sir Anselm",
@@ -226,6 +231,7 @@ var portraitData = {
 		description: "A survivor of Maldred's Rampage through Deira, his home was lost in that war to fire and death. He survived due to his brothers and sisters of the Lance and fights to defend those around him. The most hesitant bearer of the Sword of Peace and the first to fail the challenge it offered, he confesses he is a man of war not peace.",
 		imageSource: "portraits/thomas_fletcher.jpg",
 		imageCredit: "Nikki Flynn",		
+		status: "dead"
 	},
 	"morwenna-kerrow": {
 		title: "Morwenna Kerrow",
@@ -293,7 +299,7 @@ var portraitData = {
 		description: "Originally from Siberia, Lady Thal joined the Albion warhost in 1113, determined to leave her past behind her. In memory of the late High King Hazel, she swore to serve [gallery:beaumont-trevallian|King Beaumont of Deira] and has been trusted with the responsibility of educating his son, [gallery:austin-trevallian|Prince Austin].\n\nA powerful corporealist, knowledgable scholar and experienced diplomancer, Lady Thal also provides advice and expertise to the other nobles and monarchs within the warhost.",
 		imageSource: "portraits/thalynanti_hazlewood.jpg",
 		imageCredit: "Nikki Flynn",
-		council: true
+		status: "absent"
 	},
 	"montgomery-philips": {
 		title: "Montgomery Philips",
@@ -307,7 +313,8 @@ var portraitData = {
 		subtitle: "Deputy Castellan",
 		description: "Cox trained as a battle mage in Santia, then joined the warhost in 1113. He follows [temple:trask|Trask] and can often be found guarding the gate. His name is a continuing source of amusement for other Lions.",
 		imageSource: "portraits/cox.jpg",
-		imageCredit: "Nikki Flynn"
+		imageCredit: "Nikki Flynn",
+		status: "dead"
 	},
 	"aled-vulpus": {
 		title: "Aled Vulpus",
@@ -324,16 +331,17 @@ var portraitData = {
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
 	},
 	"maddison": {
-		title: "Piers Maddison",
+		title: "Sir Piers Maddison",
 		subtitle: "Warrior of Albion",
-		description: "A mysterious warrior bound to the Gods of Law and the Crown of Albion.",
+		description: "A knight of Kernow and devoted to [temple:creed|Creed], Sir Piers is steadfastly loyal to Albion and to his friends, and with sword and shield in hand he will defend both until his dying breath.",
 		imageSource: "portraits/maddison.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
+		knight: true
 	},
 	"marcus-hayes": {
 		title: "Marcus Hayes",
 		subtitle: "Bard",
-		description: "Marcus joined the warhost with his brother [gallery:gideon-hayes|Gideon] in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege [gallery:brakka|B'rakka], he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
+		description: "Marcus joined the warhost with his brother Gideon in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege [gallery:brakka|B'rakka], he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
 		imageSource: "portraits/marcus_hayes.jpg",
 		imageCredit: "Nikki Flynn"
 	}

@@ -37,7 +37,7 @@ var countryData = [
 		"properties":{ 
 			"id":"anglia",
 			"name": "Anglia", 
-			"subtitle": "Ruled by [gallery:gratziella-scarsworth|High Queen Grace]", 
+			"subtitle": "Ruled by High Queen Grace", 
 			"description": "Anglia is a rich and bountiful land where farming and the natural cycle are incredibly important. The Kingdom is known for its fens and swamplands, including a large troll population. A fair and honest land, its people are seen as hardworking and dutiful. Anglia is a strong supporter of the tenets of the Gods of Law (especially Sastrines) and often a brake on [map:oxford|Oxford] and [map:wessex|Wessex’s] ambitions within Albion.\n\nAnglia is in far more turmoil than appears on the surface, apparently due to the Duchess’ consort, Sir Scarsworth. He rules with an iron fist in her name, while Grace is rarely seen for months on end at court. His draconian treatment of the troll population has caused international upset but his effective handling of justice and dramatic increase in the wealth and security of Anglia cannot be understated.\n\n**Anglian Groups with the Warhost:** The Order of the Clarion",
 			"imgName": "anglia-shield.png"
 		},
