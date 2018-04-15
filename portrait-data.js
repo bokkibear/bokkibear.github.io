@@ -341,7 +341,7 @@ var portraitData = {
 	"marcus-hayes": {
 		title: "Marcus Hayes",
 		subtitle: "Bard",
-		description: "Marcus joined the warhost with his brother [gallery:gideon-hayes|Gideon] in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege [gallery:brakka|B'rakka], he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
+		description: "Marcus joined the warhost with his brother Gideon in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege [gallery:brakka|B'rakka], he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
 		imageSource: "portraits/marcus_hayes.jpg",
 		imageCredit: "Nikki Flynn"
 	}
