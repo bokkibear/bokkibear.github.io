@@ -384,7 +384,7 @@ var portraitData = {
 		imageSource: "portraits/sylva.jpg"		
 	},
 	"aled-vulpus": {
-		title: "Aled Vulpus",
+		title: "Vulpus",
 		subtitle: "Cadet of the [group:arcane-tempest|Arcane Tempest]",
 		description: "Joining the warhost in 1114 after battle mage training in Santia, and returning to active duty in 1115 after a year of further training, Cadet Vulpus is the Arcane Tempest's currently active shamanist. Still green behind the ears, prone to wandering, and too curious for his own good, he survives by a combination of quick learning and the luck of the Fir Cruthen. A constant worry for both Sergeant Major Wood and Private Llorn.",
 		imageSource: "portraits/aled_vulpus.jpg",
