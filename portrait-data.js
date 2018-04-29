@@ -323,7 +323,8 @@ var portraitData = {
 		subtitle: "Wizard",
 		description: "Joined the warhost in 1114 from Albion, he is a part of the Order of St. Eve. He is keen to serve the warhost and find ways to practice magic, particularly in battle. He is not a stuffy, bookish wizard and enjoys a good time, gin and trying to fit as many people including royalty under a table as possible.",
 		imageSource: "portraits/montgomery_fortescue.jpg",
-		imageCredit: "Duncan Thacker"
+		imageCredit: "Duncan Thacker",
+		status: "absent"
 	},
 	"tabitha-tate": {
 		title: "Tabitha Tate",
@@ -393,7 +394,8 @@ var portraitData = {
 		subtitle: "Herald of [map:bernicia|Bernicia]",
 		description: "Dayne joined the Warhost in 1113 and quickly entered under [gallery:brakka|B'rakka's] tutelage in diplomacy as a Herald; his favourite pastimes involve committing casual heresies and skulking around forests at night trying not to get jumped.",
 		imageSource: "portraits/dayne.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
+		status: "absent"
 	},
 	"maddison": {
 		title: "Sir Piers Maddison",
