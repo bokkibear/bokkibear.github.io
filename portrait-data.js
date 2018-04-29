@@ -95,8 +95,8 @@ var portraitData = {
 	},	
 	"tyrius-loran": {
 		title: "Tyrius Loran",
-		subtitle: "High Steward of Albion",
-		description: "Lord Tyrius joined the warhost as little more than a mage scholar, only to be taken with it's cause and pledge himself to High King Lucas, who elevated him to his current role - possibly, the elf suspects, as some sort of joke he still hasn't got yet. He has served loyally under three monarchs, and works alongside [gallery:quentyn-blackwell|Lord Blackwell] to bring the High King's will and voice to the realms.",
+		subtitle: "Duke of [map:caer-loncas|Caer Loncas]",
+		description: "Lord Tyrius joined the warhost as little more than a mage scholar, only to be taken with it's cause and pledge himself to High King Lucas, who elevated him to his current role - possibly, the elf suspects, as some sort of joke he still hasn't got yet. He has served loyally under five monarchs, and works alongside [gallery:quentyn-blackwell|King Blackwell] to bring the High King's will and voice to the realms.",
 		imageSource: "portraits/tyrius_loran.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
 		council: true
