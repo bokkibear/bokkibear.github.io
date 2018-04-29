@@ -115,7 +115,8 @@ var portraitData = {
 		description: "Originally from [map:oxford|Oxford], Johanna joined the warhost in 1111 and has served under three High Kings. Granted her current title by High King Hazel, she has sworn to serve Albion above all else, although this has got her into more trouble than she originally intended. Given the somewhat dubious honour of keeping the war chest in good order, she keeps an eye on the warhost's purse strings, as well as assisting the High Queen and her Privy Council with any tasks they deem necessary.",
 		imageSource: "portraits/johanna_proctor.jpg",
 		imageCredit: "Nikki Flynn",
-		council: true
+		council: true,
+		status: "absent"
 	},
 	"henri-trantrist": {
 		title: "Sir Henri Trantrist",
@@ -236,7 +237,8 @@ var portraitData = {
 		subtitle: "",
 		description: "Osfrith is many things, the bastard brother of the Thegn of Axemouth, a brave soldier, the bearer of a memory of gungnir, one time holder of War's Legacy. One title more recently bestowed though lingers longer than he or his family would wish: 'oath-breaker'. Whilst more pragmatic nations would see that by his blade High King Artur was laid to rest, and that having to have broken an oath to do so was necessary; Albion is a place of honour and law.",
 		imageSource: "portraits/osfrith.jpg",
-		imageCredit: "Oliver Facey"
+		imageCredit: "Oliver Facey",
+		status: "absent"
 	},
 	"will": {
 		title: "Sir Will of the Lance",
@@ -323,8 +325,7 @@ var portraitData = {
 		subtitle: "Wizard",
 		description: "Joined the warhost in 1114 from Albion, he is a part of the Order of St. Eve. He is keen to serve the warhost and find ways to practice magic, particularly in battle. He is not a stuffy, bookish wizard and enjoys a good time, gin and trying to fit as many people including royalty under a table as possible.",
 		imageSource: "portraits/montgomery_fortescue.jpg",
-		imageCredit: "Duncan Thacker",
-		status: "absent"
+		imageCredit: "Duncan Thacker"		
 	},
 	"tabitha-tate": {
 		title: "Tabitha Tate",
