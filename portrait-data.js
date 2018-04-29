@@ -1,4 +1,12 @@
-var portraitData = {
+var portraitData = {	
+	"rudraigh": {
+		title: "Rudraigh Penhaligon",
+		subtitle: "High Monarch Arad Ri Bretwalda of Albion\n\nShire Reeve of [map:cornwall|Cornwall]",
+		description: "Rudraigh is a dour and taciturn fellow, with exacting standards and an unbending love of the law. So great is his desire to see justice served fairly, he acted as advocate to Verlaine, the carnage witch of Cornwall, and his sworn enemy.",
+		imageSource: "portraits/rudraigh.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014",
+		royalty: true
+	},
 	"gratziella-scarsworth": {
 		title: "Gratziella Scarsworth née Whitcombe",
 		subtitle: "High Queen of Albion",
@@ -20,7 +28,7 @@ var portraitData = {
 	},
 	"quentyn-blackwell": {
 		title: "Quentyn Blackwell",
-		subtitle: "Duke of Norwich",
+		subtitle: "King of Anglia",
 		description: "Lord Blackwell was once a powerful voice in the court of [map:anglia|Anglia]. Banished by Duke Scarsworth, he now travels with the warhost.",
 		imageSource: "portraits/quentyn_blackwell_warface.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
@@ -63,7 +71,7 @@ var portraitData = {
 	},
 	"beaumont-trevallian": {
 		title: "Beaumont Trevallian",
-		subtitle: "King of [map:Deira|Deira]",
+		subtitle: "King of [map:Deira|Deira]\n\nKnight of Corporeal",
 		description: "Tip of the [group:lance-of-deira|Lance], Knight of Corporeal and bearer of the Shinzu blade bestowed on him for his honorable conduct during the battle with the Mempo. New to his throne, he has a kingdom to rebuild following the destruction by the Lich Maldred.\n\nBest known for his marshall leadership of the Lance of Deira, a lesser known fact is his love of hunting, a pastime he enjoys with his son [gallery:austin-trevallian|Prince Austin].",
 		imageSource: "portraits/beaumont_trevallian.jpg",
 		imageCredit: "Nikki Flynn",
@@ -77,6 +85,13 @@ var portraitData = {
 		imageSource: "portraits/austin_trevallian.jpg",
 		imageCredit: "Nathan Burman",		
 		royalty: true
+	},
+	"nathaniel-smythe": {
+		title: "Nathaniel Smythe",
+		subtitle: "Cadet",
+		description: "A cadet within the [group:arcane-tempest|Arcane Tempest].",
+		imageSource: "portraits/nathaniel_smythe.jpg",
+		imageCredit: "John C. Kirk"		
 	},	
 	"tyrius-loran": {
 		title: "Tyrius Loran",
@@ -118,6 +133,36 @@ var portraitData = {
 		imageCredit: "Unknown",
 		status: "absent",
 		knight: true
+	},
+	"lady-morticia": {
+		title: "Lady Morticia",
+		subtitle: "Knight",
+		description: "A Blackwood knight of the Order of the Bear, loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
+		imageSource: "portraits/lady_morticia.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		council: true
+	},
+	"alistair-yates": {
+		title: "Alistair Yates",
+		subtitle: "Baron of Norholt",
+		description: "As the oldest son of the Yates family, Alistair was destined to have a quiet life administering the family estate. However in his youth Alistair was inspired by the Knights in the service to [temple:trask|Trask] and was, after much insistence, granted permission by his father to train as a Templar.\n\nAlistair joined the Lions warhost to render assistance wherever he could. Since then he has become a Knight of the realm, married an Alamukh and been raised to Baron of [map:norholt|Norholt].\n\nHe sits on the Knights Council attempting to ensure that loyalty and duty are accounted for in all decisions.",
+		imageSource: "portraits/alistair_yates.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		knight: true,
+		council: true
+	},
+	"verity-fenn": {
+		title: "Verity Fenn",
+		subtitle: "Guildmaster of the Allied Alchemy Guild\n\nHead Alchemist of Albion",
+		description: "Swabbie of the Santia Maria, Head Alchemist for the Lions and co-founding Guildmaster of the cross-faction Alchemy Guild. Verity can usually be found either with the [group:arcane-tempest|Arcane Tempest] or assisting the crafting and alchemy guilds. When she isn't advising and researching with the Warhost, she spends her days swabbing the decks and doing the Tempest's laundry.",
+		imageSource: "portraits/verity_fenn.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
+	},
+	"kheeevra-silurian": {
+		title: "Kh'eeevra Silurian",
+		description: "An elf from a now extinct forrest, Kh'eeevra spends her time wandering Albion when not serving the warhost, putting her skills as an archer and ranger to use, helping those in need where she finds them. Preferring the solitude of the forests, she often spends months at a time wandering the wilds alone.",
+		imageSource: "portraits/kheeevra_silurian.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
 	},
 	"finn-mcgarry": {
 		title: "Finn McGarry",
@@ -171,13 +216,6 @@ var portraitData = {
 		status: "absent",
 		knight: true
 	},
-	"rudraigh": {
-		title: "Rudraigh Penhaligon",
-		subtitle: "Shire Reeve of [map:cornwall|Cornwall]\n\nThegn of [map:caer-culhaven|Caer Culhaven]",
-		description: "Rudraigh is a dour and taciturn fellow, with exacting standards and an unbending love of the law. So great is his desire to see justice served fairly, he acted as advocate to Verlaine, the carnage witch of Cornwall, and his sworn enemy. Whilst he does not recognise Idris as the High King of Albion, he swears fealty to Idris Mawr, the great dragon Albion itself.",
-		imageSource: "portraits/rudraigh.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014"
-	},
 	"issa": {
 		title: "Issa maf Cathis",
 		subtitle: "Witch of Cornwall\n\nFirst Wizard of Albion",
@@ -185,6 +223,13 @@ var portraitData = {
 		imageSource: "portraits/issa.jpg",
 		imageCredit: "Duncan Thacker",		
 		council: true
+	},
+	"david-jonathan-steele": {
+		title: "Sir David Jonathan Steele",
+		subtitle: "Templar of [temple:creed|Creed]",
+		description: "Sir Steele is [gallery:alistair-yates|Sir Alistair's] confidant, traveling with him and the Warhost. He has spent a lot of time around commoners. This results in him being a little rough around the edges. Quick to make a dirty joke with soldiers in arms, he tries to conduct himself slightly better around womenfolk and gentry.\n\nSteele is utterly devoted to Creed and the Pantheon of Law. In battle, he has been known to lose himself to fierce rages, and struggles to resolve Creed’s Wisdom and Fury.",
+		imageSource: "portraits/david_jonathan_steele.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
 	},
 	"osfrith": {
 		title: "Osfrith",
@@ -200,6 +245,13 @@ var portraitData = {
 		imageSource: "portraits/will.jpg",
 		imageCredit: "Emilie Rae",
 		status: "dead",
+		knight: true
+	},
+	"rufus-mandrake": {
+		title: "Rufus Mandrake",
+		subtitle: "Knight of the North",
+		description: "Rufus travels with the [group:knights-of-the-north|Knights of the North], and is committed to serving the people of Albion.",
+		imageSource: "portraits/rufus_mandrake.jpg",		
 		knight: true
 	},
 	"richaldis-beauchamp": {
@@ -308,6 +360,12 @@ var portraitData = {
 		imageSource: "portraits/montgomery_philips.jpg",
 		imageCredit: "Nikki Flynn"
 	},
+	"calonar-aceleus": {
+		title: "Calonar Aceleus",
+		description: "Eldest son on the honourable Sir Calidore Aceleus. Formerly Captain Aceleus of the Kings Foresters of Wessex, and proud member of the Lions Scouting force.",
+		imageSource: "portraits/calonar_aceleus.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+	},
 	"cox": {
 		title: "Private Cox",
 		subtitle: "Deputy Castellan",
@@ -315,6 +373,11 @@ var portraitData = {
 		imageSource: "portraits/cox.jpg",
 		imageCredit: "Nikki Flynn",
 		status: "dead"
+	},
+	"sylva": {
+		title: "Private Sylva",		
+		description: "Sylva is the [group:arcane-tempest|Arcane Tempest's] second most experienced Thaumaturge, specializing in creating arcane weaponry. He has been with the war host for most of his adult life, having first taken the field at the ripe old age of 17.\n\nAs well as his duties as Thaumaturge and soldier, he is the President of the Artisan's guild and is coordinating them in the preservation of knowledge and further establishing their presence as an organisation in the warhost.",
+		imageSource: "portraits/sylva.jpg"		
 	},
 	"aled-vulpus": {
 		title: "Aled Vulpus",
