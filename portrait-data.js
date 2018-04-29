@@ -268,6 +268,7 @@ var portraitData = {
 		description: "Nathaniel is the third son to the Viscount Samuel de Montfort of [map:deira|Deira]. He became part of the [group:lance-of-deira|Lance] in the war against Maldred but strived ever to keep his manners and his ideals. Nathaniel is both trained in politics and courtly ways from his time in [map:oxford|Oxford] as a young man, and trained in the harshness of war in the scouring of Deira. He has never once however lost faith - either in [temple:|the Seven] or the in Lance.",
 		imageSource: "portraits/nathaniel.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
+		status: "dead"
 	},
 	"arwyn": {
 		title: "Sir Arwyn of the Lance",
