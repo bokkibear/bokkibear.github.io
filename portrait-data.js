@@ -315,7 +315,8 @@ var portraitData = {
 		subtitle: "Queen's Chronicler",
 		description: "Born in Estragales, Johnny was the best warrior in Tinsel Town but at his heart is a poet. He left in 1106 and joined the crew of Captain Ramos, serving the Algaia as a battlefield reporter and front line warrior. However, Johnny’s hedonistic nature got him into trouble with the elves, and one night he was fired after almost killing an Estragalian priest in a drunken brawl.\n\nAs a parting gift, Captain Ramos helped Johnny recapture a foghouse from unscrupulous pirates. Johnny lived there quite happily for many years, earning a small stipend for keeping ships safe from the treacherous Needles. He now serves [gallery:cersei-de-vries|Queen Cersei] as a chronicler in her household guards and has earned the rank of Sergeant for his loyal service and excellent spelling.",
 		imageSource: "portraits/jonny_diamond.jpg",
-		imageCredit: "Nikki Flynn"
+		imageCredit: "Nikki Flynn",
+		status: "dead"
 	},
 	"montgomery-fortescue": {
 		title: "Montgomery Fortescue",
