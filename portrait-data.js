@@ -280,6 +280,13 @@ var portraitData = {
 		imageCredit: "Slender Pictures",
 		knight: true
 	},
+	"diggory": {
+		title: "Diggory Colt",
+		subtitle: "Head of Intelligence of the Warhost of Albion\n\nA Magistrate of Essex",		
+		description: "Diggory was appointed in 1117 to serve as the Head of Intelligence to the Warhost of Albion. Hailing from [map:essex|Essex], Diggory has spent some time at sea as a provost in that land's navy and latterly as a magistrate based in Standford, Essex. His parents are co-stewards to House Banfleet of Standford.",
+		imageSource: "portraits/diggory.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+	},
 	"thomas-fletcher": {
 		title: "Thomas Fletcher",
 		subtitle: "Lance of Deira",
