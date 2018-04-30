@@ -264,6 +264,13 @@ var portraitData = {
 		imageCredit: "Steve 'Flasher' Mitchell",
 		status: "dead"
 	},
+	"jhorik": {
+		title: "Jhorik the Striped",
+		subtitle: "First Hero of the Academy of War",
+		description: "Born in Norsca, Jhorik moved to [map:elmet|Elmet] to establish a mine. After meeting Letholdus Ward, he agreed his strength in arms would be better put to use serving Albion and the Warhost. Joining the Gathered Sentinels and leaving his brothers in charge of the mine, Jhorik has served the Warhost since 1116 as a blacksmith, a line-breaker and as a Hero of the Academy of War.",
+		imageSource: "portraits/jhorik.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell"
+	},
 	"nathaniel-de-montfort": {
 		title: "Nathaniel Richard de Montfort",
 		subtitle: "First Wizard's Apprentice",
@@ -274,10 +281,10 @@ var portraitData = {
 	},
 	"arwyn": {
 		title: "Sir Arwyn of the Lance",
-		subtitle: "Knight of the Realm",
-		description: "Formally of [map:deira|Deira] prior to the Massacre, Arwyn is one of the founder members of the [group:lance-of-deira|Lance] and a veteran of the Bridge. A brutal fighter, Arwyn's preferred place is blade towards the enemy, wherever it may be.",
+		subtitle: "Knight Martial, Champion of [map:deira|Deira]",
+		description: "Sir Arwyn is one of the foremost knights of Albion, holding the rank of Knight Martial. He exemplifies what it means to be a Champion. He never shirks his duty; always at the front, always the last from the field. He is [gallery:beaumont-trevallian|King Beaumont's] Champion and the Champion of Deira, one of the last surviving knights of the [group:lance-of-deira|Lance of Deira].\n\nHe is the most stalwart of friends and dangerous of enemies.",
 		imageSource: "portraits/arwyn.jpg",
-		imageCredit: "Slender Pictures",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true
 	},
 	"diggory": {
@@ -319,6 +326,21 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		council: true
 	},
+	"prydwen-mortaine": {
+		title: "Prydwen Mortaine",
+		subtitle: "Dame of [map:elmet|Elmet]",
+		description: "Dame Prydwen Mortaine of Elmet is a weathered knight of Lord Vernon, favouring strategy, cunning and finesse over outright brutishness. She is devoted to [temple:trask|Trask]. From birth, she has been prepared and trained for knighthood, culminating in her receiving her title four years ago.\n\nNow with the Warhost, Prydwen’s loyalty to the people and the land has only grown; she will raise her sword and risk her life not just for those who have her friendship, but for all men and women of Albion – it is her duty.",
+		imageSource: "portraits/prydwen_mortaine.jpg",
+		imageCredit: "Ben Cawkwell",
+		knight: true
+	},
+	"mortlock-dayne": {
+		title: "Mortlock Dayne",
+		subtitle: "Squire, Follower of [temple:solkar|Solkar]",
+		description: "Squire to [gallery:alistair-yates|Sir Alistair], Mortlock is being trained to become a Knight. He has also taken it upon himself to follow Solkar the God of Righteous Vengeance.",
+		imageSource: "portraits/mortlock_dayne.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"		
+	},
 	"jonathan-diamond": {
 		title: "Sergeant Jonathan Diamond",
 		subtitle: "Queen's Chronicler",
@@ -349,6 +371,13 @@ var portraitData = {
 		imageSource: "portraits/brocc.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
 	},
+	"lucas-grimm": {
+		title: "Lucas Grimm",
+		subtitle: "Mage Adept and Scribe of the [group:arcane-tempest|Arcane Tempest]",
+		description: "Scribe Grimm joined the Warhost during the campaign in Cornwall against the risen Arthur and the Druid Army at the end of 1115.\n\nAs time has gone on thanks to many years of study and the help from those around him. He has become Scribe for the Arcane Tempest and learned the skills so he can now be called a Grand Master Artisan, and he has plans to learn so much more (but only if he would leave his workshop for more than five minutes).",
+		imageSource: "portraits/lucas_grimm.jpg",
+		imageCredit: "Harry 'Aitch' Bryce"
+	},
 	"bill-brewer": {
 		title: "Bill Brewer",
 		subtitle: "Peasant of [map:deira|Deira]",
@@ -364,12 +393,12 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		status: "absent"
 	},
-	"montgomery-philips": {
-		title: "Montgomery Philips",
-		subtitle: "Captain of the Arcane Tempest",
-		description: "In charge of the Warhost detachment of the [group:arcane-tempest|Arcane Tempest] Captain Phillips finds himself continually in the thick of it. The Tempest run some of the most diverse duties of any unit and Phillips is constantly racing to keep up with the goings on both of his unit and the Warhost.\n\nCaptain Phillips is starting to get a reputation among the warhost for turning up safe and sound just after a search and rescue team have been dispatched to find him.",
-		imageSource: "portraits/montgomery_philips.jpg",
-		imageCredit: "Nikki Flynn"
+	"montgomery-phillips": {
+		title: "Montgomery Phillips",
+		subtitle: "Major of the [group:arcane-tempest|Arcane Tempest]\n\nMarshall of [map:essex|Essex]\n\nSuzerain of War\n\nAmbassador to the Jhereg Nation",
+		description: "One of the few Tempest to survive the battles around [map:battle-of-polgooth|Polgooth], Phillips has served with the Arcane Tempest for over 15 years. A man of many roles, he is the Arcane Tempest's as political liason to the warhost and serves the throne of Essex as Marshall.",
+		imageSource: "portraits/montgomery_phillips.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell"
 	},
 	"calonar-aceleus": {
 		title: "Calonar Aceleus",
