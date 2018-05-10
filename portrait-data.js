@@ -23,13 +23,13 @@ var portraitData = {
 		description: "King Idris was a holy knight of [map:cornwall|Cornwall] sworn to the defense of holy items, sites and pilgrims of Albion. He now rules all of the kingdoms of the isle and by the might of Excalibur commands the Warhost in its foreign wars.",
 		imageSource: "portraits/idris_mawr.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014",
-		status: "dead",
+		status: "absent",
 		royalty: true
 	},
 	"quentyn-blackwell": {
 		title: "Quentyn Blackwell",
-		subtitle: "King of Anglia",
-		description: "Lord Blackwell was once a powerful voice in the court of [map:anglia|Anglia]. Banished by Duke Scarsworth, he now travels with the warhost.",
+		subtitle: "King of [map:anglia|Anglia], Hand of the King, Duke of Norwich, Warden of the East",
+		description: "Has served as Hand to Goddard, Idris, Gratziela and now Rudraigh. Thankful that his own kingdom is currently quiet.",
 		imageSource: "portraits/quentyn_blackwell_warface.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
 		council: true,
@@ -37,12 +37,12 @@ var portraitData = {
 	},
 	"leofric": {
 		title: "Leofric Trevelyan",
-		subtitle: "Knight Commander of the Warhost",
-		description: "Lord Leofric Trevelyan has commanded the warhost of Albion with great distinction under at least five different monarchs. Often charged with coordinating all the armies on the field, he also has the most famous table in all the ten kingdoms named for him.",
+		subtitle: "King of [map:cornwall|Cornwall]",
+		description: "Lord Leofric Trevelyan has commanded the warhost of Albion with great distinction under at least five different monarchs. Often charged with coordinating all the armies on the field, he also has the most famous table in all the ten kingdoms named for him. Crowned King of Cornwall in 1116",
 		imageSource: "portraits/leofric.jpg",
 		imageCredit: "Nikki Flynn",
 		knight: true,
-		status: "absent"
+		royalty: true
 	},
 	"esme-harcourt": {
 		title: "Esme Harcourt",
@@ -78,6 +78,42 @@ var portraitData = {
 		knight: true,
 		royalty: true
 	},	
+	"benegar": {
+		title: "Benegar",
+		subtitle: "King of [map:sussex|Sussex]",
+		description: "Last from under the mountain, he rules Sussex with an iron fist in accordence with Solkars laws",
+		imageSource: "portraits/Benegar.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		knight: true,
+		royalty: true
+	},
+	"gallad": {
+		title: "Gallad de Siward",
+		subtitle: "King of [map:elmet|Elmet]",
+		description: "Gets drunk, ruins cheese",
+		imageSource: "portraits/Gallad.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		knight: true,
+		royalty: true
+	},
+	"greyhame": {
+		title: "Oswald Greyhame",
+		subtitle: "Prince of [map:Norholt|Norholt]\n\nThe Wyvern",
+		description: "Duke of Norholt city, Lord of the four keeps, Guardian of the Fount, Knight Commander of the Order of Saint Bispus, Warden of the border. Ruler of the mountainous principality who's people have recently flocked to the warhost",
+		imageSource: "portraits/Greyhame.jpg",
+		imageCredit: "Rachel Pierce",
+		knight: true,
+		royalty: true
+	},
+	"hawksmoor": {
+		title: "Hawksmoor",
+		subtitle: "Earl of [map:oxford|Oxford]",
+		description: "Temporarily in charge",
+		imageSource: "portraits/Hawksmoor.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		knight: true,
+		royalty: true
+	},
 	"austin-trevallian": {
 		title: "Austin Trevallian",
 		subtitle: "Prince of [map:Deira|Deira]",
