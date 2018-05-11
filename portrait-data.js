@@ -45,9 +45,9 @@ var portraitData = {
 		status: "absent"
 	},
 	"esme-harcourt": {
-		title: "Esme Harcourt",
-		subtitle: "Queen of [map:essex|Essex]",
-		description: "Born to a noble house of [map:wessex|Wessex], Esme rose to prominence in the court of the warhost, helping to establish the current fashion for the round table as a place where valuable information is brought together and investigated. Chosen to rule by the Essex Crown Council, her coronation was at Renewal 1113. Former companion of the fallen hero Sir Cadawyr, for whom the blade is named, she now honours his memory by walking the path of the Banisher.\n\nNot a Weech.",
+		title: "Queen Esme Harcourt",
+		subtitle: "Marquess of Santia\n\nWren of [map:essex|Essex]",
+		description: "Born to a noble house of [map:wessex|Wessex], Esme rose to prominence in the court of the warhost, helping to establish the current fashion for the round table as a place where valuable information is brought together and investigated. Chosen to rule Essex by the Essex Crown Council and High King Goddard Hazelwood, her warhost roles include healer, scholar and diplomat.\n\nNot a weetch.",
 		imageSource: "portraits/esme_harcourt.jpg",
 		imageCredit: "Nikki Flynn",
 		royalty: true
@@ -200,13 +200,12 @@ var portraitData = {
 		council: true,
 		knight: true
 	},
-	"prudence-arbiter-dodd": {
-		title: "Prudence Arbiter Dodd",
-		subtitle: "Order of Papilio",
-		description: "TBA",
-		imageSource: "portraits/prudence_arbiter_dodd.jpg",
-		imageCredit: "Duncan Thacker",
-		status: "absent"
+	'daerin': {
+		title: "Mi'Naith Daerin",
+		subtitle: "Chancellor of the Celestial College\n\nBaron of Thorton",
+		description: "An elven elementalist from Siberia. Can the Lions trust him and his foreign ways?",
+		imageSource: "portraits/daerin.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
 	},
 	"florence-simmerson": {
 		title: "Florence Simmerson",
@@ -371,6 +370,13 @@ var portraitData = {
 		imageSource: "portraits/brocc.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
 	},
+	"llorn": {
+		title: "Sergeant Nylund Llorn",
+		subtitle: "Master Of the Hunt\n\nMagus Prime, Famine-Slayer",
+		description: "Head Scout of the Albion Warhost and Sergeant in the [group:arcane-tempest|Arcane Tempest]. Llorn grew up in a small fishing village in [map:essex|Essex] before being recruited into the Arcane Tempest, where he proceeded to take poorly to the barracks life before being brought to the warhost where he very much hit his stride.\n\nLlorn rose to prominence in the warhost through the tutelage of Captain Wood where he now leads the scouts as her successor and is, with her, one of the few Ranalfians who openly flaunts their faith in the face of continued distrust and distain.",
+		imageSource: "portraits/llorn.jpg",
+		imageCredit: "Duncan Thacker"
+	},
 	"lucas-grimm": {
 		title: "Lucas Grimm",
 		subtitle: "Mage Adept and Scribe of the [group:arcane-tempest|Arcane Tempest]",
@@ -418,6 +424,12 @@ var portraitData = {
 		title: "Private Sylva",		
 		description: "Sylva is the [group:arcane-tempest|Arcane Tempest's] second most experienced Thaumaturge, specializing in creating arcane weaponry. He has been with the war host for most of his adult life, having first taken the field at the ripe old age of 17.\n\nAs well as his duties as Thaumaturge and soldier, he is the President of the Artisan's guild and is coordinating them in the preservation of knowledge and further establishing their presence as an organisation in the warhost.",
 		imageSource: "portraits/sylva.jpg"		
+	},
+	"rinoa": {
+		title: "Rinoa",
+		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by Letholdus Ward.\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the Gathered Sentinels.",
+		imageSource: "portraits/rinoa.jpg",
+		imageCredit: "Sam Merry"
 	},
 	"aled-vulpus": {
 		title: "Vulpus",
