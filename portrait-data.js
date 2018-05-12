@@ -166,9 +166,9 @@ var portraitData = {
 		knight: true
 	},
 	"pellinore": {
-		title: "Sir Pellinore di Siward",
+		title: "Sir Pellionore di Siward",
 		subtitle: "Knight Feudal",
-		description: "Sir Pellionore disdained the life of a questing knight to join the warhost",
+		description: "Sir Pellionore distained the life of a questing knight to join the warhost",
 		imageSource: "portraits/pellinore.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true
@@ -412,7 +412,7 @@ var portraitData = {
 	"llorn": {
 		title: "Sergeant Llorn",
 		subtitle: "Master Of the Hunt\n\nMagus Prime, Famine-Slayer",
-		description: "Head Scout of the Albion Warhost and Sergeant in the [group:arcane-tempest|Arcane Tempest]. Llorn grew up in a small fishing village in [map:essex|Essex] before being recruited into the Arcane Tempest, where he proceeded to take poorly to the barracks life before being brought to the warhost where he very much hit his stride.\n\nLlorn rose to prominence in the warhost through the tutelage of Captain Wood where he now leads the scouts as her successor and is, with her, one of the few Ranalfians who openly flaunts their faith in the face of continued distrust and disdain.",
+		description: "Head Scout of the Albion Warhost and Sergeant in the [group:arcane-tempest|Arcane Tempest]. Llorn grew up in a small fishing village in [map:essex|Essex] before being recruited into the Arcane Tempest, where he proceeded to take poorly to the barracks life before being brought to the warhost where he very much hit his stride.\n\nLlorn rose to prominence in the warhost through the tutelage of Captain Wood where he now leads the scouts as her successor and is, with her, one of the few Ranalfians who openly flaunts their faith in the face of continued distrust and distain.",
 		imageSource: "portraits/llorn.jpg"
 	},
 	"cox": {
