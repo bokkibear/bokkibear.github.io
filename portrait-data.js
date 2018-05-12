@@ -165,21 +165,21 @@ var portraitData = {
 		status: "absent",
 		knight: true
 	},
+	"pellinore": {
+		title: "Sir Pellionore di Siward",
+		subtitle: "Knight Feudal",
+		description: "Sir Pellionore distained the life of a questing knight to join the warhost",
+		imageSource: "portraits/pellinore.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		knight: true
+	},
 	"alistair-yates": {
 		title: "Alistair Yates",
-		subtitle: "Baron of Norholt",
+		subtitle: "Knight of Duty, Baron of Norholt",
 		description: "As the oldest son of the Yates family, Alistair was destined to have a quiet life administering the family estate. However in his youth Alistair was inspired by the Knights in the service to [temple:trask|Trask] and was, after much insistence, granted permission by his father to train as a Templar.\n\nAlistair joined the Lions warhost to render assistance wherever he could. Since then he has become a Knight of the realm, married an Alamukh and been raised to Baron of [map:norholt|Norholt].\n\nHe sits on the Knights Council attempting to ensure that loyalty and duty are accounted for in all decisions.",
 		imageSource: "portraits/alistair_yates.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true,
-		council: true
-	},
-	"issa": {
-		title: "Issa maf Cathis",
-		subtitle: "Witch of Cornwall\n\nFirst Wizard of Albion",
-		description: "Issa travelled the lands around her Caer to protect and heal where needed. In her dedication to the survivors that flocked to the relative safety of [map:caer-culhaven|Caer Culhaven] she turned to the war host for aid.",
-		imageSource: "portraits/issa.jpg",
-		imageCredit: "Duncan Thacker",		
 		council: true
 	},
 	"arwyn": {
@@ -189,6 +189,14 @@ var portraitData = {
 		imageSource: "portraits/arwyn.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true
+	},
+	"issa": {
+		title: "Issa maf Cathis",
+		subtitle: "Witch of Cornwall\n\nFirst Wizard of Albion",
+		description: "Issa travelled the lands around her Caer to protect and heal where needed. In her dedication to the survivors that flocked to the relative safety of [map:caer-culhaven|Caer Culhaven] she turned to the war host for aid.",
+		imageSource: "portraits/issa.jpg",
+		imageCredit: "Duncan Thacker",		
+		council: true
 	},
 	"diggory": {
 		title: "Diggory Colt",
