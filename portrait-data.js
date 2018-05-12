@@ -91,7 +91,7 @@ var portraitData = {
 	"gallad": {
 		title: "Gallad de Siward",
 		subtitle: "King of [map:elmet|Elmet]",
-		description: "Gallas rules with an austere focus, disturbed only by a penchant for fine banquets and merriment. Frequently away from his kingdom, called by the gods of law to quest across Albion and the known world, his capable advisors rule in his absence",
+		description: "Gallad rules with an austere focus, disturbed only from crusade by a penchant for fine banquets and merriment. Frequently away from his kingdom, called by the gods of law to quest across Albion and the known world, his capable advisors rule in his absence",
 		imageSource: "portraits/Gallad.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true,
