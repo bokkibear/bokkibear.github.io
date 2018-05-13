@@ -212,6 +212,13 @@ var portraitData = {
 		imageSource: "portraits/brocc.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
 	},
+	"thrush": {
+		title: "Thrush",
+		subtitle: "Cadet-Prelate\n\nRitual Laureate of Albion",
+		description: "Following the abrupt departure of his predecessor, Thrush is the current interim Head Ritualist of the Lions Warhost, while also serving as a Cadet of the Arcane Tempest. Serving as both the lowest rank in the military and the highest rank of his particular talent has given the young Ritualist a chip on his shoulder, and an over-eagerness to prove himself worthy of both his title and a tricorn.",
+		imageSource: "portraits/thrush.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2016",
+	},
 	"verity-fenn": {
 		title: "Verity Fenn",
 		subtitle: "Guildmaster of the Allied Alchemy Guild\n\nHead Alchemist of Albion",
@@ -364,6 +371,13 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		council: true
 	},
+	"vyncent": {
+		title: "Vyncent",
+		subtitle: "Guildmaster of the Surgeon's Guild, Novice Brother of the Knights Hospitaller",
+		description: "Born an orphan, Vyncent was raised by a brilliant surgeon. Upon coming of age, he found religion in the form of the Knights Hospitaller of Damacest, and joined the warhost to better use his healing abilities. Though perhaps the most nervous member of the warhost, he is determined to do the right thing, even though he does not always know what that is. After the passing of brother Aldwin, Vyncent reluctantly took responsibility for the Surgeon's Guild. It is in this position that he hopes to best serve Damacest.",
+		imageSource: "portraits/vyncent.jpg",
+		imageCredit: "Duncan Thacker",
+	},
 	"prydwen-mortaine": {
 		title: "Prydwen Mortaine",
 		subtitle: "Dame of [map:elmet|Elmet]",
@@ -444,10 +458,10 @@ var portraitData = {
 	},
 	"lucas-grimm": {
 		title: "Lucas Grimm",
-		subtitle: "Mage Adept and Scribe of the [group:arcane-tempest|Arcane Tempest]",
-		description: "Scribe Grimm joined the Warhost during the campaign in Cornwall against the risen Arthur and the Druid Army at the end of 1115.\n\nAs time has gone on thanks to many years of study and the help from those around him. He has become Scribe for the Arcane Tempest and learned the skills so he can now be called a Grand Master Artisan, and he has plans to learn so much more (but only if he would leave his workshop for more than five minutes).",
-		imageSource: "portraits/lucas_grimm.jpg",
-		imageCredit: "Harry 'Aitch' Bryce"
+		subtitle: "Private and Scribe of the [group:arcane-tempest|Arcane Tempest]",
+		description: "Grimm joined the Warhost during the campaign in Cornwall against the risen Arthur and the Druid Army at the end of 1115. As time has gone on, in no small part in thanks to those around him and many years of study. He's now a Private and Scribe for the Arcane Tempest and even with all that somehow had the spare time to learned the skills to be a Grand Master Artisan. He has plans to learn and do so much more but that is only if he would leave his workshop for more than five minutes.",
+		imageSource: "portraits/lucas_grimm2.jpg",
+		imageCredit: "Lucy DeGraft-Johnson"
 	},
 	"nathaniel-smythe": {
 		title: "Nathaniel Smythe",
