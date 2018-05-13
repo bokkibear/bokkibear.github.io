@@ -379,6 +379,13 @@ var portraitData = {
 		imageSource: "portraits/mortlock_dayne.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"		
 	},
+	"ailah": {
+		title: "Ailah Kerrow-Fletcher",
+		subtitle: "Second to the [gallery:teagan-patrixbourne|Champion of Law]",
+		description: "Emerging from a guerrilla war against the druids in the deepest wilds of [map:cornwall|Cornwall], Ailah Kerrow turned up quite uninvited to the great winter banquet of 1114, with demands that the warriors of Albion should turn their attention to helping her besieged people. Once Cornwall was liberated, it became clear that there was no home or family of hers left to return to, and the ranger found renewed purpose amongst the warhost.\n\nFiercely loyal to her friends and allies despite her somewhat blunt and often prickly nature, Ailah struggles to bridge the gap between the deeply traditional ways of Kernow and an ever-changing unified Albion.",
+		imageSource: "portraits/ailah.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
+	},
 	"jonathan-diamond": {
 		title: "Sergeant Jonathan Diamond",
 		subtitle: "Queen's Chronicler",
