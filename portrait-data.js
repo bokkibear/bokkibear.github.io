@@ -166,7 +166,7 @@ var portraitData = {
 		knight: true
 	},
 	"pellinore": {
-		title: "Sir Pellionore di Siward",
+		title: "Sir Pellinore",
 		subtitle: "Knight Feudal",
 		description: "Sir Pellionore disdained the life of a questing knight to join the warhost",
 		imageSource: "portraits/pellinore.jpg",
