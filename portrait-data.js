@@ -326,7 +326,7 @@ var portraitData = {
 	},
 	"jhorik": {
 		title: "Jhorik the Striped",
-		subtitle: "First Hero of the Academy of War",
+		subtitle: "First Hero and Master of the Academy of War, Lead Crafter and Forgemaster of Albion",
 		description: "Born in Norsca, Jhorik moved to [map:elmet|Elmet] to establish a mine. After meeting Letholdus Ward, he agreed his strength in arms would be better put to use serving Albion and the Warhost. Joining the Gathered Sentinels and leaving his brothers in charge of the mine, Jhorik has served the Warhost since 1116 as a blacksmith, a line-breaker and as a Hero of the Academy of War.",
 		imageSource: "portraits/jhorik.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell"
