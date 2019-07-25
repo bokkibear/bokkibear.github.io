@@ -278,6 +278,14 @@ var portraitData = {
 		imageCredit: "Steve 'Flasher' Mitchell",
 		council: true
 	},
+	"boar": {
+		title: "Boar Thistlan",
+		subtitle: "Squire to Lady Morticia",
+		description: "Boar is the keeper of knowledge within the Order of the Bear.",
+		imageSource: "portraits/boar.jpg",
+		imageCredit: "Unknown",
+		council: true
+	},
 	"wordsworth": {
 		title: "Baron Matthew Wordsworth",
 		subtitle: "Drollteller and Master of The Library of Norholt",
