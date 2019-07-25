@@ -180,7 +180,8 @@ var portraitData = {
 		imageSource: "portraits/alistair_yates.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true,
-		council: true
+		council: true,
+		status: "dead"
 	},
 	"arwyn": {
 		title: "Sir Arwyn of the Lance",
@@ -527,11 +528,18 @@ var portraitData = {
 		imageSource: "portraits/calonar_aceleus.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 	},
+	"sebastian-thatcher": {
+		title: "Sebastian Thatcher",
+		subtitle: "Wizard of the Order of the Bear",
+		description: "Sebastianan was sent to the warhost to provide magical support to the Order.",
+		imageSource: "portraits/sebastian-thatcher.jpg",
+		imageCredit: "Ben Cawkwell"
+	},
 	"kheeevra-silurian": {
 		title: "Kh'eeevra Silurian",
 		description: "An elf from a now extinct forrest, Kh'eeevra spends her time wandering Albion when not serving the warhost, putting her skills as an archer and ranger to use, helping those in need where she finds them. Preferring the solitude of the forests, she often spends months at a time wandering the wilds alone.",
 		imageSource: "portraits/kheeevra_silurian.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell",
+		imageCredit: "Steve 'Flasher' Mitchell"
 	},
 	"rinoa": {
 		title: "Rinoa",
