@@ -62,6 +62,13 @@ var portraitData = {
 		royalty: true,
 		knight: true
 	},
+	"elizabeth-yates": {
+		title: "Queen of Norholt",
+		subtitle: "Lorekeeper and Custodian of the Order of Avalon",
+		description: "The newly appointed Queen of the newly risen [map:norholt|Kingdom of Norholt]. During her time within the warhost she has faced difficulty and challenge, but saw a rise in station after overcoming it with the support of newfound allies and friends. From hand of the prince to baroness and now monarch. The nation she fought so fiercely to protect and see rise from a principality to a Kingdom. It has been a challenging time, and it has only just begun.",
+		imageSource: "portraits/elizabeth-yates.jpg",
+		imageCredit: "Emz Rae"
+	},
 	"cornelius-mourning": {
 		title: "Cornelius Mourning",
 		subtitle: "King of [map:wessex|Wessex]\n\nCaptain of the King's Own Volunteers",
