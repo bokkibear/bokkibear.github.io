@@ -193,7 +193,7 @@ var portraitData = {
 	"arwyn": {
 		title: "Sir Arwyn of the Lance",
 		subtitle: "Knight Martial, Champion of [map:deira|Deira]",
-		description: "Sir Arwyn is one of the foremost knights of Albion, holding the rank of Knight Martial. He exemplifies what it means to be a Champion. He never shirks his duty; always at the front, always the last from the field. He is [gallery:beaumont-trevallian|King Beaumont's] Champion and the Champion of Deira, one of the last surviving knights of the [group:lance-of-deira|Lance of Deira].\n\nHe is the most stalwart of friends and dangerous of enemies.",
+		description: "Sir Arwyn is one of the foremost knights of Albion, holding the rank of Knight Martial. He exemplifies what it means to be a Champion. He never shirks his duty; always at the front, always the last from the field. He is [gallery:beaumont-trevallian|King Beaumont's] Champion and the Champion of Deira, one of the last surviving knights of the [group:lance-of-deira|Lance of Deira]. Recently he has been elevated to his ancestral seat as Duke of Preston, when his familial line was revealed.\n\nHe is the most stalwart of friends and dangerous of enemies.",
 		imageSource: "portraits/arwyn.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true
