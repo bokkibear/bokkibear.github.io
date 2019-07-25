@@ -360,6 +360,13 @@ var portraitData = {
 		imageSource: "portraits/jhorik.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell"
 	},
+	"cale": {
+		title: "Calenandir “Cale” Escantar",
+		subtitle: "Herald of Albion",
+		description: "Calenandir joined the warhost in 1116 as one of the founding members of the Gathered Sentinels, alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of [gallery:brakka|former High Herald B’rakka]. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
+		imageSource: "portraits/cale.jpg",
+		imageCredit: "Lara"
+	},
 	"nathaniel-de-montfort": {
 		title: "Nathaniel Richard de Montfort",
 		subtitle: "First Wizard's Apprentice",
