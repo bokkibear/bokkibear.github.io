@@ -319,7 +319,7 @@ var portraitData = {
 	"david-jonathan-steele": {
 		title: "Sir David Jonathan Steele",
 		subtitle: "Templar of [temple:creed|Creed]",
-		description: "Sir Steele is [gallery:alistair-yates|Sir Alistair's] confidant, traveling with him and the Warhost. He has spent a lot of time around commoners. This results in him being a little rough around the edges. Quick to make a dirty joke with soldiers in arms, he tries to conduct himself slightly better around womenfolk and gentry.\n\nSteele is utterly devoted to Creed and the Pantheon of Law. In battle, he has been known to lose himself to fierce rages, and struggles to resolve Creed’s Wisdom and Fury.",
+		description: "Sir Steele is Sir Alistair's confidant, traveling with him and the Warhost. He has spent a lot of time around commoners. This results in him being a little rough around the edges. Quick to make a dirty joke with soldiers in arms, he tries to conduct himself slightly better around womenfolk and gentry.\n\nSteele is utterly devoted to Creed and the Pantheon of Law. In battle, he has been known to lose himself to fierce rages, and struggles to resolve Creed’s Wisdom and Fury.",
 		imageSource: "portraits/david_jonathan_steele.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
 	},
@@ -486,7 +486,8 @@ var portraitData = {
 		subtitle: "Wizard",
 		description: "Joined the warhost in 1114 from Albion, he is a part of the Order of St. Eve. He is keen to serve the warhost and find ways to practice magic, particularly in battle. He is not a stuffy, bookish wizard and enjoys a good time, gin and trying to fit as many people including royalty under a table as possible.",
 		imageSource: "portraits/montgomery_fortescue.jpg",
-		imageCredit: "Duncan Thacker"	
+		imageCredit: "Duncan Thacker",
+		status: "absent"	
 	},
 	"tabitha-tate": {
 		title: "Tabitha Tate",
@@ -520,28 +521,32 @@ var portraitData = {
 	"sylva": {
 		title: "Private Sylva",		
 		description: "Sylva is the [group:arcane-tempest|Arcane Tempest's] second most experienced Thaumaturge, specializing in creating arcane weaponry. He has been with the war host for most of his adult life, having first taken the field at the ripe old age of 17.\n\nAs well as his duties as Thaumaturge and soldier, he is the President of the Artisan's guild and is coordinating them in the preservation of knowledge and further establishing their presence as an organisation in the warhost.",
-		imageSource: "portraits/sylva.jpg"		
+		imageSource: "portraits/sylva.jpg",
+		status: "dead"
 	},
 	"aled-vulpus": {
 		title: "Vulpus",
 		subtitle: "Cadet of the [group:arcane-tempest|Arcane Tempest]",
 		description: "Joining the warhost in 1114 after battle mage training in Santia, and returning to active duty in 1115 after a year of further training, Cadet Vulpus is the Arcane Tempest's currently active shamanist. Still green behind the ears, prone to wandering, and too curious for his own good, he survives by a combination of quick learning and the luck of the Fir Cruthen. A constant worry for both Sergeant Major Wood and Private Llorn.",
 		imageSource: "portraits/aled_vulpus.jpg",
-		imageCredit: "Lucy Feltham"
+		imageCredit: "Lucy Feltham",
+		status: "dead"
 	},
 	"lucas-grimm": {
 		title: "Lucas Grimm",
 		subtitle: "Private and Scribe of the [group:arcane-tempest|Arcane Tempest]",
 		description: "Grimm joined the Warhost during the campaign in Cornwall against the risen Arthur and the Druid Army at the end of 1115. As time has gone on, in no small part in thanks to those around him and many years of study. He's now a Private and Scribe for the Arcane Tempest and even with all that somehow had the spare time to learned the skills to be a Grand Master Artisan. He has plans to learn and do so much more but that is only if he would leave his workshop for more than five minutes.",
 		imageSource: "portraits/lucas_grimm2.jpg",
-		imageCredit: "Lucy DeGraft-Johnson"
+		imageCredit: "Lucy DeGraft-Johnson",
+		status: "dead"
 	},
 	"nathaniel-smythe": {
 		title: "Nathaniel Smythe",
 		subtitle: "Cadet",
 		description: "A cadet within the [group:arcane-tempest|Arcane Tempest].",
 		imageSource: "portraits/nathaniel_smythe.jpg",
-		imageCredit: "John C. Kirk"		
+		imageCredit: "John C. Kirk",
+		status: "absent"
 	},
 	"bill-brewer": {
 		title: "Bill Brewer",
@@ -575,7 +580,8 @@ var portraitData = {
 		title: "Kh'eeevra Silurian",
 		description: "An elf from a now extinct forrest, Kh'eeevra spends her time wandering Albion when not serving the warhost, putting her skills as an archer and ranger to use, helping those in need where she finds them. Preferring the solitude of the forests, she often spends months at a time wandering the wilds alone.",
 		imageSource: "portraits/kheeevra_silurian.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell"
+		imageCredit: "Steve 'Flasher' Mitchell",
+		status: "absent"
 	},
 	"rinoa": {
 		title: "Rinoa",
