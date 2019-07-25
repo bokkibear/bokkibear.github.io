@@ -88,12 +88,10 @@ var portraitData = {
 	},	
 	"benegar": {
 		title: "Benegar",
-		subtitle: "King of [map:sussex|Sussex]",
-		description: "Last from under the mountain from whence he returned with High King tristan in 1108, he rules Sussex with an iron fist in accordence with Solkars laws",
+		description: "Last from under the mountain from whence he returned with High King Tristan in 1108, he ruled [map:sussex|Sussex] with an iron fist in accordence with Solkar's laws. He has not been seen since Renewal 1118 when he abdicated.",
 		imageSource: "portraits/Benegar.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		knight: true,
-		royalty: true
+		knight: true
 	},
 	"gallad": {
 		title: "Gallad de Siward",
