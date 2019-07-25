@@ -315,6 +315,13 @@ var portraitData = {
 		imageCredit: "Oliver Facey",
 		status: "absent"
 	},
+	"arthek": {
+		title: "Arthek",
+		subtitle: "Squire",
+		description: "A coward who fled from [map:cornwall|Cornwall] instead of defending his home in the war with the druids, Arthek seeks redemption and acceptance within the warhost as [gallery:pellinore|Sir Pellinore's] squire.",
+		imageSource: "portraits/arthek.png",
+		imageCredit: "Steve 'Flasher' Mitchell"
+	},
 	"will": {
 		title: "Sir Will of the Lance",
 		subtitle: "Protector of the Crown of Essex",
