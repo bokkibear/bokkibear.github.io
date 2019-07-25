@@ -262,8 +262,8 @@ var portraitData = {
 		knight: true
 	},
 	"lady-morticia": {
-		title: "Lady Morticia",
-		subtitle: "Knight",
+		title: "Baroness Morticia Blackwood",
+		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
 		description: "A Blackwood knight of the Order of the Bear, loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
 		imageSource: "portraits/lady_morticia.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
