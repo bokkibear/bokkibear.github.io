@@ -423,6 +423,13 @@ var portraitData = {
 		imageSource: "portraits/vyncent.jpg",
 		imageCredit: "Duncan Thacker",
 	},
+	"helena": {
+		title: "Knight Sister Helena Ward",
+		subtitle: " Prioress of the Sovereign and Holy Order of the Knights Hospitaller of Damacest, Royal Confessor to His Majesty High King Rudraigh PenhalIgon",
+		description: "A native of [map:sussex|Sussex], Sister Helena is a quiet, kindly presence in the warhost, who places the teachings of [temple:damacest|Damacest] first and foremost in all her actions. She was made leader of the Knights Hospitaller in the warhost after the tragic loss of Brother Aldwin Fletcher, in 1118. As Confessor, she listens to the many troubles and concerns of the warhost, providing spiritual advice and succour wherever she can.",
+		imageSource: "portraits/helena.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018"
+	},
 	"prydwen-mortaine": {
 		title: "Prydwen Mortaine",
 		subtitle: "Dame of [map:elmet|Elmet]",
