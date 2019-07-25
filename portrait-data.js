@@ -270,15 +270,7 @@ var portraitData = {
 	"lady-morticia": {
 		title: "Baroness Morticia Blackwood",
 		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
-		description: "A Blackwood knight of the Order of the Bear, loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
-		imageSource: "portraits/lady_morticia.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell",
-		council: true
-	},
-	"lady-morticia": {
-		title: "Baroness Morticia Blackwood",
-		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
-		description: "A Blackwood knight of the Order of the Bear, loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
+		description: "A Blackwood knight of the [group:order-of-the-bear|Order of the Bear], loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
 		imageSource: "portraits/lady_morticia.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
 		council: true
@@ -286,7 +278,7 @@ var portraitData = {
 	"boar": {
 		title: "Boar Thistlan",
 		subtitle: "Squire to Lady Morticia",
-		description: "Boar is the keeper of knowledge within the Order of the Bear.",
+		description: "Boar is the keeper of knowledge within the [group:order-of-the-bear|Order of the Bear].",
 		imageSource: "portraits/boar.jpg",
 		imageCredit: "Unknown",
 		council: true
@@ -569,7 +561,7 @@ var portraitData = {
 	},
 	"sebastian-thatcher": {
 		title: "Sebastian Thatcher",
-		subtitle: "Wizard of the Order of the Bear",
+		subtitle: "Wizard of the [group:order-of-the-bear|Order of the Bear]",
 		description: "Sebastianan was sent to the warhost to provide magical support to the Order.",
 		imageSource: "portraits/sebastian-thatcher.jpg",
 		imageCredit: "Ben Cawkwell"
