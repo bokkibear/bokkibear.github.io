@@ -423,6 +423,12 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		council: true
 	},
+	"nash": {
+		title: "David Nasher",
+		subtitle: "Lord of Heartsford",
+		description: "A minor noble of [map:bernicia|Bernicia's] West, Lord Nasher is loyal to the Bernician Queen, [gallery:cersei-de-vries|Queen Cersei] and the Bernician crown.",
+		imageSource: "portraits/nash.jpg"
+	},
 	"vyncent": {
 		title: "Vyncent",
 		subtitle: "Guildmaster of the Surgeon's Guild, Novice Brother of the Knights Hospitaller",
@@ -473,7 +479,7 @@ var portraitData = {
 		subtitle: "Wizard",
 		description: "Joined the warhost in 1114 from Albion, he is a part of the Order of St. Eve. He is keen to serve the warhost and find ways to practice magic, particularly in battle. He is not a stuffy, bookish wizard and enjoys a good time, gin and trying to fit as many people including royalty under a table as possible.",
 		imageSource: "portraits/montgomery_fortescue.jpg",
-		imageCredit: "Duncan Thacker"		
+		imageCredit: "Duncan Thacker"	
 	},
 	"tabitha-tate": {
 		title: "Tabitha Tate",
