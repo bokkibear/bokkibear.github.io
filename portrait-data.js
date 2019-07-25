@@ -451,7 +451,7 @@ var portraitData = {
 	"mortlock-dayne": {
 		title: "Sir Mortlock Dayne",
 		subtitle: "Chapter Master of the Cast of Vengeance",
-		description: "Once a Squire to Sir Alistair, the peasant-born Mortlock has risen to the station of Knight Exemplar. He is currently building an Order of Solkar called the Cast of Vengeance within the Warhost, to ensure Solkar's Righteous Vengeance is enacted.",
+		description: "Once a Squire to Sir Alistair, the peasant-born Mortlock has risen to the station of Knight Exemplar. He is currently building an Order of Solkar called the [group:cast-of-vengeance|Cast of Vengeance] within the Warhost, to ensure Solkar's Righteous Vengeance is enacted.",
 		imageSource: "portraits/mort.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
 		knight: true
