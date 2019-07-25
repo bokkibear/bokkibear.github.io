@@ -429,13 +429,13 @@ var portraitData = {
 	"vyncent": {
 		title: "Vyncent",
 		subtitle: "Guildmaster of the Surgeon's Guild, Novice Brother of the Knights Hospitaller",
-		description: "Born an orphan, Vyncent was raised by a brilliant surgeon. Upon coming of age, he found religion in the form of the Knights Hospitaller of Damacest, and joined the warhost to better use his healing abilities. Though perhaps the most nervous member of the warhost, he is determined to do the right thing, even though he does not always know what that is. After the passing of brother Aldwin, Vyncent reluctantly took responsibility for the Surgeon's Guild. It is in this position that he hopes to best serve Damacest.",
+		description: "Born an orphan, Vyncent was raised by a brilliant surgeon. Upon coming of age, he found religion in the form of the [groups:hospitallers|Knights Hospitaller of Damacest], and joined the warhost to better use his healing abilities. Though perhaps the most nervous member of the warhost, he is determined to do the right thing, even though he does not always know what that is. After the passing of brother Aldwin, Vyncent reluctantly took responsibility for the Surgeon's Guild. It is in this position that he hopes to best serve Damacest.",
 		imageSource: "portraits/vyncent.jpg",
 		imageCredit: "Duncan Thacker",
 	},
 	"helena": {
 		title: "Knight Sister Helena Ward",
-		subtitle: " Prioress of the Sovereign and Holy Order of the Knights Hospitaller of Damacest, Royal Confessor to His Majesty High King Rudraigh PenhalIgon",
+		subtitle: "Prioress of the Sovereign and Holy Order of the [groups:hospitallers|Knights Hospitaller of Damacest], Royal Confessor to His Majesty High King Rudraigh PenhalIgon",
 		description: "A native of [map:sussex|Sussex], Sister Helena is a quiet, kindly presence in the warhost, who places the teachings of [temple:damacest|Damacest] first and foremost in all her actions. She was made leader of the Knights Hospitaller in the warhost after the tragic loss of Brother Aldwin Fletcher, in 1118. As Confessor, she listens to the many troubles and concerns of the warhost, providing spiritual advice and succour wherever she can.",
 		imageSource: "portraits/helena.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018"
