@@ -446,11 +446,12 @@ var portraitData = {
 		knight: true
 	},
 	"mortlock-dayne": {
-		title: "Mortlock Dayne",
-		subtitle: "Squire, Follower of [temple:solkar|Solkar]",
-		description: "Squire to [gallery:alistair-yates|Sir Alistair], Mortlock is being trained to become a Knight. He has also taken it upon himself to follow Solkar the God of Righteous Vengeance.",
-		imageSource: "portraits/mortlock_dayne.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"		
+		title: "Sir Mortlock Dayne",
+		subtitle: "Chapter Master of the Cast of Vengeance",
+		description: "Once a Squire to Sir Alistair, the peasant-born Mortlock has risen to the station of Knight Exemplar. He is currently building an Order of Solkar called the Cast of Vengeance within the Warhost, to ensure Solkar's Righteous Vengeance is enacted.",
+		imageSource: "portraits/mort.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
+		knight: true
 	},
 	"ailah": {
 		title: "Ailah Kerrow-Fletcher",
