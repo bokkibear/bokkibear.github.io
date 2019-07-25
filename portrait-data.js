@@ -556,11 +556,11 @@ var portraitData = {
 		status: "absent"
 	},
 	"maddison": {
-		title: "Sir Piers Maddison",
-		subtitle: "Warrior of Albion",
-		description: "A knight of Kernow and devoted to [temple:creed|Creed], Sir Piers is steadfastly loyal to Albion and to his friends, and with sword and shield in hand he will defend both until his dying breath.",
-		imageSource: "portraits/maddison.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
+		title: "Sir Piers",
+		subtitle: "Knight-Captain of the Monarch's Guard",
+		description: "A veteran knight, Sir Piers of Cornwall is sworn to the defence of the High Monarch of Albion with both a cold gaze and yet colder steel..",
+		imageSource: "portraits/piers.jpg",
+		imageCredit: "Unknown",
 		knight: true
 	},
 	"marcus-hayes": {
