@@ -269,6 +269,21 @@ var portraitData = {
 		imageCredit: "Steve 'Flasher' Mitchell",
 		council: true
 	},
+	"lady-morticia": {
+		title: "Baroness Morticia Blackwood",
+		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
+		description: "A Blackwood knight of the Order of the Bear, loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
+		imageSource: "portraits/lady_morticia.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		council: true
+	},
+	"wordsworth": {
+		title: "Baron Matthew Wordsworth",
+		subtitle: "Drollteller and Master of The Library of Norholt",
+		description: "A studious fellow who joined the Warhost shortly after they visited the Archives of the library. Wordsworth (as he prefers to be called) travels with the warhost in order to provide insight and guidance. Whilst within the warhost had been associated closely with the mythwalker Taliesin and has been trained in the arts of the drollteller.",
+		imageSource: "portraits/wordsworth.jpg",
+		imageCredit: "Lucy Degraft-Johnson",
+	},
 	'daerin': {
 		title: "Mi'Naith Daerin",
 		subtitle: "Chancellor of the Celestial College\n\nBaron of Thorton",
