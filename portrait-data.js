@@ -400,6 +400,13 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		status: "dead"
 	},
+	"jorjah": {
+		title: "Dame Jorjah Moro",		
+		description: "Born from the peasantry of [map:norholt|Norholt], she tilled the fields as little more than a farmhand until her homestead was beset by bandits. Displaying some skill at arms she was ordered to serve one of the local knights. Eventually finding herself as part of Baron Alistair Yates' personal guard. Duty and service brought her to the warhost where she became Squire to Sir Victor de Braxe of the Lance. She proved herself dutiful and capable in less than four gatherings of the warhost she was raised to knighthood as the first act of the first monarch of Norholt, Queen Elizabeth Yates. She seeks to serve above all else as a follower of [temple:trask|Trask] but life seems to frequently bring her closer to [temple:melaphine|Melaphine] time and time again. She walks the path of the Order of Avalon, championing the light of Albion with others of the ancient order.",
+		imageSource: "portraits/jorjah.jpg",
+		imageCredit: "[https://www.instagram.com/mckiejustin|Justin Mckie]",
+		knight: true
+	},
 	"darcy-ferrin": {
 		title: "Darcy Ferrin",
 		subtitle: "Castellan of the Warhost",
