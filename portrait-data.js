@@ -429,9 +429,9 @@ var portraitData = {
 	},
 	"vyncent": {
 		title: "Vyncent",
-		subtitle: "Guildmaster of the Surgeon's Guild, Novice Brother of the Knights Hospitaller",
-		description: "Born an orphan, Vyncent was raised by a brilliant surgeon. Upon coming of age, he found religion in the form of the [groups:hospitallers|Knights Hospitaller of Damacest], and joined the warhost to better use his healing abilities. Though perhaps the most nervous member of the warhost, he is determined to do the right thing, even though he does not always know what that is. After the passing of brother Aldwin, Vyncent reluctantly took responsibility for the Surgeon's Guild. It is in this position that he hopes to best serve Damacest.",
-		imageSource: "portraits/vyncent.jpg",
+		subtitle: "Knight brother of the [group:hospitallers|Knights Hospitaller]\n\nWarden of Albion and Voice of Melaphine",
+		description: "The youngest of 7 siblings, Vyncent is a skilled surgeon, dedicated priest, and friend to many in the warhost.",
+		imageSource: "portraits/vyncent-2.jpg",
 		imageCredit: "Duncan Thacker",
 	},
 	"helena": {
