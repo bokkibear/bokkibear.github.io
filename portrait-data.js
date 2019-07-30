@@ -231,7 +231,7 @@ var portraitData = {
 		description: "Swabbie of the Santia Maria, Head Alchemist for the Lions and co-founding Guildmaster of the cross-faction Alchemy Guild. Verity can usually be found either with the [group:arcane-tempest|Arcane Tempest] or assisting the crafting and alchemy guilds. When she isn't advising and researching with the Warhost, she spends her days swabbing the decks and doing the Tempest's laundry.",
 		imageSource: "portraits/verity_fenn.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		status: "dead"
+		status: "absent"
 	},
 	"finn-mcgarry": {
 		title: "Finn McGarry",
