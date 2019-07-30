@@ -365,7 +365,8 @@ var portraitData = {
 		subtitle: "Squire to Sir Mortlock Dayne, Austringer of Solkar and Master blacksmith",
 		description: "Born the third son of an Essex baron, Gil squired for his elder brother who was a tournament knight. During this time he acquired the skills of a blacksmith and gained a firm grounding in the chivalric code. He joined the warhost, after his brother's death, due to a chance meeting with [gallery:mortlock-dayne|Sir Mortlock]." 		,
 		imageSource: "portraits/gil.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell"
+		imageCredit: "Steve 'Flasher' Mitchell",
+		status: "dead"
 	},
 	"jhorik": {
 		title: "Jhorik the Striped",
