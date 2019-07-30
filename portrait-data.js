@@ -105,7 +105,7 @@ var portraitData = {
 	"greyhame": {
 		title: "Oswald Greyhame",
 		subtitle: "Duke of Norholt City and Lord of the Four Keeps\n\nGuardian of the Fount\n\nKnight Commander of the Order of Saint Bispus\n\nWarden of the Border.",
-		description: "Ruler of the mountainous principality for many years until recently as Queen Elizabeth now rules Norholt.",
+		description: "Ruler of the mountainous principality for many years until recently as [gallery:elizabeth-yates|Queen Elizabeth] now rules Norholt.",
 		imageSource: "portraits/Greyhame.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
 		knight: true,
@@ -291,6 +291,13 @@ var portraitData = {
 		imageSource: "portraits/wordsworth.jpg",
 		imageCredit: "Lucy Degraft-Johnson",
 	},
+	"hugh": {
+		title: "Hugh Bardolf",
+		subtitle: "Norholt Librarian",
+		description: "Hugh joined the warhost to assist with the creation of Wyvern's Reign (the sword of Norholt). He now divides his time between library duties and the ritual circle.",
+		imageSource: "portraits/hugh.jpg",
+		imageCredit: "Ben Smith"
+	},
 	'daerin': {
 		title: "Mi'Naith Daerin",
 		subtitle: "Chancellor of the Celestial College\n\nBaron of Thorton",
@@ -400,7 +407,7 @@ var portraitData = {
 	},
 	"jorjah": {
 		title: "Dame Jorjah Moro",		
-		description: "Born from the peasantry of [map:norholt|Norholt], she tilled the fields as little more than a farmhand until her homestead was beset by bandits. Displaying some skill at arms she was ordered to serve one of the local knights. Eventually finding herself as part of Baron Alistair Yates' personal guard. Duty and service brought her to the warhost where she became Squire to Sir Victor de Braxe of the Lance. She proved herself dutiful and capable in less than four gatherings of the warhost she was raised to knighthood as the first act of the first monarch of Norholt, Queen Elizabeth Yates. She seeks to serve above all else as a follower of [temple:trask|Trask] but life seems to frequently bring her closer to [temple:melaphine|Melaphine] time and time again. She walks the path of the Order of Avalon, championing the light of Albion with others of the ancient order.",
+		description: "Born from the peasantry of [map:norholt|Norholt], she tilled the fields as little more than a farmhand until her homestead was beset by bandits. Displaying some skill at arms she was ordered to serve one of the local knights. Eventually finding herself as part of Baron Alistair Yates' personal guard. Duty and service brought her to the warhost where she became Squire to Sir Victor de Braxe of the Lance. She proved herself dutiful and capable in less than four gatherings of the warhost she was raised to knighthood as the first act of the first monarch of Norholt, [gallery:elizabeth-yates|Queen Elizabeth Yates]. She seeks to serve above all else as a follower of [temple:trask|Trask] but life seems to frequently bring her closer to [temple:melaphine|Melaphine] time and time again. She walks the path of the Order of Avalon, championing the light of Albion with others of the ancient order.",
 		imageSource: "portraits/jorjah.jpg",
 		imageCredit: "[https://www.instagram.com/mckiejustin|Justin Mckie]",
 		knight: true
