@@ -45,8 +45,6 @@ body {
 	vertical-align: bottom;
 }
 
-
-
 .title h1 {
 	font-family: 'Metamorphous';
 }
@@ -196,7 +194,13 @@ h3, h3 > p{
 	font-size: 28px;				
 	font-family: 'Cinzel Decorative';
 	margin: 10px 0px;
-}			
+}		
+
+h4 {
+	font-family: 'Cinzel Decorative';
+	font-weight: bold;
+	margin: 10px 0px;
+}	
 
 p {				
 	font-size: 16px;

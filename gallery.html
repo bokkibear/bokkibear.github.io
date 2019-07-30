@@ -203,12 +203,9 @@
 			var portraitWidth = 356;
 			
 			function calculateTranslation( $element ) {
-				
 				var screenMiddle = $galleryContainer.outerWidth() / 2;				
 				var width = $element.outerWidth();
-				console.log($element);
-				if ( !$element.hasClass("expanded") ) width = width * 0.8;
-				console.log(width);
+				if ( !$element.hasClass("expanded") ) width = width * 0.8;				
 				var elementMiddle = $element.offset().left + (width / 2 );				
 				return screenMiddle - elementMiddle;			
 			}
