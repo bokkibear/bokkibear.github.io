@@ -104,8 +104,8 @@ var portraitData = {
 	},
 	"greyhame": {
 		title: "Oswald Greyhame",
-		subtitle: "Prince of [map:Norholt|Norholt]\n\nThe Wyvern",
-		description: "Duke of Norholt city, Lord of the four keeps, Guardian of the Fount, Knight Commander of the Order of Saint Bispus, Warden of the border. Ruler of the mountainous principality who's people have recently flocked to the warhost",
+		subtitle: "Duke of Norholt City and Lord of the Four Keeps\n\nGuardian of the Fount\n\nKnight Commander of the Order of Saint Bispus\n\nWarden of the Border.",
+		description: "Ruler of the mountainous principality for many years until recently as Queen Elizabeth now rules Norholt.",
 		imageSource: "portraits/Greyhame.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
 		knight: true,
