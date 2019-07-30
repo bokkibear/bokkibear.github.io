@@ -574,9 +574,15 @@ var portraitData = {
 		imageCredit: "Steve 'Flasher' Mitchell",
 		status: "absent"
 	},
+	"letholdus": {
+		title: "Letholdus Ward",
+		subtitle: "Voice of Elmet\n\nTail of the Owl of the Gathered Sentinels",
+		description: "At the beginning of 1115, Letholdus ward joined the war host of Albion along with his companion, Elaina Stone. At their first gathering, Letholdus and Elaina quickly put their talents to use as battlefield scouts.\n\nAfter the death of Elaina at the Renewal of Magic 1115, Letholdus was heartbroken and vowed to do his best to spare any others of the Lions the feelings of such loss. Wandering Albion to learn the basics of corporeal magic, he came upon several individuals he would come to call friends and allies.\n\nWhen the first gathering of 1116 was called, Letholdus brought together these new friends to form The Gathered Sentinels, a group which he now leads within the Lions’ war host. He is always on the lookout for others who may also be sentinels of Albion.",
+		imageSource: "portraits/letholdus.jpg"		
+	},
 	"rinoa": {
 		title: "Rinoa",
-		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by Letholdus Ward.\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the Gathered Sentinels.",
+		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by [gallery:letholdus|Letholdus Ward].\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the Gathered Sentinels.",
 		imageSource: "portraits/rinoa.jpg",
 		imageCredit: "Sam Merry"
 	},
