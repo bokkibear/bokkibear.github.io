@@ -205,11 +205,11 @@ var portraitData = {
 		council: true
 	},
 	"diggory": {
-		title: "Diggory Colt",
-		subtitle: "Head of Intelligence of the Warhost of Albion\n\nA Magistrate of Essex",		
-		description: "Diggory was appointed in 1117 to serve as the Head of Intelligence to the Warhost of Albion. Hailing from [map:essex|Essex], Diggory has spent some time at sea as a provost in that land's navy and latterly as a magistrate based in Standford, Essex. His parents are co-stewards to House Banfleet of Standford.",
-		imageSource: "portraits/diggory.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		title: "Baron Diggory Colt",
+		subtitle: "Principal Secretary to the High King, Second of Essex\n\nLord of Corrin Cove and Droll Teller of Albion",		
+		description: "Diggory was appointed in 1117 to serve as the Head of Intelligence to the Warhost of Albion. Hailing from [map:essex|Essex], Diggory has spent some time at sea as a provost in that land's navy and latterly as a magistrate based in Standford, Essex. His parents are co-stewards to House Banfleet of Standford.\n\nMade Baron of Corrin Cove in 1118 for services to Essex, Diggory is [gallery:esme-harcourt|Queen Esme's] second for that land and also the High King's Principal Secretary.\n\nIn Squire Fudge's absence from the Warhost, Diggory serves as his second on the Septum of the Gods of Law in the name of [temple:draco|Draco].\n\nWalking Taliesen's path of a Droll Teller of Albion, Diggory gathers and shares stories as readily as he breathes.",
+		imageSource: "portraits/diggory2.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019",
 	},
 	"brocc": {
 		title: "Brocc Briarthorn",
