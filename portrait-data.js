@@ -421,7 +421,6 @@ var portraitData = {
 		status: "absent"
 	},
 	"brakka": {
-		title: "B'rakka",
 		subtitle: "High Herald of Albion",
 		description: "A crew member of the Santia Maria, B'rakka joined the warhost in 1112 and studied both the arts of blacksmithing and diplomacy, the latter under [gallery:marcus-hayes|Marcus Hayes], whom he later succeeded as High Herald.",
 		imageSource: "portraits/b'rakka.jpg",
