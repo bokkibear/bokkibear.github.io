@@ -370,14 +370,14 @@ var portraitData = {
 	"jhorik": {
 		title: "Jhorik the Striped",
 		subtitle: "First Hero and Master of the Academy of War, Lead Crafter and Forgemaster of Albion",
-		description: "Born in Norsca, Jhorik moved to [map:elmet|Elmet] to establish a mine. After meeting Letholdus Ward, he agreed his strength in arms would be better put to use serving Albion and the Warhost. Joining the Gathered Sentinels and leaving his brothers in charge of the mine, Jhorik has served the Warhost since 1116 as a blacksmith, a line-breaker and as a Hero of the Academy of War.",
+		description: "Born in Norsca, Jhorik moved to [map:elmet|Elmet] to establish a mine. After meeting Letholdus Ward, he agreed his strength in arms would be better put to use serving Albion and the Warhost. Joining the [group:sentinels|Gathered Sentinels] and leaving his brothers in charge of the mine, Jhorik has served the Warhost since 1116 as a blacksmith, a line-breaker and as a Hero of the Academy of War.",
 		imageSource: "portraits/jhorik.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell"
 	},
 	"cale": {
 		title: "Calenandir “Cale” Escantar",
 		subtitle: "Herald of Albion",
-		description: "Calenandir joined the warhost in 1116 as one of the founding members of the Gathered Sentinels, alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of [gallery:brakka|former High Herald B’rakka]. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
+		description: "Calenandir joined the warhost in 1116 as one of the founding members of the [group:sentinels|Gathered Sentinels], alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of [gallery:brakka|former High Herald B’rakka]. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
 		imageSource: "portraits/cale.jpg",
 		imageCredit: "Lara"
 	},
@@ -583,13 +583,13 @@ var portraitData = {
 	},
 	"letholdus": {
 		title: "Letholdus Ward",
-		subtitle: "Voice of Elmet\n\nTail of the Owl of the Gathered Sentinels",
+		subtitle: "Voice of Elmet\n\nTail of the Owl of the [group:sentinels|Gathered Sentinels]",
 		description: "At the beginning of 1115, Letholdus ward joined the war host of Albion along with his companion, Elaina Stone. At their first gathering, Letholdus and Elaina quickly put their talents to use as battlefield scouts.\n\nAfter the death of Elaina at the Renewal of Magic 1115, Letholdus was heartbroken and vowed to do his best to spare any others of the Lions the feelings of such loss. Wandering Albion to learn the basics of corporeal magic, he came upon several individuals he would come to call friends and allies.\n\nWhen the first gathering of 1116 was called, Letholdus brought together these new friends to form The Gathered Sentinels, a group which he now leads within the Lions’ war host. He is always on the lookout for others who may also be sentinels of Albion.",
 		imageSource: "portraits/letholdus.jpg"		
 	},
 	"rinoa": {
 		title: "Rinoa",
-		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by [gallery:letholdus|Letholdus Ward].\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the Gathered Sentinels.",
+		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by [gallery:letholdus|Letholdus Ward].\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the [group:sentinels|Gathered Sentinels].",
 		imageSource: "portraits/rinoa.jpg",
 		imageCredit: "Sam Merry"
 	},
