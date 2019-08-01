@@ -47,10 +47,10 @@ var portraitData = {
 	},
 	"esme-harcourt": {
 		title: "Esme Harcourt",
-		subtitle: "Queen of [map:essex|Essex]\n\nMarquess of Santia, Wren of [map:essex|Essex]",
-		description: "Born to a noble house of [map:wessex|Wessex], Esme rose to prominence in the court of the warhost, helping to establish the current fashion for the round table as a place where valuable information is brought together and investigated. Chosen to rule Essex by the Essex Crown Council and High King Goddard Hazelwood, her warhost roles include healer, scholar and diplomat.\n\nNot a weetch.",
-		imageSource: "portraits/esme_harcourt.jpg",
-		imageCredit: "Nikki Flynn",
+		subtitle: "Queen of [map:essex|Essex]\n\nMarquess of Santia, Wren of [map:essex|Essex]\n\nEyes of the Cast of Vengeance",
+		description: "Born to a noble house of [map:wessex|Wessex], Esme rose to prominence in the court of the warhost, helping to establish the long-standing custom for the round table as a place where valuable information is exchanged. She was chosen to rule Essex by High King Goddard Hazelwood and she holds her duty to her people above all else.\n\nDespite serving the warhost chiefly as scholar and healer, she has been called to follow a path of righteous vengeance in recent years in the name of the god [temple:solkar|Solkar].",
+		imageSource: "portraits/esme.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
 		royalty: true
 	},
 	"cersei-de-vries": {
