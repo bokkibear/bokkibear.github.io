@@ -133,6 +133,7 @@ var portraitData = {
 		subtitle: "Champion of the Gods of Law",
 		description: "A veteran of the war in [map:deira|Deira], and of the events surrounding the burning of the bridge at Preston that shaped the [group:lance-of-deira|Lance], Teagan now serves the Gods of Law above all else. Many who knew Teagan before she took on the mantle of the Gods, would tell you how different she is from the spirited and fun-loving person who joined the warhost so many years ago. She is now known more for her judgemental stare and loyalty to the Gods, than for her laugh and inappropriate humour. If you know where to look, however, the same spirit still burns and despite her less approachable demeanour, many find comfort, reassurance and wisdom when they seek out her counsel.",
 		imageSource: "portraits/teagan.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
 		knight: true
 	},
 	"tyrius-loran": {
