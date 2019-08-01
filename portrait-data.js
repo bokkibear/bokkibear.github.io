@@ -130,10 +130,9 @@ var portraitData = {
 	},
 	"teagan-patrixbourne": {
 		title: "Lady Teagan Patrixbourne",
-		subtitle: "Champion of Law",
-		description: "A veteran of the war in [map:deira|Deira], much loved member of the [group:lance-of-deira|Lance] and welcomed member and drinks partner of the ladies of the court. At home with either blade, spell or thought, Teagan serves the Gods and Albion above all else.",
-		imageSource: "portraits/teagan_patrixbourne.jpg",
-		imageCredit: "Nikki Flynn",
+		subtitle: "Champion of the Gods of Law",
+		description: "A veteran of the war in [map:deira|Deira], and of the events surrounding the burning of the bridge at Preston that shaped the [group:lance-of-deira|Lance], Teagan now serves the Gods of Law above all else. Many who knew Teagan before she took on the mantle of the Gods, would tell you how different she is from the spirited and fun-loving person who joined the warhost so many years ago. She is now known more for her judgemental stare and loyalty to the Gods, than for her laugh and inappropriate humour. If you know where to look, however, the same spirit still burns and despite her less approachable demeanour, many find comfort, reassurance and wisdom when they seek out her counsel.",
+		imageSource: "portraits/teagan.jpg",
 		knight: true
 	},
 	"tyrius-loran": {
