@@ -620,6 +620,14 @@ var portraitData = {
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
 		status: "absent"
 	},
+	"gawaine": {
+		title: "Sir Ryell Gawaine of Anglia",
+		subtitle: "Protector of the People\n\nSurvivor of Addersledge\n\nKingsguard",
+		description: "Previously squired to Sir Godfrey of Anglia. Knighted after the battle of Addersledge, a steep zig-zagging rocky path where 500 Anglian soldiers held off a thousand enemy combatants in a fierce and bloody battle.\n\nAfter much fighting, little more than a hundred Anglian soldiers survived before the enemy routed and retreated after Sir Godfrey led a charge to break their line and halt their steady, inevitable advance sacrificing his own life in the process.",
+		imageSource: "portraits/gawaine.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		knight: true
+	},
 	"maddison": {
 		title: "Sir Piers",
 		subtitle: "Knight-Captain of the Monarch's Guard",
