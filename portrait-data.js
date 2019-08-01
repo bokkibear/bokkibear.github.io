@@ -560,6 +560,13 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		status: "absent"
 	},
+	"calidore": {
+		title: "Sir Calidore Aceleus, the Knight of Thorns",
+		subtitle: "Chivalric Nonpareil of the Warhost\n\nLord of the House of Thorns",
+		description: "Sir Calidore is a knight in service to Albion and the current lord of the Thornwood of Elmet. This distinguished old knight is ancient in human terms and he has walked in and out of the storybooks of old. Calidore extols the knightly virtues and lives by the old code of chivalry. First knighted by Queen Luciana of the Whitecliffs, hundreds of years ago, his blade has served many of Excalibur’s wielders.\n\nHe champions his most ancient patron, the Lady Morgaine, and constantly fights for what he believes is right.\n\nBe it a tale of times old, the advice of a reassuring father figure or a righteous personification of truth and justice, the old knight is ever ready to answer the call for aid.",
+		imageSource: "portraits/calidore.jpg",
+		imageCredit: "Emz Rae"		
+	},
 	"calonar-aceleus": {
 		title: "Calonar Aceleus",
 		description: "Eldest son on the honourable Sir Calidore Aceleus. Formerly Captain Aceleus of the Kings Foresters of Wessex, and proud member of the Lions Scouting force.",
