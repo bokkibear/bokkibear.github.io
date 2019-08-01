@@ -173,9 +173,9 @@ var portraitData = {
 	"pellinore": {
 		title: "Sir Pellinore",
 		subtitle: "Knight Feudal",
-		description: "Sir Pellionore disdained the life of a questing knight to join the warhost",
+		description: "Sir Pellinore disdained the life of a questing knight to join the warhost",
 		imageSource: "portraits/pellinore.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2016",
 		knight: true
 	},
 	"alistair-yates": {
