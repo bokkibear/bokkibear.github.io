@@ -127,7 +127,7 @@ var portraitData = {
 		imageSource: "portraits/austin_trevallian.jpg",
 		imageCredit: "Nathan Burman",		
 		royalty: true
-	},		
+	},
 	"teagan-patrixbourne": {
 		title: "Lady Teagan Patrixbourne",
 		subtitle: "Champion of Law",
@@ -565,6 +565,13 @@ var portraitData = {
 		description: "Eldest son on the honourable Sir Calidore Aceleus. Formerly Captain Aceleus of the Kings Foresters of Wessex, and proud member of the Lions Scouting force.",
 		imageSource: "portraits/calonar_aceleus.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+	},
+	"asher": {
+		title: "Asher Aceleus",
+		subtitle: "Climbing Rose of the House of Thorns",
+		description: "One of the youngest in the House of Thorns, Asher constantly seeks new friends and new magics all whilst trying to recover knowledge lost to Albion.",
+		imageSource: "portraits/asher.jpg",
+		imageCredit: "Emz Rae"		
 	},
 	"sebastian-thatcher": {
 		title: "Sebastian Thatcher",
