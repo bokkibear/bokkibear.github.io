@@ -196,12 +196,11 @@ var portraitData = {
 		knight: true
 	},
 	"issa": {
-		title: "Issa maf Cathis",
-		subtitle: "Witch of Cornwall\n\nFirst Wizard of Albion",
-		description: "Issa travelled the lands around her Caer to protect and heal where needed. In her dedication to the survivors that flocked to the relative safety of [map:caer-culhaven|Caer Culhaven] she turned to the war host for aid.",
-		imageSource: "portraits/issa.jpg",
-		imageCredit: "Duncan Thacker",		
-		council: true
+		title: "Issa maf Nimue maf Lohary-Ohn",
+		subtitle: "Wytch of [map:cornwall|Cornwall] and Albion\n\nApprentice to the Albion Mythwalker, Nimue",
+		description: "The recent troubles in Cornwall led to Issa joining the Albion warhost, seeing it as her best way to gain freedom for her home.\n\nIssa led the warhost in their magics and investigations in her role of Wytch of Albion, and fought alongside them on the field of battle.\n\nShe has also become a lady of the fae house of Lohary-Ohn through her close ties to the Fir Cruthen.\n\nIssa has recently left the warhost to become apprentice to Nimue. Her duty now lies in aiding Nimue to be the person Albion needs her to be.",
+		imageSource: "portraits/issa-2.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019"		
 	},
 	"diggory": {
 		title: "Baron Diggory Colt",
