@@ -605,6 +605,13 @@ var portraitData = {
 		imageSource: "portraits/rinoa.jpg",
 		imageCredit: "Sam Merry"
 	},
+	"kirik": {
+		title: "Kirik",
+		subtitle: "Squire to Sir Hector Garrison",
+		description: "The sole surviving member of his mercenary band. Kirik took to wandering the land in search of the vile necromancer responsible for their slaughter. Now a proud member of the Lions, Kirik continues his search with the backing of his new brothers and sisters in arms, with the hope that one day he may find justice and escape his past.",
+		imageSource: "portraits/kirik.jpg",
+		imageCredit: "Mara Alexandra"
+	},
 	"dayne": {
 		title: "Dayne",
 		subtitle: "Herald of [map:bernicia|Bernicia]",
