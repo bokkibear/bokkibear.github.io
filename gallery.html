@@ -20,7 +20,49 @@
 		<title>CP Lions: Portrait Gallery</title>
 		
 		<meta charset="UTF-8"/>
-		
+		<style>
+			#class-dropdown {
+				font-family: "Cinzel Decorative";
+				display: inline-block;
+				vertical-align: bottom;
+				margin-left: 40px;
+				padding-right: 20px;
+				height: 36px;
+			}
+
+			#class-dropdown nav {
+				position:relative;
+				left: 0;
+				background-color: #934;
+				margin-top: 5px;
+				box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.5);	
+			}
+
+			#class-dropdown nav a {
+				display: block;
+				color: #fffff5;
+				font-size: 20px;
+				padding: 5px 10px;
+			}
+
+			#class-dropdown nav a:hover {
+				text-decoration: none;
+				background-color: #fffff0;
+				color: #934;
+			}
+
+			#class-dropdown h3 {
+				opacity: 0.7;
+				font-size: 32px;	
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+			}
+
+			#class-dropdown h3:hover {
+				opacity: 1;
+			}
+		</style>
 	</head>	
 
 	<body data-here='gallery.html'>				
@@ -42,6 +84,17 @@
 						<a href='albion-patriot.html'>Albion Patriot</a>
 						<a href='albion-map.html'>Map of Albion</a>
 						<a href='command-team.html'>Command Team</a>
+					</nav>
+				</span>
+
+				<span id='class-dropdown'>
+					<h3><span id='current-class'></span> &#9660;</h4>
+					<nav style='display:none'>
+						<a href='#royalty'>Royalty</a>
+						<a href='#nobles'>Nobles</a>			
+						<a href='#middle-class'>Middle Class</a>
+						<a href='#peasants'>Peasants</a>
+						<a href='#fallen-heroes'>Fallen Heroes</a>
 					</nav>
 				</span>
 			</div>
@@ -71,22 +124,65 @@
 			LEFTARROW: 37,
 			RIGHTARROW: 39
 		};
+
+		var currentClass = false;
+		var classes = ['royalty', 'nobles', 'middle-class', 'peasants', 'fallen-heroes'];
+		var classNames = {
+			royalty: 'Royalty',
+			nobles: 'Nobles',
+			"middle-class": 'Middle Class',
+			peasants: 'Peasants',
+			"fallen-heroes": 'Fallen Heroes'
+		};
 	
-		$(function() {
-		
-						
-			$(window).on("hashchange", function() {
-				var $portraitToHighlight = $( document.location.hash );
-				if ( $portraitToHighlight.size() !== 0 ) {
-					highlightPortrait( $portraitToHighlight );
+		function getPortraitsForClass(characterClass) {
+			var classPortraits = {};
+			Object.keys(portraitData).forEach(function(characterId) {
+				var portrait = portraitData[characterId];
+				if (portrait.status === 'absent' || portrait.status === 'dead') return false;
+				var portraitClass = portrait.class || 'middle-class';
+				if (portraitClass === characterClass) {
+					classPortraits[characterId] = portrait;
 				}
 			});
-			
+			return classPortraits;
+		}
+
+		function getClassOfCharacter(characterId) {
+			var portrait = portraitData[characterId];
+			if (portrait) return portrait.class || 'middle-class';
+			//TODO figure out what to do when no such character exists // maybe show error screen?
+		}
+
+		$(function() {
+
 			var $galleryContainer = $("#gallery-container");
 			var $gallery = $("#portrait-gallery");
-			var $portraitDetails = $("#portrait-details");;
-										
-			initialiseGallery();								
+			var $portraitDetails = $("#portrait-details");
+						
+			$(window).on("hashchange", function() {
+				var destination = document.location.hash;
+				updateView(destination);
+			});
+
+			function updateView(destination) {
+				var newCharacterId = destination.slice(1);
+				if (classes.indexOf(newCharacterId) !== -1) {
+					ensureCorrectGalleryShowing(newCharacterId);
+					var firstCharacterId = $gallery.find('.portrait:first-child').attr('id');
+					var portrait = portraitData[firstCharacterId];
+					history.replaceState(portrait, portrait.title, '#' + firstCharacterId);
+				} else {
+					var newCharacterClass = getClassOfCharacter(newCharacterId);
+					ensureCorrectGalleryShowing(newCharacterClass);
+					var $portraitToHighlight = $( destination );
+					if ( $portraitToHighlight.size() !== 0 ) {
+						highlightPortrait( $portraitToHighlight );
+					}
+				}
+			}
+				
+			updateView(document.location.hash || "#royalty");
 			
 			$(".gallery-scroll").on("click", function() {
 				var $clickedButton = $(this);					
@@ -117,12 +213,26 @@
 			}
 			
 			function portraitToScrollTo( $currentPortrait, left ) {				
-				var $newPortrait = left?$currentPortrait.prev():$currentPortrait.next();				
-				return ($newPortrait.size() > 0)?$newPortrait:false;
+				var $newPortrait = left ? $currentPortrait.prev() : $currentPortrait.next();				
+				return ($newPortrait.size() > 0) ? $newPortrait : false;
 			}
 			
-			function initialiseGallery() {
-				generatePortraits();	
+			function removeAllExistingPortraits() {
+				$gallery.find(".portrait").remove();
+			}
+			
+			function ensureCorrectGalleryShowing(characterClass) {
+				if ( characterClass !== currentClass ) {
+					currentClass = characterClass;
+					var newClassPortraits = getPortraitsForClass(currentClass);
+					initialiseGallery(newClassPortraits);
+					$('#current-class').text(classNames[characterClass]);
+				}
+			}
+
+			function initialiseGallery(portraitsToShow) {
+				removeAllExistingPortraits();
+				generatePortraits(portraitsToShow);	
 				highlightFirstPortrait();			
 				setTimeout( function() { 
 					$gallery.addClass("interactive");					
@@ -142,13 +252,12 @@
 					$portraitToHighlight = $gallery.find(".portrait:first-child");				
 				}				
 				highlightPortrait( $portraitToHighlight );
+				return $portraitToHighlight;
 			}
 			
-			function generatePortraits() {				
-				for( var i in portraitData ) {
-					var portrait = portraitData[i];
-					var skip = ( portrait.status === "dead" || portrait.status === "absent" );
-					if (!skip) addPortrait( i,portrait );
+			function generatePortraits(portraitsToShow) {				
+				for( var i in portraitsToShow ) {
+					addPortrait( i, portraitsToShow[i] );
 				}
 			}
 			
@@ -251,6 +360,43 @@
 			
 		});
 
+		$(function() {			
+			var $nav = $("#class-dropdown nav");
+			
+			$nav.find("a[href='#" + currentClass + "']").remove();
+			
+			$("#class-dropdown h3").on("click", showDropdown );	
+			$("body").on("click", hideDropdown);
+			
+			function showDropdown() {
+				if ( !$nav.attr("data-shown") ) {
+					$nav.velocity("slideDown", function() {
+						$nav.attr("data-shown", true);
+					});				
+				}
+			}
+			
+			function hideDropdown() {		
+				if ( $nav.attr("data-shown") ) {
+					$nav.velocity("slideUp", function() {
+						$nav.removeAttr("data-shown");
+					});	
+				}
+			}
+			
+			if ($nav.swipe) {
+				$nav.swipe({
+					swipeDown: showDropdown,
+					swipeUp: hideDropdown,
+					threshold: 0
+				});
+			}
+			
+			$(document).unload( function() {
+				$nav.css("display", "none");
+			});
+			
+		});
 		
 	</script>
 

@@ -5,7 +5,7 @@ var portraitData = {
 		description: "Rudraigh is a dour and taciturn fellow, with exacting standards and an unbending love of the law. So great is his desire to see justice served fairly, he acted as advocate to Verlaine, the carnage witch of Cornwall, and his sworn enemy.",
 		imageSource: "portraits/rudraigh.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014",
-		royalty: true
+		class: "royalty"
 	},
 	"gratziella-scarsworth": {
 		title: "Gratziella Scarsworth née Whitcombe",
@@ -14,7 +14,7 @@ var portraitData = {
 		imageSource: "portraits/gratziella_scarsworth.jpg",
 		imageCredit: "Nikki Flynn",
 		knight: true,
-		royalty: true,
+		class: "royalty",
 		status: "absent"
 	},
 	"idris-mawr": {
@@ -24,7 +24,7 @@ var portraitData = {
 		imageSource: "portraits/idris_mawr.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014",
 		status: "absent",
-		royalty: true
+		class: "royalty"
 	},
 	"quentyn-blackwell": {
 		title: "Quentyn Blackwell",
@@ -33,7 +33,7 @@ var portraitData = {
 		imageSource: "portraits/quentyn_blackwell_warface.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
 		council: true,
-		royalty: true,
+		class: "royalty",
 		knight: true,
 	},
 	"leofric": {
@@ -43,7 +43,7 @@ var portraitData = {
 		imageSource: "portraits/leofric.jpg",
 		imageCredit: "Nikki Flynn",
 		knight: true,
-		royalty: true
+		class: "royalty"
 	},
 	"esme-harcourt": {
 		title: "Esme Harcourt",
@@ -51,7 +51,7 @@ var portraitData = {
 		description: "Born to a noble house of [map:wessex|Wessex], Esme rose to prominence in the court of the warhost, helping to establish the long-standing custom for the round table as a place where valuable information is exchanged. She was chosen to rule Essex by High King Goddard Hazelwood and she holds her duty to her people above all else.\n\nDespite serving the warhost chiefly as scholar and healer, she has been called to follow a path of righteous vengeance in recent years in the name of the god [temple:solkar|Solkar].",
 		imageSource: "portraits/esme.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
-		royalty: true
+		class: "royalty"
 	},
 	"cersei-de-vries": {
 		title: "Cersei de Vries",
@@ -59,7 +59,7 @@ var portraitData = {
 		description: "Originally from the Fir Cruthen lands of Caledonia, Queen Cersei long ago pledged her sword to Albion. She has served the Albion Warhost since 1101 and ruled the Kingdom of Bernicia since 1108. She is the Grand Master of the [group:knights-of-the-north|Knights of the North] and a Truthsayer of [temple:draco|Draco]. A fierce warrior, she is a veteran of countless battles and continues to lead her men on the battlefield.",
 		imageSource: "portraits/cersei_de_vries.jpg",
 		imageCredit: "Nikki Flynn",
-		royalty: true,
+		class: "royalty",
 		knight: true
 	},
 	"elizabeth-yates": {
@@ -67,7 +67,8 @@ var portraitData = {
 		subtitle: "Queen of Norholt\n\nLorekeeper and Custodian of the Order of Avalon",
 		description: "The newly appointed Queen of the newly risen [map:norholt|Kingdom of Norholt]. During her time within the warhost she has faced difficulty and challenge, but saw a rise in station after overcoming it with the support of newfound allies and friends. From hand of the prince to baroness and now monarch. The nation she fought so fiercely to protect and see rise from a principality to a Kingdom. It has been a challenging time, and it has only just begun.",
 		imageSource: "portraits/elizabeth-yates.jpg",
-		imageCredit: "Emz Rae"
+		imageCredit: "Emz Rae",
+		class: "royalty"
 	},
 	"cornelius-mourning": {
 		title: "Cornelius Mourning",
@@ -75,7 +76,7 @@ var portraitData = {
 		description: "Cornelius Mourning first came to prominence during the Greenskin Wars, after Carl Trueheart ordered the raising of the Kings Own Volunteers. A survivor of the [map:battle-of-polgooth|massacre at Polgooth], in which most of his regiment lost their lives, he defied the orders of Lord Protector Martinique and remained in Albion to fight the Celtoi, which led to him being declared outlaw. When High King Tristian uncovered the truth about Cornelius's actions, he crowned him King of Wessex, ordering him to create a strong kingdom within Albion. In 1115, Cornelius led the Albion Reclamation Force, retaking Cornwall from the Druids. He now serves under his ninth High Monarch, prepared to defend Albion against any foe",
 		imageSource: "portraits/mourning.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",		
-		royalty: true
+		class: "royalty"
 	},
 	"beaumont-trevallian": {
 		title: "Beaumont Trevallian",
@@ -84,13 +85,14 @@ var portraitData = {
 		imageSource: "portraits/beaumont_trevallian.jpg",
 		imageCredit: "Nikki Flynn",
 		knight: true,
-		royalty: true
+		class: "royalty"
 	},	
 	"benegar": {
 		title: "Benegar",
 		description: "Last from under the mountain from whence he returned with High King Tristan in 1108, he ruled [map:sussex|Sussex] with an iron fist in accordence with Solkar's laws. He has not been seen since Renewal 1118 when he abdicated.",
 		imageSource: "portraits/Benegar.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "royalty",
 		knight: true
 	},
 	"gallad": {
@@ -100,7 +102,7 @@ var portraitData = {
 		imageSource: "portraits/Gallad.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true,
-		royalty: true
+		class: "royalty"
 	},
 	"greyhame": {
 		title: "Oswald Greyhame",
@@ -108,8 +110,7 @@ var portraitData = {
 		description: "Ruler of the mountainous principality for many years until recently as [gallery:elizabeth-yates|Queen Elizabeth] now rules Norholt.",
 		imageSource: "portraits/Greyhame.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
-		knight: true,
-		royalty: true
+		knight: true
 	},
 	"hawksmoor": {
 		title: "Samantha Hawksmoor",
@@ -118,7 +119,7 @@ var portraitData = {
 		imageSource: "portraits/Hawksmoor.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		knight: true,
-		royalty: true
+		class: "nobles"
 	},
 	"austin-trevallian": {
 		title: "Austin Trevallian",
@@ -341,7 +342,7 @@ var portraitData = {
 		description: "Hailing from the streets of Preston in [map:deira|Deira], Will was raised and trained as a bodyguard to the Beauchamp family before reciving his knighthood in the field of battle against the hordes of Mordred. Since rejoining his Brothers of the [group:lance-of-deira|Lance] in the warhost he has served as deputy Castellan and more recently pledged his service as Protector to [gallery:esme-harcourt|Queen Esme of Essex].",
 		imageSource: "portraits/will.jpg",
 		imageCredit: "Emilie Rae",
-		status: "dead",
+		class: "fallen-heroes",
 		knight: true
 	},
 	"rufus-mandrake": {
@@ -641,7 +642,8 @@ var portraitData = {
 		subtitle: "Bard",
 		description: "Marcus joined the warhost with his brother Gideon in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege [gallery:brakka|B'rakka], he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
 		imageSource: "portraits/marcus_hayes.jpg",
-		imageCredit: "Nikki Flynn"
+		imageCredit: "Nikki Flynn",
+		class: "peasants"
 	}
 	
 };
