@@ -367,13 +367,13 @@
 		$(function() {			
 			var $nav = $("#class-dropdown nav");
 			
-			$nav.find("a[href='#" + currentClass + "']").remove();
-			
+		
 			$("#class-dropdown h3").on("click", showDropdown );	
 			$("body").on("click", hideDropdown);
 			
 			function showDropdown() {
 				if ( !$nav.attr("data-shown") ) {
+					$nav.find("a[href='#" + currentClass + "']").addClass('hidden');
 					$nav.velocity("slideDown", function() {
 						$nav.attr("data-shown", true);
 					});				
@@ -383,6 +383,7 @@
 			function hideDropdown() {		
 				if ( $nav.attr("data-shown") ) {
 					$nav.velocity("slideUp", function() {
+						$nav.find("a").removeClass('hidden');
 						$nav.removeAttr("data-shown");
 					});	
 				}

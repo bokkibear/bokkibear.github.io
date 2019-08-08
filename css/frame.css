@@ -5,6 +5,10 @@ body {
 	color: #f5f0d0;
 }
 
+.hidden {
+	display: none;
+}
+
 .hero-unit-spacer {
 	height: 88px;
 }
