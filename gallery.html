@@ -273,6 +273,10 @@
 					var $subtitle = $("<h3>").addClass("portrait-subtitle").html(markdownToLionsHtml(portrait.subtitle));
 					$portrait.append($subtitle);
 				}
+
+				if ( portrait.knight ) {
+					$portrait.addClass('knight');
+				}
 				
 				$gallery.append($portrait);				
 			}

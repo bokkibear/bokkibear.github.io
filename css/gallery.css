@@ -100,6 +100,16 @@
 	text-align: center;
 }
 
+.portrait.knight:after {
+	content: '';
+	position: absolute;
+	bottom: 105px;
+	left: 150px;
+	width: 65px;
+	height: 80px;
+	background-image: url('../images/lion-touch-knight-shield-blue-and-gold.png')
+}
+
 #portrait-details p.photo-credit,
 #portrait-details p.photo-credit > p {
 	font-size: 0.8vw;
