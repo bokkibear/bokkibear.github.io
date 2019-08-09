@@ -173,6 +173,8 @@
 						$info.attr("data-state", "compact");
 						$info.find(".map-location-name").text( properties.name );
 						$info.find(".map-location-subtitle").html( markdownToLionsHtml(properties.subtitle)	);
+						$info.find(".map-location-succession").html( "<b>Order of Succession</b>: " + markdownToLionsHtml(properties.succession));
+						$info.find(".map-location-succession > p").css({ display: "inline"});
 						$info.find(".map-location-description").html( markdownToLionsHtml(properties.description) );
 						if ( properties.imgName ) {
 							$info.find(".map-location-image").attr( "src", "images/" + properties.imgName ).removeClass("hidden");
@@ -457,6 +459,7 @@
 			<img class='map-location-image' />
 			<h2 class='map-location-name'></h1>
 			<h3 class='map-location-subtitle'></h3>
+			<h4 class='map-location-succession' style="margin-bottom: 36px; font-weight: 400;"></h4>
 			<div class='map-location-description'></div>
 		</div>
 	</body>

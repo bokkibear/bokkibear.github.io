@@ -29,7 +29,7 @@ var countryData = [
 			"id":"deira",
 			"name": "Deira", 
 			"subtitle": "Ruled by [gallery:beaumont-trevallian|King Beaumont Trevallian]", 
-			"succession": "King Beuamont was chosen by High King Hazel. The succession is now hereditary meaning that the king’s son, [gallery:austin-trevallian|Prince Austin], is next in line.",
+			"succession": "King Beaumont was chosen by High King Hazel. The succession is now hereditary meaning that the king’s son, [gallery:austin-trevallian|Prince Austin], is next in line.",
 			"description": "At one time this land was rich, prosperous and powerful, with York as a shining centre of learning and the seat of the Church of Law. The return of High King Tristian brought hope for the future and a renaissance to the kingdom. However, the attacks of the necromancer Maldred saw the land and populace laid to ruin. In the aftermath of this tragedy, the capital was moved to Preston – a city surging with life and bolstered by a refugee populace from across the continent.\n\nKing Beaumont has made some progress in returning peace and prosperity to the region - largely by re-establishing the rule of law and drawing the kingdom together once more. Recently, this too has been threatened by the re-emergence of an old ruler of Deira from the mists of Elvesham. Fortunately, it appears that the out-of-time Queen Matilda and the king have put aside their differences for the nation’s good.\n\nThere is some suggestion that the famine in [map:wessex|Wessex] has spread to Deira too. How will the nation face up to yet more challenges? ",			
 			"imgName": "deira-shield.png"
 		},
