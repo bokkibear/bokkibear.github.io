@@ -64,7 +64,7 @@ var countryData = [
 		"properties":{ 
 			"id":"sussex",
 			"name": "Sussex",
-			"subtitle": "Ruled by King King Luncan Trent", 
+			"subtitle": "Ruled by King Luncan Trent", 
 			"succession": "Each monarch chooses their own successor",
 			"description": "The people of Sussex are still reeling from the shock abdication of the [gallery:benegar|legendary King Benegar], leaving the kingdom in the hands of King Luncan. It remains to be seen if he will find the same popularity and love among the people as Benegar - the man who once served as hand to the legendary High King Tristian.\n\nSussex is the religious heartland of Albion, and its people are often seen as dour and rather serious by outsiders. It has important centres in Wells and Winchester and within its borders sits the influential Grand Temple of Solkar, the fame of which has grown in recent years after many of its high profile templars attended the warhost.\n\nThe [group:hospitallers|Hospitallers of Damacest] have also made Sussex a centre of their efforts, bringing the healing arts into sharper focus within the kingdom. The land of Sussex can be harsh and unforgiving but its populace is practical and hard-working and it has therefore remained peaceful and comparatively prosperous in recent times.",
 			"imgName": "sussex-shield.png"
