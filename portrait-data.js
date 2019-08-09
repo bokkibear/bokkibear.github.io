@@ -123,9 +123,9 @@ var portraitData = {
 	},
 	"tyrius-loran": {
 		title: "Tyrius Loran",
-		subtitle: "Duke of [map:caer-loncas|Caer Loncas]",
-		description: "Lord Tyrius joined the warhost as little more than a mage scholar, only to be taken with it's cause and pledge himself to High King Lucas, who elevated him to his current role - possibly, the elf suspects, as some sort of joke he still hasn't got yet. He has served loyally under five monarchs, and works alongside [gallery:quentyn-blackwell|King Blackwell] to bring the High King's will and voice to the realms.",
-		imageSource: "portraits/tyrius_loran.jpg",
+		subtitle: "High Steward of Albion\n\nDuke of [map:caer-loncas|Caer Loncas]\n\nApprentice to The Merlin",
+		description: "For over ten years now, Tyrius has served the High Monarchs and bearers of Excalibur in their warhost, and Albion itself, acting as their Steward and counsel since the reign of High King Lucas. Alongside [gallery:quentyn-blackwell|King Quentyn], he strives to be a force for reason and wisdom for any who seek it, for the good of all Albion.\n\nWhile his titles sit uncomfortably, his marriage to the incredibly compassionate Princess Morwynn Loran Harcourt of Essex, and adoption to the [group:lance-of-deira|Lance] as a lost brother of Deira, have only reinforced his sense of responsibility to protect any and all who call Albion their home, no matter their station.",
+		imageSource: "portraits/tyrius.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
 		class: "nobles",
 		council: true
