@@ -459,6 +459,14 @@ var portraitData = {
 		imageCredit: "Steve 'Flasher' Mitchell",
 		class: "middle-class"
 	},
+	"serena": {
+		title: "Serena Rivers",
+		subtitle: "Knigh Sister of the [group:hospitallers|Knights Hospitaller]",
+		description: "Forced to flee her native Cornwall, Senara joined the Hospitallers after her parents were killed. Although bossy, and at times a little too headstrong for her own good, she has a good heart. She is often found singing around camp or tending to the Hospitaller Library.",
+		imageSource: "portraits/serena.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "middle-class"
+	},
 	"verity-fenn": {
 		title: "Verity Fenn",
 		subtitle: "Guildmaster of the Allied Alchemy Guild\n\nHead Alchemist of Albion",
