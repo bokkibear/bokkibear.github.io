@@ -91,7 +91,7 @@ var portraitData = {
 		class: "monarchs"
 	},
 	"teagan-patrixbourne": {
-		title: "Lady Teagan Patrixbourne",
+		title: "Teagan Patrixbourne",
 		subtitle: "Champion of the Gods of Law",
 		description: "A veteran of the war in [map:deira|Deira], and of the events surrounding the burning of the bridge at Preston that shaped the [group:lance-of-deira|Lance], Teagan now serves the Gods of Law above all else. Many who knew Teagan before she took on the mantle of the Gods, would tell you how different she is from the spirited and fun-loving person who joined the warhost so many years ago. She is now known more for her judgemental stare and loyalty to the Gods, than for her laugh and inappropriate humour. If you know where to look, however, the same spirit still burns and despite her less approachable demeanour, many find comfort, reassurance and wisdom when they seek out her counsel.",
 		imageSource: "portraits/teagan.jpg",
@@ -131,8 +131,8 @@ var portraitData = {
 		council: true
 	},
 	"wordsworth": {
-		title: "Baron Matthew Wordsworth",
-		subtitle: "Drollteller and Master of The Library of Norholt",
+		title: "Matthew Wordsworth",
+		subtitle: "Baron of Greystoke\n\nDrollteller and Master of The Library of Norholt",
 		description: "A studious fellow who joined the Warhost shortly after they visited the Archives of the library. Wordsworth (as he prefers to be called) travels with the warhost in order to provide insight and guidance. Whilst within the warhost had been associated closely with the mythwalker Taliesin and has been trained in the arts of the drollteller.",
 		imageSource: "portraits/wordsworth.jpg",
 		imageCredit: "Lucy Degraft-Johnson",
@@ -147,8 +147,8 @@ var portraitData = {
 		class: "nobles"
 	},
 	"diggory": {
-		title: "Baron Diggory Colt",
-		subtitle: "Principal Secretary to the High King, Second of Essex\n\nLord of Corrin Cove and Droll Teller of Albion",		
+		title: "Diggory Colt",
+		subtitle: "Principal Secretary to the High King, Second of Essex\n\nBaron of Corrin Cove and Droll Teller of Albion",		
 		description: "Diggory was appointed in 1117 to serve as the Head of Intelligence to the Warhost of Albion. Hailing from [map:essex|Essex], Diggory has spent some time at sea as a provost in that land's navy and latterly as a magistrate based in Standford, Essex. His parents are co-stewards to House Banfleet of Standford.\n\nMade Baron of Corrin Cove in 1118 for services to Essex, Diggory is [gallery:esme-harcourt|Queen Esme's] second for that land and also the High King's Principal Secretary.\n\nIn Squire Fudge's absence from the Warhost, Diggory serves as his second on the Septum of the Gods of Law in the name of [temple:draco|Draco].\n\nWalking Taliesen's path of a Droll Teller of Albion, Diggory gathers and shares stories as readily as he breathes.",
 		imageSource: "portraits/diggory2.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019",
@@ -163,7 +163,7 @@ var portraitData = {
 		class: "nobles"
 	},
 	"david-jonathan-steele": {
-		title: "Sir David Jonathan Steele",
+		title: "David Jonathan Steele",
 		subtitle: "Templar of [temple:creed|Creed]",
 		description: "Sir Steele is Sir Alistair's confidant, traveling with him and the Warhost. He has spent a lot of time around commoners. This results in him being a little rough around the edges. Quick to make a dirty joke with soldiers in arms, he tries to conduct himself slightly better around womenfolk and gentry.\n\nSteele is utterly devoted to Creed and the Pantheon of Law. In battle, he has been known to lose himself to fierce rages, and struggles to resolve Creed’s Wisdom and Fury.",
 		imageSource: "portraits/david_jonathan_steele.jpg",
@@ -202,7 +202,7 @@ var portraitData = {
 		status: "absent"
 	},
 	"henri-trantrist": {
-		title: "Sir Henri Trantrist",
+		title: "Henri Trantrist",
 		subtitle: "First Knight of Albion",
 		description: "Champion to [gallery:cersei-de-vries|Queen Cersei], [group:knights-of-the-north|Knight of the North], Justicar and First Knight of Albion. As a Templar to Draco, Sir Henri has been blessed with the power to smite the unholy.",
 		imageSource: "portraits/henri_trantrist.jpg",
@@ -210,7 +210,7 @@ var portraitData = {
 		class: "knights"
 	},
 	"calidore": {
-		title: "Sir Calidore Aceleus",
+		title: "Calidore Aceleus",
 		subtitle: "Chivalric Nonpareil of the Warhost\n\nLord of the House of Thorns\n\nThe Knight of Thorns",
 		description: "Sir Calidore is a knight in service to Albion and the current lord of the Thornwood of Elmet. This distinguished old knight is ancient in human terms and he has walked in and out of the storybooks of old. Calidore extols the knightly virtues and lives by the old code of chivalry. First knighted by Queen Luciana of the Whitecliffs, hundreds of years ago, his blade has served many of Excalibur’s wielders.\n\nHe champions his most ancient patron, the Lady Morgaine, and constantly fights for what he believes is right.\n\nBe it a tale of times old, the advice of a reassuring father figure or a righteous personification of truth and justice, the old knight is ever ready to answer the call for aid.",
 		imageSource: "portraits/calidore.jpg",
@@ -218,7 +218,7 @@ var portraitData = {
 		class: "knights"
 	},
 	"pellinore": {
-		title: "Sir Pellinore",
+		title: "Pellinore",
 		subtitle: "Knight Feudal",
 		description: "Sir Pellinore disdained the life of a questing knight to join the warhost",
 		imageSource: "portraits/pellinore.jpg",
@@ -226,7 +226,7 @@ var portraitData = {
 		class: "knights"
 	},
 	"arwyn": {
-		title: "Sir Arwyn of the Lance",
+		title: "Arwyn",
 		subtitle: "Knight Martial, Champion of [map:deira|Deira]",
 		description: "Sir Arwyn is one of the foremost knights of Albion, holding the rank of Knight Martial. He exemplifies what it means to be a Champion. He never shirks his duty; always at the front, always the last from the field. He is [gallery:beaumont-trevallian|King Beaumont's] Champion and the Champion of Deira, one of the last surviving knights of the [group:lance-of-deira|Lance of Deira]. Recently he has been elevated to his ancestral seat as Duke of Preston, when his familial line was revealed.\n\nHe is the most stalwart of friends and dangerous of enemies.",
 		imageSource: "portraits/arwyn.jpg",
@@ -235,14 +235,14 @@ var portraitData = {
 	},
 	"prydwen-mortaine": {
 		title: "Prydwen Mortaine",
-		subtitle: "Dame of [map:elmet|Elmet]",
+		subtitle: "Dame of [map:elmet|Elmet]\n\nKnight of Duty",
 		description: "Dame Prydwen Mortaine of Elmet is a weathered knight of Lord Vernon, favouring strategy, cunning and finesse over outright brutishness. She is devoted to [temple:trask|Trask]. From birth, she has been prepared and trained for knighthood, culminating in her receiving her title four years ago.\n\nNow with the Warhost, Prydwen’s loyalty to the people and the land has only grown; she will raise her sword and risk her life not just for those who have her friendship, but for all men and women of Albion – it is her duty.",
 		imageSource: "portraits/prydwen_mortaine.jpg",
 		imageCredit: "Ben Cawkwell",
 		class: "knights"
 	},
 	"maddison": {
-		title: "Sir Piers",
+		title: "Piers",
 		subtitle: "Knight-Captain of the Monarch's Guard",
 		description: "A veteran knight, Sir Piers of Cornwall is sworn to the defence of the High Monarch of Albion with both a cold gaze and yet colder steel..",
 		imageSource: "portraits/piers.jpg",
@@ -257,8 +257,8 @@ var portraitData = {
 		class: "knights"
 	},
 	"mortlock-dayne": {
-		title: "Sir Mortlock Dayne",
-		subtitle: "Chapter Master of the Cast of Vengeance",
+		title: "Mortlock Dayne",
+		subtitle: "Chapter Master of the Cast of Vengeance\n\nTemplar of Solkar\n\nWolfsbane",
 		description: "Once a Squire to Sir Alistair, the peasant-born Mortlock has risen to the station of Knight Exemplar. He is currently building an Order of Solkar called the [group:cast-of-vengeance|Cast of Vengeance] within the Warhost, to ensure Solkar's Righteous Vengeance is enacted.",
 		imageSource: "portraits/mort.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
@@ -281,7 +281,7 @@ var portraitData = {
 		class: "knights"
 	},
 	"gawaine": {
-		title: "Sir Ryell Gawaine of Anglia",
+		title: "Ryell Gawaine",
 		subtitle: "Protector of the People\n\nSurvivor of Addersledge\n\nKingsguard",
 		description: "Previously squired to Sir Godfrey of Anglia. Knighted after the battle of Addersledge, a steep zig-zagging rocky path where 500 Anglian soldiers held off a thousand enemy combatants in a fierce and bloody battle.\n\nAfter much fighting, little more than a hundred Anglian soldiers survived before the enemy routed and retreated after Sir Godfrey led a charge to break their line and halt their steady, inevitable advance sacrificing his own life in the process.",
 		imageSource: "portraits/gawaine.jpg",
@@ -289,14 +289,14 @@ var portraitData = {
 		class: "knights"
 	},
 	"jorjah": {
-		title: "Dame Jorjah Moro",		
+		title: "Jorjah Moro",		
 		description: "Born from the peasantry of [map:norholt|Norholt], she tilled the fields as little more than a farmhand until her homestead was beset by bandits. Displaying some skill at arms she was ordered to serve one of the local knights. Eventually finding herself as part of Baron Alistair Yates' personal guard. Duty and service brought her to the warhost where she became Squire to Sir Victor de Braxe of the Lance. She proved herself dutiful and capable in less than four gatherings of the warhost she was raised to knighthood as the first act of the first monarch of Norholt, [gallery:elizabeth-yates|Queen Elizabeth Yates]. She seeks to serve above all else as a follower of [temple:trask|Trask] but life seems to frequently bring her closer to [temple:melaphine|Melaphine] time and time again. She walks the path of the Order of Avalon, championing the light of Albion with others of the ancient order.",
 		imageSource: "portraits/jorjah.jpg",
 		imageCredit: "[https://www.instagram.com/mckiejustin|Justin Mckie]",	
 		class: "knights"	
 	},
 	"galladon": {
-		title: "Sir Galladon",		
+		title: "Galladon",		
 		description: "A country knight hailing from the rolling hills of [map:elmet|Elmet]. He aspires in all things to be guided by his heart and true to his people.",
 		imageSource: "portraits/galladon.jpg",
 		imageCredit: "Louise Lee",
@@ -320,8 +320,8 @@ var portraitData = {
 		status: "dead"
 	},
 	"llorn": {
-		title: "Sergeant Llorn",
-		subtitle: "Master Of the Hunt\n\nMagus Prime, Famine-Slayer",
+		title: "Llorn",
+		subtitle: "Master of the Hunt\n\nMagus Prime, Famine-Slayer",
 		description: "Head Scout of the Albion Warhost and Sergeant in the [group:arcane-tempest|Arcane Tempest]. Llorn grew up in a small fishing village in [map:essex|Essex] before being recruited into the Arcane Tempest, where he proceeded to take poorly to the barracks life before being brought to the warhost where he very much hit his stride.\n\nLlorn rose to prominence in the warhost through the tutelage of Captain Wood where he now leads the scouts as her successor and is, with her, one of the few Ranalfians who openly flaunts their faith in the face of continued distrust and disdain.",
 		imageSource: "portraits/llorn.jpg",
 		class: "middle-class"
@@ -335,7 +335,7 @@ var portraitData = {
 		class: "middle-class"	
 	},
 	"helena": {
-		title: "Knight Sister Helena Ward",
+		title: "Helena Ward",
 		subtitle: "Prioress of the Sovereign and Holy Order of the [groups:hospitallers|Knights Hospitaller of Damacest], Royal Confessor to His Majesty High King Rudraigh PenhalIgon",
 		description: "A native of [map:sussex|Sussex], Sister Helena is a quiet, kindly presence in the warhost, who places the teachings of [temple:damacest|Damacest] first and foremost in all her actions. She was made leader of the Knights Hospitaller in the warhost after the tragic loss of Brother Aldwin Fletcher, in 1118. As Confessor, she listens to the many troubles and concerns of the warhost, providing spiritual advice and succour wherever she can.",
 		imageSource: "portraits/helena.jpg",
@@ -461,7 +461,7 @@ var portraitData = {
 	},
 	"serena": {
 		title: "Serena Rivers",
-		subtitle: "Knigh Sister of the [group:hospitallers|Knights Hospitaller]",
+		subtitle: "Knight Sister of the [group:hospitallers|Knights Hospitaller]",
 		description: "Forced to flee her native Cornwall, Senara joined the Hospitallers after her parents were killed. Although bossy, and at times a little too headstrong for her own good, she has a good heart. She is often found singing around camp or tending to the Hospitaller Library.",
 		imageSource: "portraits/serena.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
