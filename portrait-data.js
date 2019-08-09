@@ -451,6 +451,14 @@ var portraitData = {
 		imageCredit: "Unknown",
 		class: "middle-class"
 	},
+	"alde": {
+		title: "Aldenohn",
+		subtitle: "Squire to [gallery:mortlock|Sir Mortlock]",
+		description: "After being forced to live a life of crime due to unavoidable circumstances, Aldenohn joined the warhost in the hopes to redeem himself. His only ambition being to better the lives of those that he comes across and do some good in a world full of evils",
+		imageSource: "portraits/alde.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "middle-class"
+	},
 	"verity-fenn": {
 		title: "Verity Fenn",
 		subtitle: "Guildmaster of the Allied Alchemy Guild\n\nHead Alchemist of Albion",
