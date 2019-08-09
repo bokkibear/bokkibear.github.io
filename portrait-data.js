@@ -370,7 +370,7 @@ var portraitData = {
 	"cale": {
 		title: "Calenandir “Cale” Escantar",
 		subtitle: "Herald of Albion",
-		description: "Calenandir joined the warhost in 1116 as one of the founding members of the [group:sentinels|Gathered Sentinels], alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of [gallery:brakka|former High Herald B’rakka]. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
+		description: "Calenandir joined the warhost in 1116 as one of the founding members of the [group:sentinels|Gathered Sentinels], alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of former High Herald B’rakka. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
 		imageSource: "portraits/cale.jpg",
 		imageCredit: "Lara",
 		class: "middle-class"	
@@ -555,7 +555,7 @@ var portraitData = {
 		description: "A crew member of the Santia Maria, B'rakka joined the warhost in 1112 and studied both the arts of blacksmithing and diplomacy, the latter under [gallery:marcus-hayes|Marcus Hayes], whom he later succeeded as High Herald.",
 		imageSource: "portraits/b'rakka.jpg",
 		imageCredit: "Nikki Flynn",
-		council: true
+		status: "absent"
 	},
 	"jonathan-diamond": {
 		title: "Sergeant Jonathan Diamond",
@@ -630,7 +630,7 @@ var portraitData = {
 	"dayne": {
 		title: "Dayne",
 		subtitle: "Herald of [map:bernicia|Bernicia]",
-		description: "Dayne joined the Warhost in 1113 and quickly entered under [gallery:brakka|B'rakka's] tutelage in diplomacy as a Herald; his favourite pastimes involve committing casual heresies and skulking around forests at night trying not to get jumped.",
+		description: "Dayne joined the Warhost in 1113 and quickly entered under B'rakka's tutelage in diplomacy as a Herald; his favourite pastimes involve committing casual heresies and skulking around forests at night trying not to get jumped.",
 		imageSource: "portraits/dayne.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
 		status: "absent"
@@ -646,7 +646,7 @@ var portraitData = {
 	"marcus-hayes": {
 		title: "Marcus Hayes",
 		subtitle: "Bard",
-		description: "Marcus joined the warhost with his brother Gideon in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege [gallery:brakka|B'rakka], he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
+		description: "Marcus joined the warhost with his brother Gideon in 1109 at the Fayre of Scarborough and quickly rose to the rank of High Herald of Albion. Having passed the title on to his protege B'rakka, he has taken up the merry of life of a troubadour and does his best to keep up the morale of the warhost through songs and stories.",
 		imageSource: "portraits/marcus_hayes.jpg",
 		imageCredit: "Nikki Flynn",
 		class: "peasants"
