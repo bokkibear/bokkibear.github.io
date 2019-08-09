@@ -90,8 +90,9 @@
 				<span id='class-dropdown'>
 					<h3><span id='current-class'></span> &#9660;</h4>
 					<nav style='display:none'>
-						<a href='#royalty'>Royalty</a>
+						<a href='#monarchs'>Monarchs</a>
 						<a href='#nobles'>Nobles</a>			
+						<a href='#knights'>Knights</a>	
 						<a href='#middle-class'>Middle Class</a>
 						<a href='#peasants'>Peasants</a>
 						<a href='#fallen-heroes'>Fallen Heroes</a>
@@ -126,10 +127,11 @@
 		};
 
 		var currentClass = false;
-		var classes = ['royalty', 'nobles', 'middle-class', 'peasants', 'fallen-heroes'];
+		var classes = ['monarchs', 'nobles', 'knights', 'middle-class', 'peasants', 'fallen-heroes'];
 		var classNames = {
-			royalty: 'Royalty',
+			monarchs: 'Monarchs',
 			nobles: 'Nobles',
+			knights: 'Knights',
 			"middle-class": 'Middle Class',
 			peasants: 'Peasants',
 			"fallen-heroes": 'Fallen Heroes'
@@ -171,7 +173,11 @@
 					ensureCorrectGalleryShowing(newCharacterId);
 					var firstCharacterId = $gallery.find('.portrait:first-child').attr('id');
 					var portrait = portraitData[firstCharacterId];
-					history.replaceState(portrait, portrait.title, '#' + firstCharacterId);
+					if (portrait) {
+						history.replaceState(portrait, portrait.title, '#' + firstCharacterId);
+					} else {
+						//TODO handle case where the class is empty!
+					}
 				} else {
 					var newCharacterClass = getClassOfCharacter(newCharacterId);
 					ensureCorrectGalleryShowing(newCharacterClass);
@@ -182,7 +188,7 @@
 				}
 			}
 				
-			updateView(document.location.hash || "#royalty");
+			updateView(document.location.hash || "#monarchs");
 			
 			$(".gallery-scroll").on("click", function() {
 				var $clickedButton = $(this);					
@@ -273,10 +279,8 @@
 					var $subtitle = $("<h3>").addClass("portrait-subtitle").html(markdownToLionsHtml(portrait.subtitle));
 					$portrait.append($subtitle);
 				}
-
-				if ( portrait.knight ) {
-					$portrait.addClass('knight');
-				}
+				
+				$portrait.addClass(currentClass);				
 				
 				$gallery.append($portrait);				
 			}

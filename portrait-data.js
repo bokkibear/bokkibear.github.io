@@ -5,7 +5,7 @@ var portraitData = {
 		description: "Rudraigh is a dour and taciturn fellow, with exacting standards and an unbending love of the law. So great is his desire to see justice served fairly, he acted as advocate to Verlaine, the carnage witch of Cornwall, and his sworn enemy.",
 		imageSource: "portraits/rudraigh.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014",
-		class: "royalty"
+		class: "monarchs"
 	},
 	"gratziella-scarsworth": {
 		title: "Gratziella Scarsworth née Whitcombe",
@@ -13,8 +13,7 @@ var portraitData = {
 		description: "‘Duchess Grace’ was first sent to Anglia by High King Lucas Wren in the spring of 1112 and forcefully suppressed the troll rebellion, bringing peace to the region. After a whirlwind romance, she married a questionable gentleman by the name of Scarsworth and after contracting some kind of disease, was forced to retire away from public life allowing her Duke to brutally rule in her stead.\n\nAfter joining the warhost in 1115, she accompanied them in the liberation of Cornwall, where she was chosen by the Lady of the Lake to succeed Idris Mawr on the High Throne of Albion.",
 		imageSource: "portraits/gratziella_scarsworth.jpg",
 		imageCredit: "Nikki Flynn",
-		knight: true,
-		class: "royalty",
+		class: "monarchs",
 		status: "absent"
 	},
 	"idris-mawr": {
@@ -24,7 +23,7 @@ var portraitData = {
 		imageSource: "portraits/idris_mawr.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2014",
 		status: "absent",
-		class: "royalty"
+		class: "monarchs"
 	},
 	"quentyn-blackwell": {
 		title: "Quentyn Blackwell",
@@ -33,8 +32,7 @@ var portraitData = {
 		imageSource: "portraits/quentyn_blackwell_warface.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
 		council: true,
-		class: "royalty",
-		knight: true,
+		class: "monarchs"
 	},
 	"leofric": {
 		title: "Leofric Trevelyan",
@@ -42,8 +40,7 @@ var portraitData = {
 		description: "Lord Leofric Trevelyan has commanded the warhost of Albion with great distinction under at least five different monarchs. Often charged with coordinating all the armies on the field, he also has the most famous table in all the ten kingdoms named for him. Crowned King of Cornwall in 1116",
 		imageSource: "portraits/leofric.jpg",
 		imageCredit: "Nikki Flynn",
-		knight: true,
-		class: "royalty"
+		class: "monarchs"
 	},
 	"esme-harcourt": {
 		title: "Esme Harcourt",
@@ -51,7 +48,7 @@ var portraitData = {
 		description: "Born to a noble house of [map:wessex|Wessex], Esme rose to prominence in the court of the warhost, helping to establish the long-standing custom for the round table as a place where valuable information is exchanged. She was chosen to rule Essex by High King Goddard Hazelwood and she holds her duty to her people above all else.\n\nDespite serving the warhost chiefly as scholar and healer, she has been called to follow a path of righteous vengeance in recent years in the name of the god [temple:solkar|Solkar].",
 		imageSource: "portraits/esme.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
-		class: "royalty"
+		class: "monarchs"
 	},
 	"cersei-de-vries": {
 		title: "Cersei de Vries",
@@ -59,8 +56,7 @@ var portraitData = {
 		description: "Originally from the Fir Cruthen lands of Caledonia, Queen Cersei long ago pledged her sword to Albion. She has served the Albion Warhost since 1101 and ruled the Kingdom of Bernicia since 1108. She is the Grand Master of the [group:knights-of-the-north|Knights of the North] and a Truthsayer of [temple:draco|Draco]. A fierce warrior, she is a veteran of countless battles and continues to lead her men on the battlefield.",
 		imageSource: "portraits/cersei_de_vries.jpg",
 		imageCredit: "Nikki Flynn",
-		class: "royalty",
-		knight: true
+		class: "monarchs"
 	},
 	"elizabeth-yates": {
 		title: "Elizabeth Yates",
@@ -68,7 +64,7 @@ var portraitData = {
 		description: "The newly appointed Queen of the newly risen [map:norholt|Kingdom of Norholt]. During her time within the warhost she has faced difficulty and challenge, but saw a rise in station after overcoming it with the support of newfound allies and friends. From hand of the prince to baroness and now monarch. The nation she fought so fiercely to protect and see rise from a principality to a Kingdom. It has been a challenging time, and it has only just begun.",
 		imageSource: "portraits/elizabeth-yates.jpg",
 		imageCredit: "Emz Rae",
-		class: "royalty"
+		class: "monarchs"
 	},
 	"cornelius-mourning": {
 		title: "Cornelius Mourning",
@@ -76,7 +72,7 @@ var portraitData = {
 		description: "Cornelius Mourning first came to prominence during the Greenskin Wars, after Carl Trueheart ordered the raising of the Kings Own Volunteers. A survivor of the [map:battle-of-polgooth|massacre at Polgooth], in which most of his regiment lost their lives, he defied the orders of Lord Protector Martinique and remained in Albion to fight the Celtoi, which led to him being declared outlaw. When High King Tristian uncovered the truth about Cornelius's actions, he crowned him King of Wessex, ordering him to create a strong kingdom within Albion. In 1115, Cornelius led the Albion Reclamation Force, retaking Cornwall from the Druids. He now serves under his ninth High Monarch, prepared to defend Albion against any foe",
 		imageSource: "portraits/mourning.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",		
-		class: "royalty"
+		class: "monarchs"
 	},
 	"beaumont-trevallian": {
 		title: "Beaumont Trevallian",
@@ -84,50 +80,15 @@ var portraitData = {
 		description: "Tip of the [group:lance-of-deira|Lance], Knight of Corporeal and bearer of the Shinzu blade bestowed on him for his honorable conduct during the battle with the Mempo. New to his throne, he has a kingdom to rebuild following the destruction by the Lich Maldred.\n\nBest known for his marshall leadership of the Lance of Deira, a lesser known fact is his love of hunting, a pastime he enjoys with his son [gallery:austin-trevallian|Prince Austin].",
 		imageSource: "portraits/beaumont_trevallian.jpg",
 		imageCredit: "Nikki Flynn",
-		knight: true,
-		class: "royalty"
+		class: "monarchs"
 	},	
-	"benegar": {
-		title: "Benegar",
-		description: "Last from under the mountain from whence he returned with High King Tristan in 1108, he ruled [map:sussex|Sussex] with an iron fist in accordence with Solkar's laws. He has not been seen since Renewal 1118 when he abdicated.",
-		imageSource: "portraits/Benegar.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		class: "royalty",
-		knight: true
-	},
 	"gallad": {
 		title: "Gallad de Siward",
 		subtitle: "King of [map:elmet|Elmet]",
 		description: "Gallad rules with an austere focus, disturbed only from crusade by a penchant for fine banquets and merriment. Frequently away from his kingdom, called by the gods of law to quest across Albion and the known world, his capable advisors rule in his absence",
 		imageSource: "portraits/Gallad.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		knight: true,
-		class: "royalty"
-	},
-	"greyhame": {
-		title: "Oswald Greyhame",
-		subtitle: "Duke of Norholt City and Lord of the Four Keeps\n\nGuardian of the Fount\n\nKnight Commander of the Order of Saint Bispus\n\nWarden of the Border.",
-		description: "Ruler of the mountainous principality for many years until recently as [gallery:elizabeth-yates|Queen Elizabeth] now rules Norholt.",
-		imageSource: "portraits/Greyhame.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
-		knight: true
-	},
-	"hawksmoor": {
-		title: "Samantha Hawksmoor",
-		subtitle: "Earl of [map:oxford|Oxford]",
-		description: "Daughter of Viscount Alfred Montjoie, she is descended from the oldest and most powerful families of Oxford. She served dutifully in the Oxford royal court as its seneschal and married the powerful Earl David Hawksmoor. Since the Earl's tragic hunting accident the Lady Hawksmoor has done his and her fathers bloodlines proud, taking the reigns of Oxford in its greatest time of need. Her decision to bring the cunning and skilled General Sir William Pembroke out of retirement is said to be a turning point in the Kindah war. Also famously she sponsors the finest finishing school for young ladies in all of Albion",
-		imageSource: "portraits/Hawksmoor.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		knight: true,
-		class: "nobles"
-	},
-	"austin-trevallian": {
-		title: "Austin Trevallian",
-		subtitle: "Prince of [map:Deira|Deira]",
-		description: "Son of [gallery:beaumont-trevallian|King Beaumont], they often go hunting together in the forests of Deira",
-		imageSource: "portraits/austin_trevallian.jpg",
-		imageCredit: "Nathan Burman",		
-		royalty: true
+		class: "monarchs"
 	},
 	"teagan-patrixbourne": {
 		title: "Lady Teagan Patrixbourne",
@@ -135,7 +96,30 @@ var portraitData = {
 		description: "A veteran of the war in [map:deira|Deira], and of the events surrounding the burning of the bridge at Preston that shaped the [group:lance-of-deira|Lance], Teagan now serves the Gods of Law above all else. Many who knew Teagan before she took on the mantle of the Gods, would tell you how different she is from the spirited and fun-loving person who joined the warhost so many years ago. She is now known more for her judgemental stare and loyalty to the Gods, than for her laugh and inappropriate humour. If you know where to look, however, the same spirit still burns and despite her less approachable demeanour, many find comfort, reassurance and wisdom when they seek out her counsel.",
 		imageSource: "portraits/teagan.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
-		knight: true
+		class: "nobles"
+	},
+	"hawksmoor": {
+		title: "Samantha Hawksmoor",
+		subtitle: "Earl of [map:oxford|Oxford]",
+		description: "Daughter of Viscount Alfred Montjoie, she is descended from the oldest and most powerful families of Oxford. She served dutifully in the Oxford royal court as its seneschal and married the powerful Earl David Hawksmoor. Since the Earl's tragic hunting accident the Lady Hawksmoor has done his and her fathers bloodlines proud, taking the reigns of Oxford in its greatest time of need. Her decision to bring the cunning and skilled General Sir William Pembroke out of retirement is said to be a turning point in the Kindah war. Also famously she sponsors the finest finishing school for young ladies in all of Albion",
+		imageSource: "portraits/Hawksmoor.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "nobles"
+	},
+	"greyhame": {
+		title: "Oswald Greyhame",
+		subtitle: "Duke of Norholt City and Lord of the Four Keeps\n\nGuardian of the Fount\n\nKnight Commander of the Order of Saint Bispus\n\nWarden of the Border.",
+		description: "Ruler of the mountainous principality for many years until recently as [gallery:elizabeth-yates|Queen Elizabeth] now rules Norholt.",
+		imageSource: "portraits/Greyhame.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
+		class: "nobles"
+	},
+	"benegar": {
+		title: "Benegar",
+		description: "Last from under the mountain from whence he returned with High King Tristan in 1108, he ruled [map:sussex|Sussex] with an iron fist in accordence with Solkar's laws. He has not been seen since Renewal 1118 when he abdicated.",
+		imageSource: "portraits/Benegar.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "nobles"
 	},
 	"tyrius-loran": {
 		title: "Tyrius Loran",
@@ -143,7 +127,70 @@ var portraitData = {
 		description: "Lord Tyrius joined the warhost as little more than a mage scholar, only to be taken with it's cause and pledge himself to High King Lucas, who elevated him to his current role - possibly, the elf suspects, as some sort of joke he still hasn't got yet. He has served loyally under five monarchs, and works alongside [gallery:quentyn-blackwell|King Blackwell] to bring the High King's will and voice to the realms.",
 		imageSource: "portraits/tyrius_loran.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "nobles",
 		council: true
+	},
+	"wordsworth": {
+		title: "Baron Matthew Wordsworth",
+		subtitle: "Drollteller and Master of The Library of Norholt",
+		description: "A studious fellow who joined the Warhost shortly after they visited the Archives of the library. Wordsworth (as he prefers to be called) travels with the warhost in order to provide insight and guidance. Whilst within the warhost had been associated closely with the mythwalker Taliesin and has been trained in the arts of the drollteller.",
+		imageSource: "portraits/wordsworth.jpg",
+		imageCredit: "Lucy Degraft-Johnson",
+		class: "nobles"
+	},
+	"thrush": {
+		title: "Thrush",
+		subtitle: "Cadet-Prelate\n\nRitual Laureate of Albion",
+		description: "Following the abrupt departure of his predecessor, Thrush is the current interim Head Ritualist of the Lions Warhost, while also serving as a Cadet of the Arcane Tempest. Serving as both the lowest rank in the military and the highest rank of his particular talent has given the young Ritualist a chip on his shoulder, and an over-eagerness to prove himself worthy of both his title and a tricorn.",
+		imageSource: "portraits/thrush.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2016",
+		class: "nobles"
+	},
+	"diggory": {
+		title: "Baron Diggory Colt",
+		subtitle: "Principal Secretary to the High King, Second of Essex\n\nLord of Corrin Cove and Droll Teller of Albion",		
+		description: "Diggory was appointed in 1117 to serve as the Head of Intelligence to the Warhost of Albion. Hailing from [map:essex|Essex], Diggory has spent some time at sea as a provost in that land's navy and latterly as a magistrate based in Standford, Essex. His parents are co-stewards to House Banfleet of Standford.\n\nMade Baron of Corrin Cove in 1118 for services to Essex, Diggory is [gallery:esme-harcourt|Queen Esme's] second for that land and also the High King's Principal Secretary.\n\nIn Squire Fudge's absence from the Warhost, Diggory serves as his second on the Septum of the Gods of Law in the name of [temple:draco|Draco].\n\nWalking Taliesen's path of a Droll Teller of Albion, Diggory gathers and shares stories as readily as he breathes.",
+		imageSource: "portraits/diggory2.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019",
+		class: "nobles"
+	},
+	'daerin': {
+		title: "Mi'Naith Daerin",
+		subtitle: "Chancellor of the Celestial College\n\nBaron of Thorton",
+		description: "An elven elementalist from Siberia. Can the Lions trust him and his foreign ways?",
+		imageSource: "portraits/daerin.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "nobles"
+	},
+	"david-jonathan-steele": {
+		title: "Sir David Jonathan Steele",
+		subtitle: "Templar of [temple:creed|Creed]",
+		description: "Sir Steele is Sir Alistair's confidant, traveling with him and the Warhost. He has spent a lot of time around commoners. This results in him being a little rough around the edges. Quick to make a dirty joke with soldiers in arms, he tries to conduct himself slightly better around womenfolk and gentry.\n\nSteele is utterly devoted to Creed and the Pantheon of Law. In battle, he has been known to lose himself to fierce rages, and struggles to resolve Creed’s Wisdom and Fury.",
+		imageSource: "portraits/david_jonathan_steele.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "nobles"
+	},
+	"nash": {
+		title: "David Nasher",
+		subtitle: "Lord of Heartsford",
+		description: "A minor noble of [map:bernicia|Bernicia's] West, Lord Nasher is loyal to the Bernician Queen, [gallery:cersei-de-vries|Queen Cersei] and the Bernician crown.",
+		imageSource: "portraits/nash.jpg",
+		class: "nobles"
+	},
+	"gil": {
+		title: "Gil Roberts",
+		subtitle: "Squire to Sir Mortlock Dayne, Austringer of Solkar and Master blacksmith",
+		description: "Born the third son of an Essex baron, Gil squired for his elder brother who was a tournament knight. During this time he acquired the skills of a blacksmith and gained a firm grounding in the chivalric code. He joined the warhost, after his brother's death, due to a chance meeting with [gallery:mortlock-dayne|Sir Mortlock]." 		,
+		imageSource: "portraits/Gil.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell"
+	},
+	"austin-trevallian": {
+		title: "Austin Trevallian",
+		subtitle: "Prince of [map:Deira|Deira]",
+		description: "Son of [gallery:beaumont-trevallian|King Beaumont], they often go hunting together in the forests of Deira",
+		imageSource: "portraits/austin_trevallian.jpg",
+		imageCredit: "Nathan Burman",		
+		class: "nobles"
 	},
 	"johanna-proctor": {
 		title: "Lady Johanna A. Proctor Jorgenson",
@@ -160,16 +207,15 @@ var portraitData = {
 		description: "Champion to [gallery:cersei-de-vries|Queen Cersei], [group:knights-of-the-north|Knight of the North], Justicar and First Knight of Albion. As a Templar to Draco, Sir Henri has been blessed with the power to smite the unholy.",
 		imageSource: "portraits/henri_trantrist.jpg",
 		imageCredit: "Nikki Flynn",
-		knight: true
+		class: "knights"
 	},
-	"natanya": {
-		title: "Lady Natanya",
-		subtitle: "Knight of the Realm",
-		description: "TBA",
-		imageSource: "portraits/natanya.jpg",
-		imageCredit: "Unknown",
-		status: "absent",
-		knight: true
+	"calidore": {
+		title: "Sir Calidore Aceleus",
+		subtitle: "Chivalric Nonpareil of the Warhost\n\nLord of the House of Thorns\n\nThe Knight of Thorns",
+		description: "Sir Calidore is a knight in service to Albion and the current lord of the Thornwood of Elmet. This distinguished old knight is ancient in human terms and he has walked in and out of the storybooks of old. Calidore extols the knightly virtues and lives by the old code of chivalry. First knighted by Queen Luciana of the Whitecliffs, hundreds of years ago, his blade has served many of Excalibur’s wielders.\n\nHe champions his most ancient patron, the Lady Morgaine, and constantly fights for what he believes is right.\n\nBe it a tale of times old, the advice of a reassuring father figure or a righteous personification of truth and justice, the old knight is ever ready to answer the call for aid.",
+		imageSource: "portraits/calidore.jpg",
+		imageCredit: "Emz Rae",
+		class: "knights"
 	},
 	"pellinore": {
 		title: "Sir Pellinore",
@@ -177,17 +223,7 @@ var portraitData = {
 		description: "Sir Pellinore disdained the life of a questing knight to join the warhost",
 		imageSource: "portraits/pellinore.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2016",
-		knight: true
-	},
-	"alistair-yates": {
-		title: "Alistair Yates",
-		subtitle: "Knight of Duty, Baron of Norholt",
-		description: "As the oldest son of the Yates family, Alistair was destined to have a quiet life administering the family estate. However in his youth Alistair was inspired by the Knights in the service to [temple:trask|Trask] and was, after much insistence, granted permission by his father to train as a Templar.\n\nAlistair joined the Lions warhost to render assistance wherever he could. Since then he has become a Knight of the realm, married an Alamukh and been raised to Baron of [map:norholt|Norholt].\n\nHe sits on the Knights Council attempting to ensure that loyalty and duty are accounted for in all decisions.",
-		imageSource: "portraits/alistair_yates.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		knight: true,
-		council: true,
-		status: "dead"
+		class: "knights"
 	},
 	"arwyn": {
 		title: "Sir Arwyn of the Lance",
@@ -195,35 +231,218 @@ var portraitData = {
 		description: "Sir Arwyn is one of the foremost knights of Albion, holding the rank of Knight Martial. He exemplifies what it means to be a Champion. He never shirks his duty; always at the front, always the last from the field. He is [gallery:beaumont-trevallian|King Beaumont's] Champion and the Champion of Deira, one of the last surviving knights of the [group:lance-of-deira|Lance of Deira]. Recently he has been elevated to his ancestral seat as Duke of Preston, when his familial line was revealed.\n\nHe is the most stalwart of friends and dangerous of enemies.",
 		imageSource: "portraits/arwyn.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-		knight: true
+		class: "knights"
+	},
+	"prydwen-mortaine": {
+		title: "Prydwen Mortaine",
+		subtitle: "Dame of [map:elmet|Elmet]",
+		description: "Dame Prydwen Mortaine of Elmet is a weathered knight of Lord Vernon, favouring strategy, cunning and finesse over outright brutishness. She is devoted to [temple:trask|Trask]. From birth, she has been prepared and trained for knighthood, culminating in her receiving her title four years ago.\n\nNow with the Warhost, Prydwen’s loyalty to the people and the land has only grown; she will raise her sword and risk her life not just for those who have her friendship, but for all men and women of Albion – it is her duty.",
+		imageSource: "portraits/prydwen_mortaine.jpg",
+		imageCredit: "Ben Cawkwell",
+		class: "knights"
+	},
+	"maddison": {
+		title: "Sir Piers",
+		subtitle: "Knight-Captain of the Monarch's Guard",
+		description: "A veteran knight, Sir Piers of Cornwall is sworn to the defence of the High Monarch of Albion with both a cold gaze and yet colder steel..",
+		imageSource: "portraits/piers.jpg",
+		imageCredit: "Unknown",
+		class: "knights"
+	},
+	"rufus-mandrake": {
+		title: "Rufus Mandrake",
+		subtitle: "Knight of the North",
+		description: "Rufus travels with the [group:knights-of-the-north|Knights of the North], and is committed to serving the people of Albion.",
+		imageSource: "portraits/rufus_mandrake.jpg",		
+		class: "knights"
+	},
+	"mortlock-dayne": {
+		title: "Sir Mortlock Dayne",
+		subtitle: "Chapter Master of the Cast of Vengeance",
+		description: "Once a Squire to Sir Alistair, the peasant-born Mortlock has risen to the station of Knight Exemplar. He is currently building an Order of Solkar called the [group:cast-of-vengeance|Cast of Vengeance] within the Warhost, to ensure Solkar's Righteous Vengeance is enacted.",
+		imageSource: "portraits/mort.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
+		class: "knights"
+	},
+	"lady-morticia": {
+		title: "Baroness Morticia Blackwood",
+		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
+		description: "A Blackwood knight of the [group:order-of-the-bear|Order of the Bear], loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
+		imageSource: "portraits/lady_morticia.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "knights"
+	},
+	"montgomery-phillips": {
+		title: "Major Phillips",
+		subtitle: "Major of the [group:arcane-tempest|Arcane Tempest]\n\nMarshall of [map:essex|Essex]\n\nSuzerain of War\n\nAmbassador to the Jhereg Nation",
+		description: "One of the few Tempest to survive the battles around [map:battle-of-polgooth|Polgooth], Phillips has served with the Arcane Tempest for over 15 years. A man of many roles, he is the Arcane Tempest's as political liason to the warhost and serves the throne of Essex as Marshall.",
+		imageSource: "portraits/montgomery_phillips.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "knights"
+	},
+	"gawaine": {
+		title: "Sir Ryell Gawaine of Anglia",
+		subtitle: "Protector of the People\n\nSurvivor of Addersledge\n\nKingsguard",
+		description: "Previously squired to Sir Godfrey of Anglia. Knighted after the battle of Addersledge, a steep zig-zagging rocky path where 500 Anglian soldiers held off a thousand enemy combatants in a fierce and bloody battle.\n\nAfter much fighting, little more than a hundred Anglian soldiers survived before the enemy routed and retreated after Sir Godfrey led a charge to break their line and halt their steady, inevitable advance sacrificing his own life in the process.",
+		imageSource: "portraits/gawaine.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "knights"
+	},
+	"jorjah": {
+		title: "Dame Jorjah Moro",		
+		description: "Born from the peasantry of [map:norholt|Norholt], she tilled the fields as little more than a farmhand until her homestead was beset by bandits. Displaying some skill at arms she was ordered to serve one of the local knights. Eventually finding herself as part of Baron Alistair Yates' personal guard. Duty and service brought her to the warhost where she became Squire to Sir Victor de Braxe of the Lance. She proved herself dutiful and capable in less than four gatherings of the warhost she was raised to knighthood as the first act of the first monarch of Norholt, [gallery:elizabeth-yates|Queen Elizabeth Yates]. She seeks to serve above all else as a follower of [temple:trask|Trask] but life seems to frequently bring her closer to [temple:melaphine|Melaphine] time and time again. She walks the path of the Order of Avalon, championing the light of Albion with others of the ancient order.",
+		imageSource: "portraits/jorjah.jpg",
+		imageCredit: "[https://www.instagram.com/mckiejustin|Justin Mckie]",	
+		class: "knights"	
+	},
+	"natanya": {
+		title: "Lady Natanya",
+		subtitle: "Knight of the Realm",
+		description: "TBA",
+		imageSource: "portraits/natanya.jpg",
+		imageCredit: "Unknown",
+		status: "absent"
+	},
+	"alistair-yates": {
+		title: "Alistair Yates",
+		subtitle: "Knight of Duty, Baron of Norholt",
+		description: "As the oldest son of the Yates family, Alistair was destined to have a quiet life administering the family estate. However in his youth Alistair was inspired by the Knights in the service to [temple:trask|Trask] and was, after much insistence, granted permission by his father to train as a Templar.\n\nAlistair joined the Lions warhost to render assistance wherever he could. Since then he has become a Knight of the realm, married an Alamukh and been raised to Baron of [map:norholt|Norholt].\n\nHe sits on the Knights Council attempting to ensure that loyalty and duty are accounted for in all decisions.",
+		imageSource: "portraits/alistair_yates.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		council: true,
+		status: "dead"
+	},
+	"llorn": {
+		title: "Sergeant Llorn",
+		subtitle: "Master Of the Hunt\n\nMagus Prime, Famine-Slayer",
+		description: "Head Scout of the Albion Warhost and Sergeant in the [group:arcane-tempest|Arcane Tempest]. Llorn grew up in a small fishing village in [map:essex|Essex] before being recruited into the Arcane Tempest, where he proceeded to take poorly to the barracks life before being brought to the warhost where he very much hit his stride.\n\nLlorn rose to prominence in the warhost through the tutelage of Captain Wood where he now leads the scouts as her successor and is, with her, one of the few Ranalfians who openly flaunts their faith in the face of continued distrust and disdain.",
+		imageSource: "portraits/llorn.jpg",
+		class: "middle-class"
+	},
+	"arthek": {
+		title: "Arthek",
+		subtitle: "Squire",
+		description: "A coward who fled from [map:cornwall|Cornwall] instead of defending his home in the war with the druids, Arthek seeks redemption and acceptance within the warhost as [gallery:pellinore|Sir Pellinore's] squire.",
+		imageSource: "portraits/arthek.png",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "middle-class"	
+	},
+	"helena": {
+		title: "Knight Sister Helena Ward",
+		subtitle: "Prioress of the Sovereign and Holy Order of the [groups:hospitallers|Knights Hospitaller of Damacest], Royal Confessor to His Majesty High King Rudraigh PenhalIgon",
+		description: "A native of [map:sussex|Sussex], Sister Helena is a quiet, kindly presence in the warhost, who places the teachings of [temple:damacest|Damacest] first and foremost in all her actions. She was made leader of the Knights Hospitaller in the warhost after the tragic loss of Brother Aldwin Fletcher, in 1118. As Confessor, she listens to the many troubles and concerns of the warhost, providing spiritual advice and succour wherever she can.",
+		imageSource: "portraits/helena.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
+		class: "middle-class"	
 	},
 	"issa": {
 		title: "Issa maf Nimue maf Lohary-Ohn",
 		subtitle: "Wytch of [map:cornwall|Cornwall] and Albion\n\nApprentice to the Albion Mythwalker, Nimue",
 		description: "The recent troubles in Cornwall led to Issa joining the Albion warhost, seeing it as her best way to gain freedom for her home.\n\nIssa led the warhost in their magics and investigations in her role of Wytch of Albion, and fought alongside them on the field of battle.\n\nShe has also become a lady of the fae house of Lohary-Ohn through her close ties to the Fir Cruthen.\n\nIssa has recently left the warhost to become apprentice to Nimue. Her duty now lies in aiding Nimue to be the person Albion needs her to be.",
 		imageSource: "portraits/issa-2.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019"		
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019"		,
+		class: "middle-class"	
 	},
-	"diggory": {
-		title: "Baron Diggory Colt",
-		subtitle: "Principal Secretary to the High King, Second of Essex\n\nLord of Corrin Cove and Droll Teller of Albion",		
-		description: "Diggory was appointed in 1117 to serve as the Head of Intelligence to the Warhost of Albion. Hailing from [map:essex|Essex], Diggory has spent some time at sea as a provost in that land's navy and latterly as a magistrate based in Standford, Essex. His parents are co-stewards to House Banfleet of Standford.\n\nMade Baron of Corrin Cove in 1118 for services to Essex, Diggory is [gallery:esme-harcourt|Queen Esme's] second for that land and also the High King's Principal Secretary.\n\nIn Squire Fudge's absence from the Warhost, Diggory serves as his second on the Septum of the Gods of Law in the name of [temple:draco|Draco].\n\nWalking Taliesen's path of a Droll Teller of Albion, Diggory gathers and shares stories as readily as he breathes.",
-		imageSource: "portraits/diggory2.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2019",
+	"hugh": {
+		title: "Hugh Bardolf",
+		subtitle: "Norholt Librarian",
+		description: "Hugh joined the warhost to assist with the creation of Wyvern's Reign (the sword of Norholt). He now divides his time between library duties and the ritual circle.",
+		imageSource: "portraits/hugh.jpg",
+		imageCredit: "Ben Smith",
+		class: "middle-class"	
+	},
+	"kirik": {
+		title: "Kirik",
+		subtitle: "Squire to Sir Hector Garrison",
+		description: "The sole surviving member of his mercenary band. Kirik took to wandering the land in search of the vile necromancer responsible for their slaughter. Now a proud member of the Lions, Kirik continues his search with the backing of his new brothers and sisters in arms, with the hope that one day he may find justice and escape his past.",
+		imageSource: "portraits/kirik.jpg",
+		imageCredit: "Mara Alexandra",
+		class: "middle-class"	
+	},
+	"vyncent": {
+		title: "Vyncent",
+		subtitle: "Knight brother of the [group:hospitallers|Knights Hospitaller]\n\nWarden of Albion and Voice of Melaphine",
+		description: "The youngest of 7 siblings, Vyncent is a skilled surgeon, dedicated priest, and friend to many in the warhost.",
+		imageSource: "portraits/vyncent-2.jpg",
+		imageCredit: "Duncan Thacker",
+		class: "middle-class"	
+	},
+	"cale": {
+		title: "Calenandir “Cale” Escantar",
+		subtitle: "Herald of Albion",
+		description: "Calenandir joined the warhost in 1116 as one of the founding members of the [group:sentinels|Gathered Sentinels], alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of [gallery:brakka|former High Herald B’rakka]. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
+		imageSource: "portraits/cale.jpg",
+		imageCredit: "Lara",
+		class: "middle-class"	
+	},
+	"ailah": {
+		title: "Ailah Kerrow-Fletcher",
+		subtitle: "Second to the [gallery:teagan-patrixbourne|Champion of Law]",
+		description: "Emerging from a guerrilla war against the druids in the deepest wilds of [map:cornwall|Cornwall], Ailah Kerrow turned up quite uninvited to the great winter banquet of 1114, with demands that the warriors of Albion should turn their attention to helping her besieged people. Once Cornwall was liberated, it became clear that there was no home or family of hers left to return to, and the ranger found renewed purpose amongst the warhost.\n\nFiercely loyal to her friends and allies despite her somewhat blunt and often prickly nature, Ailah struggles to bridge the gap between the deeply traditional ways of Kernow and an ever-changing unified Albion.",
+		imageSource: "portraits/ailah.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "middle-class"	
+	},
+	"jhorik": {
+		title: "Jhorik the Striped",
+		subtitle: "First Hero and Master of the Academy of War, Lead Crafter and Forgemaster of Albion",
+		description: "Born in Norsca, Jhorik moved to [map:elmet|Elmet] to establish a mine. After meeting Letholdus Ward, he agreed his strength in arms would be better put to use serving Albion and the Warhost. Joining the [group:sentinels|Gathered Sentinels] and leaving his brothers in charge of the mine, Jhorik has served the Warhost since 1116 as a blacksmith, a line-breaker and as a Hero of the Academy of War.",
+		imageSource: "portraits/jhorik.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "middle-class"	
 	},
 	"brocc": {
 		title: "Brocc Briarthorn",
 		subtitle: "High Warden of Albion",
 		description: "Priest, servant, peasant. Brocc and numerous others from [map:deira|Deira] lost those close to them and were made homeless following the attacks by the necromancer Maldred. A dark time for many. A refugee within his own troubled land, he discovered and joined a recluse order of like minded folk offering sanctuary deep witin Deira's woodland. As the troubles lessened Brocc and other men of Deira crept out of hiding. Brocc is also the owner of a spectacular rockery.",
 		imageSource: "portraits/brocc.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015"
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
+		class: "middle-class"	
 	},
-	"thrush": {
-		title: "Thrush",
-		subtitle: "Cadet-Prelate\n\nRitual Laureate of Albion",
-		description: "Following the abrupt departure of his predecessor, Thrush is the current interim Head Ritualist of the Lions Warhost, while also serving as a Cadet of the Arcane Tempest. Serving as both the lowest rank in the military and the highest rank of his particular talent has given the young Ritualist a chip on his shoulder, and an over-eagerness to prove himself worthy of both his title and a tricorn.",
-		imageSource: "portraits/thrush.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2016",
+	"calonar-aceleus": {
+		title: "Calonar Aceleus",
+		description: "Eldest son on the honourable Sir Calidore Aceleus. Formerly Captain Aceleus of the Kings Foresters of Wessex, and proud member of the Lions Scouting force.",
+		imageSource: "portraits/calonar_aceleus.jpg",
+		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
+		class: "middle-class"
+	},
+	"asher": {
+		title: "Asher Aceleus",
+		subtitle: "Climbing Rose of the House of Thorns",
+		description: "One of the youngest in the House of Thorns, Asher constantly seeks new friends and new magics all whilst trying to recover knowledge lost to Albion.",
+		imageSource: "portraits/asher.jpg",
+		imageCredit: "Emz Rae"	,
+		class: "middle-class"		
+	},
+	"finn-mcgarry": {
+		title: "Finn McGarry",
+		subtitle: "Truthsayer of Draco",
+		description: "Once an incompetent horse-thief, Finn McGarry was sentenced to serve the [group:knights-of-the-north|Knights of the North], where he found himself unexpectedly converted to the worship of [temple:draco|Draco] as a truthsayer. Now serving as [gallery:cersei-de-vries|Queen Cersei's] bodyguard (which she doesn't need very much) and healer (which she certainly does need), he can be seen on most days trying to catch up with her as she runs off somewhere important.",
+		imageSource: "portraits/finn_mcgarry.jpg",
+		imageCredit: "Nikki Flynn",
+		class: "middle-class"	
+	},
+	"letholdus": {
+		title: "Letholdus Ward",
+		subtitle: "Voice of Elmet\n\nTail of the Owl of the [group:sentinels|Gathered Sentinels]",
+		description: "At the beginning of 1115, Letholdus ward joined the war host of Albion along with his companion, Elaina Stone. At their first gathering, Letholdus and Elaina quickly put their talents to use as battlefield scouts.\n\nAfter the death of Elaina at the Renewal of Magic 1115, Letholdus was heartbroken and vowed to do his best to spare any others of the Lions the feelings of such loss. Wandering Albion to learn the basics of corporeal magic, he came upon several individuals he would come to call friends and allies.\n\nWhen the first gathering of 1116 was called, Letholdus brought together these new friends to form The Gathered Sentinels, a group which he now leads within the Lions’ war host. He is always on the lookout for others who may also be sentinels of Albion.",
+		imageSource: "portraits/letholdus.jpg",
+		class: "middle-class"	
+	},
+	"rinoa": {
+		title: "Rinoa",
+		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by [gallery:letholdus|Letholdus Ward].\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the [group:sentinels|Gathered Sentinels].",
+		imageSource: "portraits/rinoa.jpg",
+		imageCredit: "Sam Merry",
+		class: "middle-class"
+	},
+	"boar": {
+		title: "Boar Thistlan",
+		subtitle: "Squire to Lady Morticia",
+		description: "Boar is the keeper of knowledge within the [group:order-of-the-bear|Order of the Bear].",
+		imageSource: "portraits/boar.jpg",
+		imageCredit: "Unknown",
+		class: "middle-class"
 	},
 	"verity-fenn": {
 		title: "Verity Fenn",
@@ -233,20 +452,12 @@ var portraitData = {
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
 		status: "absent"
 	},
-	"finn-mcgarry": {
-		title: "Finn McGarry",
-		subtitle: "Truthsayer of Draco",
-		description: "Once an incompetent horse-thief, Finn McGarry was sentenced to serve the [group:knights-of-the-north|Knights of the North], where he found himself unexpectedly converted to the worship of [temple:draco|Draco] as a truthsayer. Now serving as [gallery:cersei-de-vries|Queen Cersei's] bodyguard (which she doesn't need very much) and healer (which she certainly does need), he can be seen on most days trying to catch up with her as she runs off somewhere important.",
-		imageSource: "portraits/finn_mcgarry.jpg",
-		imageCredit: "Nikki Flynn"
-	},
 	"dalton-oakes": {
 		title: "Dalton Oaks",
 		subtitle: "First Knight of Elmet and Knight of Melaphine",
 		description: "Dalton Oakes joined the warhost in 1113 in the service of Lady Elayna of Whitecastle, the sister of King Gallad of [map:elmet|Elmet]. A squire, Dalton was instructed by [gallery:arwyn|Sir Arwyn of the Lance]. Serving with some acclaim he was knighted the following spring by [gallery:leofric|Lord Leofric] and the blade of peace, Clarent. Two days later Lady Elayna was slain upon the battlefield. Despite this momentous blow to the hearts of the Lions and in particular to Dalton, his focus on the fate of both Elmet and Albion was magnified as a result. Later that year he was made a Knight of the Realm and represents the interests of Elmet's capital within the warhost.",
 		imageSource: "portraits/dalton.jpg",
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
-		knight: true,
 		status: "dead"
 	},
 	"gideon-hayes": {
@@ -255,7 +466,6 @@ var portraitData = {
 		description: "Gideon joined the warhost along with his brother [gallery:marcus-hayes|Marcus], and found his role in the Lions' front lines. Knighted by High King Hazel in 1112, he remains an infrequent but faithful member of the warhost.",
 		imageSource: "portraits/gideon_hayes.jpg",
 		imageCredit: "Duncan Thacker",
-		knight: true,
 		status: "absent"
 	},
 	"anselm": {
@@ -265,45 +475,7 @@ var portraitData = {
 		imageSource: "portraits/anselm.jpg",
 		imageCredit: "Nikki Flynn",
 		status: "dead",
-		council: true,
-		knight: true
-	},
-	"lady-morticia": {
-		title: "Baroness Morticia Blackwood",
-		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
-		description: "A Blackwood knight of the [group:order-of-the-bear|Order of the Bear], loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
-		imageSource: "portraits/lady_morticia.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell",
 		council: true
-	},
-	"boar": {
-		title: "Boar Thistlan",
-		subtitle: "Squire to Lady Morticia",
-		description: "Boar is the keeper of knowledge within the [group:order-of-the-bear|Order of the Bear].",
-		imageSource: "portraits/boar.jpg",
-		imageCredit: "Unknown",
-		council: true
-	},
-	"wordsworth": {
-		title: "Baron Matthew Wordsworth",
-		subtitle: "Drollteller and Master of The Library of Norholt",
-		description: "A studious fellow who joined the Warhost shortly after they visited the Archives of the library. Wordsworth (as he prefers to be called) travels with the warhost in order to provide insight and guidance. Whilst within the warhost had been associated closely with the mythwalker Taliesin and has been trained in the arts of the drollteller.",
-		imageSource: "portraits/wordsworth.jpg",
-		imageCredit: "Lucy Degraft-Johnson",
-	},
-	"hugh": {
-		title: "Hugh Bardolf",
-		subtitle: "Norholt Librarian",
-		description: "Hugh joined the warhost to assist with the creation of Wyvern's Reign (the sword of Norholt). He now divides his time between library duties and the ritual circle.",
-		imageSource: "portraits/hugh.jpg",
-		imageCredit: "Ben Smith"
-	},
-	'daerin': {
-		title: "Mi'Naith Daerin",
-		subtitle: "Chancellor of the Celestial College\n\nBaron of Thorton",
-		description: "An elven elementalist from Siberia. Can the Lions trust him and his foreign ways?",
-		imageSource: "portraits/daerin.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
 	},
 	"florence-simmerson": {
 		title: "Florence Simmerson",
@@ -312,14 +484,7 @@ var portraitData = {
 		imageSource: "portraits/florence_simmerson.jpg",
 		imageCredit: "Duncan Thacker",
 		status: "absent",
-		knight: true
-	},
-	"david-jonathan-steele": {
-		title: "Sir David Jonathan Steele",
-		subtitle: "Templar of [temple:creed|Creed]",
-		description: "Sir Steele is Sir Alistair's confidant, traveling with him and the Warhost. He has spent a lot of time around commoners. This results in him being a little rough around the edges. Quick to make a dirty joke with soldiers in arms, he tries to conduct himself slightly better around womenfolk and gentry.\n\nSteele is utterly devoted to Creed and the Pantheon of Law. In battle, he has been known to lose himself to fierce rages, and struggles to resolve Creed’s Wisdom and Fury.",
-		imageSource: "portraits/david_jonathan_steele.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
+		
 	},
 	"osfrith": {
 		title: "Osfrith",
@@ -329,28 +494,21 @@ var portraitData = {
 		imageCredit: "Oliver Facey",
 		status: "absent"
 	},
-	"arthek": {
-		title: "Arthek",
-		subtitle: "Squire",
-		description: "A coward who fled from [map:cornwall|Cornwall] instead of defending his home in the war with the druids, Arthek seeks redemption and acceptance within the warhost as [gallery:pellinore|Sir Pellinore's] squire.",
-		imageSource: "portraits/arthek.png",
-		imageCredit: "Steve 'Flasher' Mitchell"
+	"kheeevra-silurian": {
+		title: "Kh'eeevra Silurian",
+		description: "An elf from a now extinct forrest, Kh'eeevra spent her time wandering Albion when not serving the warhost, putting her skills as an archer and ranger to use, helping those in need where she finds them. Preferring the solitude of the forests, she often spent months at a time wandering the wilds alone.",
+		imageSource: "portraits/kheeevra_silurian.jpg",
+		imageCredit: "Steve 'Flasher' Mitchell",
+		class: "fallen-heroes"
 	},
 	"will": {
 		title: "Sir Will of the Lance",
 		subtitle: "Protector of the Crown of Essex",
-		description: "Hailing from the streets of Preston in [map:deira|Deira], Will was raised and trained as a bodyguard to the Beauchamp family before reciving his knighthood in the field of battle against the hordes of Mordred. Since rejoining his Brothers of the [group:lance-of-deira|Lance] in the warhost he has served as deputy Castellan and more recently pledged his service as Protector to [gallery:esme-harcourt|Queen Esme of Essex].",
+		description: "Hailing from the streets of Preston in [map:deira|Deira], Will was raised and trained as a bodyguard to the Beauchamp family before receiving his knighthood in the field of battle against the hordes of Mordred. After rejoining his Brothers of the [group:lance-of-deira|Lance] in the warhost he served as deputy Castellan, and later recently pledged his service as Protector to [gallery:esme-harcourt|Queen Esme of Essex].",
 		imageSource: "portraits/will.jpg",
 		imageCredit: "Emilie Rae",
 		class: "fallen-heroes",
-		knight: true
-	},
-	"rufus-mandrake": {
-		title: "Rufus Mandrake",
-		subtitle: "Knight of the North",
-		description: "Rufus travels with the [group:knights-of-the-north|Knights of the North], and is committed to serving the people of Albion.",
-		imageSource: "portraits/rufus_mandrake.jpg",		
-		knight: true
+		status: "dead"
 	},
 	"richaldis-beauchamp": {
 		title: "Richaldis Beauchamp",
@@ -359,27 +517,6 @@ var portraitData = {
 		imageSource: "portraits/richaldis_beauchamp.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
 		status: "dead"
-	},
-	"gil": {
-		title: "Gil Roberts",
-		subtitle: "Squire to Sir Mortlock Dayne, Austringer of Solkar and Master blacksmith",
-		description: "Born the third son of an Essex baron, Gil squired for his elder brother who was a tournament knight. During this time he acquired the skills of a blacksmith and gained a firm grounding in the chivalric code. He joined the warhost, after his brother's death, due to a chance meeting with [gallery:mortlock-dayne|Sir Mortlock]." 		,
-		imageSource: "portraits/Gil.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell"
-	},
-	"jhorik": {
-		title: "Jhorik the Striped",
-		subtitle: "First Hero and Master of the Academy of War, Lead Crafter and Forgemaster of Albion",
-		description: "Born in Norsca, Jhorik moved to [map:elmet|Elmet] to establish a mine. After meeting Letholdus Ward, he agreed his strength in arms would be better put to use serving Albion and the Warhost. Joining the [group:sentinels|Gathered Sentinels] and leaving his brothers in charge of the mine, Jhorik has served the Warhost since 1116 as a blacksmith, a line-breaker and as a Hero of the Academy of War.",
-		imageSource: "portraits/jhorik.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell"
-	},
-	"cale": {
-		title: "Calenandir “Cale” Escantar",
-		subtitle: "Herald of Albion",
-		description: "Calenandir joined the warhost in 1116 as one of the founding members of the [group:sentinels|Gathered Sentinels], alongside [gallery:jhorik|Jhorik] and Letholdus. Cale has swiftly adjusted to his newfound place in the warhost under the tutelage of [gallery:brakka|former High Herald B’rakka]. His resounding voice can be heard roaring through the warhost as he calls the Lions to muster in Parliament or To Arms, whilst on the battlefield he plys bow and blade beside the redoubtable scouts of the [gallery:llorn|Master of the Hunt, Llorn], or stands ready with a healer’s touch for his fellow Sentinels and Lions.",
-		imageSource: "portraits/cale.jpg",
-		imageCredit: "Lara"
 	},
 	"nathaniel-de-montfort": {
 		title: "Nathaniel Richard de Montfort",
@@ -405,13 +542,6 @@ var portraitData = {
 		imageCredit: "Nikki Flynn",
 		status: "dead"
 	},
-	"jorjah": {
-		title: "Dame Jorjah Moro",		
-		description: "Born from the peasantry of [map:norholt|Norholt], she tilled the fields as little more than a farmhand until her homestead was beset by bandits. Displaying some skill at arms she was ordered to serve one of the local knights. Eventually finding herself as part of Baron Alistair Yates' personal guard. Duty and service brought her to the warhost where she became Squire to Sir Victor de Braxe of the Lance. She proved herself dutiful and capable in less than four gatherings of the warhost she was raised to knighthood as the first act of the first monarch of Norholt, [gallery:elizabeth-yates|Queen Elizabeth Yates]. She seeks to serve above all else as a follower of [temple:trask|Trask] but life seems to frequently bring her closer to [temple:melaphine|Melaphine] time and time again. She walks the path of the Order of Avalon, championing the light of Albion with others of the ancient order.",
-		imageSource: "portraits/jorjah.jpg",
-		imageCredit: "[https://www.instagram.com/mckiejustin|Justin Mckie]",
-		knight: true
-	},
 	"darcy-ferrin": {
 		title: "Darcy Ferrin",
 		subtitle: "Castellan of the Warhost",
@@ -426,49 +556,6 @@ var portraitData = {
 		imageSource: "portraits/b'rakka.jpg",
 		imageCredit: "Nikki Flynn",
 		council: true
-	},
-	"nash": {
-		title: "David Nasher",
-		subtitle: "Lord of Heartsford",
-		description: "A minor noble of [map:bernicia|Bernicia's] West, Lord Nasher is loyal to the Bernician Queen, [gallery:cersei-de-vries|Queen Cersei] and the Bernician crown.",
-		imageSource: "portraits/nash.jpg"
-	},
-	"vyncent": {
-		title: "Vyncent",
-		subtitle: "Knight brother of the [group:hospitallers|Knights Hospitaller]\n\nWarden of Albion and Voice of Melaphine",
-		description: "The youngest of 7 siblings, Vyncent is a skilled surgeon, dedicated priest, and friend to many in the warhost.",
-		imageSource: "portraits/vyncent-2.jpg",
-		imageCredit: "Duncan Thacker",
-	},
-	"helena": {
-		title: "Knight Sister Helena Ward",
-		subtitle: "Prioress of the Sovereign and Holy Order of the [groups:hospitallers|Knights Hospitaller of Damacest], Royal Confessor to His Majesty High King Rudraigh PenhalIgon",
-		description: "A native of [map:sussex|Sussex], Sister Helena is a quiet, kindly presence in the warhost, who places the teachings of [temple:damacest|Damacest] first and foremost in all her actions. She was made leader of the Knights Hospitaller in the warhost after the tragic loss of Brother Aldwin Fletcher, in 1118. As Confessor, she listens to the many troubles and concerns of the warhost, providing spiritual advice and succour wherever she can.",
-		imageSource: "portraits/helena.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018"
-	},
-	"prydwen-mortaine": {
-		title: "Prydwen Mortaine",
-		subtitle: "Dame of [map:elmet|Elmet]",
-		description: "Dame Prydwen Mortaine of Elmet is a weathered knight of Lord Vernon, favouring strategy, cunning and finesse over outright brutishness. She is devoted to [temple:trask|Trask]. From birth, she has been prepared and trained for knighthood, culminating in her receiving her title four years ago.\n\nNow with the Warhost, Prydwen’s loyalty to the people and the land has only grown; she will raise her sword and risk her life not just for those who have her friendship, but for all men and women of Albion – it is her duty.",
-		imageSource: "portraits/prydwen_mortaine.jpg",
-		imageCredit: "Ben Cawkwell",
-		knight: true
-	},
-	"mortlock-dayne": {
-		title: "Sir Mortlock Dayne",
-		subtitle: "Chapter Master of the Cast of Vengeance",
-		description: "Once a Squire to Sir Alistair, the peasant-born Mortlock has risen to the station of Knight Exemplar. He is currently building an Order of Solkar called the [group:cast-of-vengeance|Cast of Vengeance] within the Warhost, to ensure Solkar's Righteous Vengeance is enacted.",
-		imageSource: "portraits/mort.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2018",
-		knight: true
-	},
-	"ailah": {
-		title: "Ailah Kerrow-Fletcher",
-		subtitle: "Second to the [gallery:teagan-patrixbourne|Champion of Law]",
-		description: "Emerging from a guerrilla war against the druids in the deepest wilds of [map:cornwall|Cornwall], Ailah Kerrow turned up quite uninvited to the great winter banquet of 1114, with demands that the warriors of Albion should turn their attention to helping her besieged people. Once Cornwall was liberated, it became clear that there was no home or family of hers left to return to, and the ranger found renewed purpose amongst the warhost.\n\nFiercely loyal to her friends and allies despite her somewhat blunt and often prickly nature, Ailah struggles to bridge the gap between the deeply traditional ways of Kernow and an ever-changing unified Albion.",
-		imageSource: "portraits/ailah.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017"
 	},
 	"jonathan-diamond": {
 		title: "Sergeant Jonathan Diamond",
@@ -493,19 +580,6 @@ var portraitData = {
 		imageSource: "portraits/tabitha_tate.jpg",
 		imageCredit: "Nikki Flynn",
 		status: "absent"
-	},
-	"montgomery-phillips": {
-		title: "Major Phillips",
-		subtitle: "Major of the [group:arcane-tempest|Arcane Tempest]\n\nMarshall of [map:essex|Essex]\n\nSuzerain of War\n\nAmbassador to the Jhereg Nation",
-		description: "One of the few Tempest to survive the battles around [map:battle-of-polgooth|Polgooth], Phillips has served with the Arcane Tempest for over 15 years. A man of many roles, he is the Arcane Tempest's as political liason to the warhost and serves the throne of Essex as Marshall.",
-		imageSource: "portraits/montgomery_phillips.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell"
-	},
-	"llorn": {
-		title: "Sergeant Llorn",
-		subtitle: "Master Of the Hunt\n\nMagus Prime, Famine-Slayer",
-		description: "Head Scout of the Albion Warhost and Sergeant in the [group:arcane-tempest|Arcane Tempest]. Llorn grew up in a small fishing village in [map:essex|Essex] before being recruited into the Arcane Tempest, where he proceeded to take poorly to the barracks life before being brought to the warhost where he very much hit his stride.\n\nLlorn rose to prominence in the warhost through the tutelage of Captain Wood where he now leads the scouts as her successor and is, with her, one of the few Ranalfians who openly flaunts their faith in the face of continued distrust and disdain.",
-		imageSource: "portraits/llorn.jpg"
 	},
 	"cox": {
 		title: "Private Cox",
@@ -545,13 +619,6 @@ var portraitData = {
 		imageCredit: "John C. Kirk",
 		status: "absent"
 	},
-	"bill-brewer": {
-		title: "Bill Brewer",
-		subtitle: "Peasant of [map:deira|Deira]",
-		description: "Before the Necromancer Maldred waged war on his homeland, Bill was a simple peasant of Deira, making cider for other people of his village. During the troubles he sought refuge with [gallery:brocc|Brocc Briarthorn], Daniel Whiddon, Swithen Swift and others within the safety of [gallery:beaumont-trevallian|King Beaumont]’s forests. Since then he has felt compelled to aid his fellow Albions in any way he can. Although his skills in combat and anything military are somewhat lacking he has endeavoured to help raise morale of the warhost with his cider, melons and games.",
-		imageSource: "portraits/bill_brewer.jpg",
-		imageCredit: "Nikki Flynn"
-	},
 	"thalynanti": {
 		title: "Thalynanti of Port Reybard",
 		subtitle: "Regent of Deira",
@@ -559,59 +626,6 @@ var portraitData = {
 		imageSource: "portraits/thalynanti_hazlewood.jpg",
 		imageCredit: "Nikki Flynn",
 		status: "absent"
-	},
-	"calidore": {
-		title: "Sir Calidore Aceleus",
-		subtitle: "Chivalric Nonpareil of the Warhost\n\nLord of the House of Thorns\n\nThe Knight of Thorns",
-		description: "Sir Calidore is a knight in service to Albion and the current lord of the Thornwood of Elmet. This distinguished old knight is ancient in human terms and he has walked in and out of the storybooks of old. Calidore extols the knightly virtues and lives by the old code of chivalry. First knighted by Queen Luciana of the Whitecliffs, hundreds of years ago, his blade has served many of Excalibur’s wielders.\n\nHe champions his most ancient patron, the Lady Morgaine, and constantly fights for what he believes is right.\n\nBe it a tale of times old, the advice of a reassuring father figure or a righteous personification of truth and justice, the old knight is ever ready to answer the call for aid.",
-		imageSource: "portraits/calidore.jpg",
-		imageCredit: "Emz Rae"		
-	},
-	"calonar-aceleus": {
-		title: "Calonar Aceleus",
-		description: "Eldest son on the honourable Sir Calidore Aceleus. Formerly Captain Aceleus of the Kings Foresters of Wessex, and proud member of the Lions Scouting force.",
-		imageSource: "portraits/calonar_aceleus.jpg",
-		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2017",
-	},
-	"asher": {
-		title: "Asher Aceleus",
-		subtitle: "Climbing Rose of the House of Thorns",
-		description: "One of the youngest in the House of Thorns, Asher constantly seeks new friends and new magics all whilst trying to recover knowledge lost to Albion.",
-		imageSource: "portraits/asher.jpg",
-		imageCredit: "Emz Rae"		
-	},
-	"sebastian-thatcher": {
-		title: "Sebastian Thatcher",
-		subtitle: "Wizard of the [group:order-of-the-bear|Order of the Bear]",
-		description: "Sebastianan was sent to the warhost to provide magical support to the Order.",
-		imageSource: "portraits/sebastian-thatcher.jpg",
-		imageCredit: "Ben Cawkwell"
-	},
-	"kheeevra-silurian": {
-		title: "Kh'eeevra Silurian",
-		description: "An elf from a now extinct forrest, Kh'eeevra spends her time wandering Albion when not serving the warhost, putting her skills as an archer and ranger to use, helping those in need where she finds them. Preferring the solitude of the forests, she often spends months at a time wandering the wilds alone.",
-		imageSource: "portraits/kheeevra_silurian.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell",
-		status: "absent"
-	},
-	"letholdus": {
-		title: "Letholdus Ward",
-		subtitle: "Voice of Elmet\n\nTail of the Owl of the [group:sentinels|Gathered Sentinels]",
-		description: "At the beginning of 1115, Letholdus ward joined the war host of Albion along with his companion, Elaina Stone. At their first gathering, Letholdus and Elaina quickly put their talents to use as battlefield scouts.\n\nAfter the death of Elaina at the Renewal of Magic 1115, Letholdus was heartbroken and vowed to do his best to spare any others of the Lions the feelings of such loss. Wandering Albion to learn the basics of corporeal magic, he came upon several individuals he would come to call friends and allies.\n\nWhen the first gathering of 1116 was called, Letholdus brought together these new friends to form The Gathered Sentinels, a group which he now leads within the Lions’ war host. He is always on the lookout for others who may also be sentinels of Albion.",
-		imageSource: "portraits/letholdus.jpg"		
-	},
-	"rinoa": {
-		title: "Rinoa",
-		description: "Rinoa joined the Warhost in the Winter of 1116 at after being recruited by [gallery:letholdus|Letholdus Ward].\n\nAlong with Letholdus, Jhorik, Cale and Galladon she is one of the current Owl's Parliament, the leaders of the [group:sentinels|Gathered Sentinels].",
-		imageSource: "portraits/rinoa.jpg",
-		imageCredit: "Sam Merry"
-	},
-	"kirik": {
-		title: "Kirik",
-		subtitle: "Squire to Sir Hector Garrison",
-		description: "The sole surviving member of his mercenary band. Kirik took to wandering the land in search of the vile necromancer responsible for their slaughter. Now a proud member of the Lions, Kirik continues his search with the backing of his new brothers and sisters in arms, with the hope that one day he may find justice and escape his past.",
-		imageSource: "portraits/kirik.jpg",
-		imageCredit: "Mara Alexandra"
 	},
 	"dayne": {
 		title: "Dayne",
@@ -621,21 +635,13 @@ var portraitData = {
 		imageCredit: "[http://oliverfacey.co.uk|Oliver Facey] Copyright 2015",
 		status: "absent"
 	},
-	"gawaine": {
-		title: "Sir Ryell Gawaine of Anglia",
-		subtitle: "Protector of the People\n\nSurvivor of Addersledge\n\nKingsguard",
-		description: "Previously squired to Sir Godfrey of Anglia. Knighted after the battle of Addersledge, a steep zig-zagging rocky path where 500 Anglian soldiers held off a thousand enemy combatants in a fierce and bloody battle.\n\nAfter much fighting, little more than a hundred Anglian soldiers survived before the enemy routed and retreated after Sir Godfrey led a charge to break their line and halt their steady, inevitable advance sacrificing his own life in the process.",
-		imageSource: "portraits/gawaine.jpg",
-		imageCredit: "Steve 'Flasher' Mitchell",
-		knight: true
-	},
-	"maddison": {
-		title: "Sir Piers",
-		subtitle: "Knight-Captain of the Monarch's Guard",
-		description: "A veteran knight, Sir Piers of Cornwall is sworn to the defence of the High Monarch of Albion with both a cold gaze and yet colder steel..",
-		imageSource: "portraits/piers.jpg",
-		imageCredit: "Unknown",
-		knight: true
+	"bill-brewer": {
+		title: "Bill Brewer",
+		subtitle: "Peasant of [map:deira|Deira]",
+		description: "Before the Necromancer Maldred waged war on his homeland, Bill was a simple peasant of Deira, making cider for other people of his village. During the troubles he sought refuge with [gallery:brocc|Brocc Briarthorn], Daniel Whiddon, Swithen Swift and others within the safety of [gallery:beaumont-trevallian|King Beaumont]’s forests. Since then he has felt compelled to aid his fellow Albions in any way he can. Although his skills in combat and anything military are somewhat lacking he has endeavoured to help raise morale of the warhost with his cider, melons and games.",
+		imageSource: "portraits/bill_brewer.jpg",
+		imageCredit: "Nikki Flynn",
+		class: "peasants"
 	},
 	"marcus-hayes": {
 		title: "Marcus Hayes",
@@ -644,6 +650,13 @@ var portraitData = {
 		imageSource: "portraits/marcus_hayes.jpg",
 		imageCredit: "Nikki Flynn",
 		class: "peasants"
-	}
-	
+	},
+	"sebastian-thatcher": {
+		title: "Sebastian Thatcher",
+		subtitle: "Wizard of the [group:order-of-the-bear|Order of the Bear]",
+		description: "Sebastianan was sent to the warhost to provide magical support to the Order.",
+		imageSource: "portraits/sebastian-thatcher.jpg",
+		imageCredit: "Ben Cawkwell",
+		class: "peasants"
+	}	
 };

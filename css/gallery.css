@@ -100,7 +100,7 @@
 	text-align: center;
 }
 
-.portrait.knight:after {
+.portrait.knights:after {
 	content: '';
 	position: absolute;
 	bottom: 105px;
@@ -108,6 +108,30 @@
 	width: 65px;
 	height: 80px;
 	background-image: url('../images/lion-touch-knight-shield-blue-and-gold.png')
+}
+
+.portrait.monarchs:after {
+	content: '';
+	position: absolute;
+	bottom: 145px;
+	left: 120px;
+	width: 130px;
+	height: 69px;
+	background-image: url('../images/monarch-crown.png')
+}
+
+.portrait.nobles:after {
+	content: '';
+	position: absolute;
+	bottom: 95px;
+	left: 130px;
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/noble-goblet.png')
+}
+
+.portrait.fallen-heroes > img {
+	filter: grayscale(100%);
 }
 
 #portrait-details p.photo-credit,
