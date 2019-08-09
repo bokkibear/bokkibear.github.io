@@ -265,15 +265,15 @@ var portraitData = {
 		class: "knights"
 	},
 	"lady-morticia": {
-		title: "Baroness Morticia Blackwood",
-		subtitle: "Voice of the Order of the Bear and Voice of Anglia",
+		title: "Morticia Blackwood",
+		subtitle: "Baroness of Lowestoft|Voice of the Order of the Bear and Voice of Anglia",
 		description: "A Blackwood knight of the [group:order-of-the-bear|Order of the Bear], loyal to [gallery:quentyn-blackwell|King Blackwell] and [map:anglia|Anglia]",
 		imageSource: "portraits/lady_morticia.jpg",
 		imageCredit: "Steve 'Flasher' Mitchell",
 		class: "knights"
 	},
 	"montgomery-phillips": {
-		title: "Major Phillips",
+		title: "Montgomery Phillips",
 		subtitle: "Major of the [group:arcane-tempest|Arcane Tempest]\n\nMarshall of [map:essex|Essex]\n\nSuzerain of War\n\nAmbassador to the Jhereg Nation",
 		description: "One of the few Tempest to survive the battles around [map:battle-of-polgooth|Polgooth], Phillips has served with the Arcane Tempest for over 15 years. A man of many roles, he is the Arcane Tempest's as political liason to the warhost and serves the throne of Essex as Marshall.",
 		imageSource: "portraits/montgomery_phillips.jpg",
