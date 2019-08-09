@@ -295,6 +295,13 @@ var portraitData = {
 		imageCredit: "[https://www.instagram.com/mckiejustin|Justin Mckie]",	
 		class: "knights"	
 	},
+	"galladon": {
+		title: "Sir Galladon",		
+		description: "A country knight hailing from the rolling hills of [map:elmet|Elmet]. He aspires in all things to be guided by his heart and true to his people.",
+		imageSource: "portraits/galladon.jpg",
+		imageCredit: "Louise Lee",
+		class: "knights"
+	},
 	"natanya": {
 		title: "Lady Natanya",
 		subtitle: "Knight of the Realm",
