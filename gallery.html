@@ -119,12 +119,11 @@
 
 	<script type='text/javascript'>	
 
-		//better icons for scroll buttons		
-	
-		var keyCodes = {
-			LEFTARROW: 37,
-			RIGHTARROW: 39
-		};
+		//better icons for scroll buttons				
+		var KEY_LEFTARROW = 37;
+		var KEY_RIGHTARROW = 39;		
+		var KEY_HOME = 36;
+		var KEY_END = 35;
 
 		var currentClass = false;
 		var classes = ['monarchs', 'nobles', 'knights', 'middle-class', 'peasants', 'fallen-heroes'];
@@ -195,9 +194,11 @@
 				shift( $clickedButton.hasClass("left") );
 			});
 			
-			$("body").on("keypress", function(e) {
-				if ( e.keyCode === keyCodes.LEFTARROW ) moveLeft();
-				if ( e.keyCode === keyCodes.RIGHTARROW ) moveRight();				
+			$("body").on("keyup", function(e) {
+				if ( e.keyCode === KEY_LEFTARROW ) moveLeft();
+				if ( e.keyCode === KEY_RIGHTARROW ) moveRight();
+				if ( e.keyCode === KEY_HOME ) moveStart();
+				if ( e.keyCode === KEY_END ) moveEnd();
 			});
 			
 			$("#portrait-gallery").swipe({
@@ -208,6 +209,12 @@
 			
 			function moveRight() { shift( false ); }
 			function moveLeft() { shift( true ); }
+			function moveStart() {								
+				document.location.hash = $(".portrait:first-child").attr("id");
+			}
+			function moveEnd() {								
+				document.location.hash = $(".portrait:last-child").attr("id");
+			}
 			
 			function shift( left ) {
 				var $currentPortrait = getCurrentlyHighlightedPortrait();				
@@ -296,6 +303,7 @@
 					$portrait.addClass("expanded");			
 					showPortraitDetails( $portrait );	
 					updateScrollButtons();
+					$portrait.focus();
 					analytics('send', 'event', 'portrait', 'highlight-portrait', $portrait.attr("id") );
 				}
 			}

@@ -65,6 +65,11 @@
 	transition: all 0.4s ease-out;	
 	position: relative;
 }
+
+.portrait:focus {
+	border: none;
+	outline: none;
+}
 					
 .portrait.expanded {
 	transform: scale(1, 1);
