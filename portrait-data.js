@@ -677,7 +677,7 @@ var portraitData = {
 	"sebastian-thatcher": {
 		title: "Sebastian Thatcher",
 		subtitle: "Wizard of the [group:order-of-the-bear|Order of the Bear]",
-		description: "Sebastianan was sent to the warhost to provide magical support to the Order.",
+		description: "Sebastian was sent to the warhost to provide magical support to the Order.",
 		imageSource: "portraits/sebastian-thatcher.jpg",
 		imageCredit: "Ben Cawkwell",
 		class: "peasants"
