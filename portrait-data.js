@@ -75,9 +75,9 @@ var portraitData = {
 		class: "monarchs"
 	},
 	"beaumont-trevallian": {
-		title: "Beaumont Trevallian",
-		subtitle: "King of [map:Deira|Deira]\n\nKnight of Corporeal",
-		description: "Tip of the [group:lance-of-deira|Lance], Knight of Corporeal and bearer of the Shinzu blade bestowed on him for his honorable conduct during the battle with the Mempo. New to his throne, he has a kingdom to rebuild following the destruction by the Lich Maldred.\n\nBest known for his marshall leadership of the Lance of Deira, a lesser known fact is his love of hunting, a pastime he enjoys with his son [gallery:austin-trevallian|Prince Austin].",
+		title: "[Deceased] Beaumont Trevallian",
+		subtitle: "[Deceased] King of [map:Deira|Deira]\n\nKnight of Corporeal",
+		description: "Tragically, King Beaumont Trevellian was killed in Kol'kathrach, a forbidden, demon-infested city in the heart of the Jhereg lands of Siberia. His son [gallery:austin-trevallian|Prince Austin] survives him.",
 		imageSource: "portraits/beaumont_trevallian.jpg",
 		imageCredit: "Nikki Flynn",
 		class: "monarchs"
